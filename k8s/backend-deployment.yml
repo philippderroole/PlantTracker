@@ -34,3 +34,5 @@ spec:
                             secretKeyRef:
                                 name: database-secrets
                                 key: url
+                      - name: RUST_LOG
+                        value: info
