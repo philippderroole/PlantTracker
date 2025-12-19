@@ -1,0 +1,466 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.plantcompanion"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="36" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:6:3-75
+11-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:6:20-73
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:2:3-78
+12-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:2:20-76
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:3:3-76
+13-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:3:20-74
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:4:3-64
+14-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:4:20-62
+15    <uses-permission
+15-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:5:3-77
+16        android:name="android.permission.READ_EXTERNAL_STORAGE"
+16-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:5:20-75
+17        android:maxSdkVersion="32" />
+17-->[BareExpo:expo.modules.image:3.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/8aff255269f8ff35f49d76037f05e17b/transformed/expo.modules.image-3.0.10/AndroidManifest.xml:17:9-35
+18    <uses-permission android:name="android.permission.VIBRATE" />
+18-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:7:3-63
+18-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:7:20-61
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:8:3-78
+19-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:8:20-76
+20
+21    <queries>
+21-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:9:3-15:13
+22        <intent>
+22-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:10:5-14:14
+23            <action android:name="android.intent.action.VIEW" />
+23-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:11:7-58
+23-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:11:15-56
+24
+25            <category android:name="android.intent.category.BROWSABLE" />
+25-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:12:7-67
+25-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:12:17-65
+26
+27            <data android:scheme="https" />
+27-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:13:7-37
+27-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:13:13-35
+28        </intent>
+29
+30        <package android:name="host.exp.exponent" /> <!-- Query open documents -->
+30-->[:expo-dev-launcher] /home/philipp/Programming/plant-tracker/companion/node_modules/expo-dev-launcher/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:9-53
+30-->[:expo-dev-launcher] /home/philipp/Programming/plant-tracker/companion/node_modules/expo-dev-launcher/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:18-50
+31        <intent>
+31-->[host.exp.exponent:expo.modules.filesystem:19.0.17] /home/philipp/.gradle/caches/8.14.3/transforms/79fb956c45fed9ef251d7e82b758a2e3/transformed/expo.modules.filesystem-19.0.17/AndroidManifest.xml:15:9-17:18
+32            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+32-->[host.exp.exponent:expo.modules.filesystem:19.0.17] /home/philipp/.gradle/caches/8.14.3/transforms/79fb956c45fed9ef251d7e82b758a2e3/transformed/expo.modules.filesystem-19.0.17/AndroidManifest.xml:16:13-79
+32-->[host.exp.exponent:expo.modules.filesystem:19.0.17] /home/philipp/.gradle/caches/8.14.3/transforms/79fb956c45fed9ef251d7e82b758a2e3/transformed/expo.modules.filesystem-19.0.17/AndroidManifest.xml:16:21-76
+33        </intent>
+34        <intent>
+34-->[host.exp.exponent:expo.modules.webbrowser:15.0.9] /home/philipp/.gradle/caches/8.14.3/transforms/887ae93d7eb3f8beba8a5b51a221ab6b/transformed/expo.modules.webbrowser-15.0.9/AndroidManifest.xml:8:9-12:18
+35
+36            <!-- Required for opening tabs if targeting API 30 -->
+37            <action android:name="android.support.customtabs.action.CustomTabsService" />
+37-->[host.exp.exponent:expo.modules.webbrowser:15.0.9] /home/philipp/.gradle/caches/8.14.3/transforms/887ae93d7eb3f8beba8a5b51a221ab6b/transformed/expo.modules.webbrowser-15.0.9/AndroidManifest.xml:11:13-90
+37-->[host.exp.exponent:expo.modules.webbrowser:15.0.9] /home/philipp/.gradle/caches/8.14.3/transforms/887ae93d7eb3f8beba8a5b51a221ab6b/transformed/expo.modules.webbrowser-15.0.9/AndroidManifest.xml:11:21-87
+38        </intent>
+39    </queries>
+40
+41    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+41-->[:react-native-wifi-reborn] /home/philipp/Programming/plant-tracker/companion/node_modules/react-native-wifi-reborn/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:5-76
+41-->[:react-native-wifi-reborn] /home/philipp/Programming/plant-tracker/companion/node_modules/react-native-wifi-reborn/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:22-73
+42    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+42-->[:react-native-wifi-reborn] /home/philipp/Programming/plant-tracker/companion/node_modules/react-native-wifi-reborn/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:5-76
+42-->[:react-native-wifi-reborn] /home/philipp/Programming/plant-tracker/companion/node_modules/react-native-wifi-reborn/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:22-73
+43    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+43-->[:react-native-wifi-reborn] /home/philipp/Programming/plant-tracker/companion/node_modules/react-native-wifi-reborn/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:5-79
+43-->[:react-native-wifi-reborn] /home/philipp/Programming/plant-tracker/companion/node_modules/react-native-wifi-reborn/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:22-76
+44    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+44-->[:react-native-wifi-reborn] /home/philipp/Programming/plant-tracker/companion/node_modules/react-native-wifi-reborn/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:5-79
+44-->[:react-native-wifi-reborn] /home/philipp/Programming/plant-tracker/companion/node_modules/react-native-wifi-reborn/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:22-76
+45
+46    <permission
+46-->[androidx.core:core:1.16.0] /home/philipp/.gradle/caches/8.14.3/transforms/e46b185fb05c9a9bdde92c2512835042/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
+47        android:name="com.example.plantcompanion.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+47-->[androidx.core:core:1.16.0] /home/philipp/.gradle/caches/8.14.3/transforms/e46b185fb05c9a9bdde92c2512835042/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
+48        android:protectionLevel="signature" />
+48-->[androidx.core:core:1.16.0] /home/philipp/.gradle/caches/8.14.3/transforms/e46b185fb05c9a9bdde92c2512835042/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
+49
+50    <uses-permission android:name="com.example.plantcompanion.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+50-->[androidx.core:core:1.16.0] /home/philipp/.gradle/caches/8.14.3/transforms/e46b185fb05c9a9bdde92c2512835042/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
+50-->[androidx.core:core:1.16.0] /home/philipp/.gradle/caches/8.14.3/transforms/e46b185fb05c9a9bdde92c2512835042/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
+51
+52    <application
+52-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:16:3-33:17
+53        android:name="com.example.plantcompanion.MainApplication"
+53-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:16:16-47
+54        android:allowBackup="true"
+54-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:16:162-188
+55        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+55-->[androidx.core:core:1.16.0] /home/philipp/.gradle/caches/8.14.3/transforms/e46b185fb05c9a9bdde92c2512835042/transformed/core-1.16.0/AndroidManifest.xml:28:18-86
+56        android:debuggable="true"
+57        android:enableOnBackInvokedCallback="false"
+57-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:16:248-291
+58        android:extractNativeLibs="false"
+59        android:icon="@mipmap/ic_launcher"
+59-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:16:81-115
+60        android:label="@string/app_name"
+60-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:16:48-80
+61        android:roundIcon="@mipmap/ic_launcher_round"
+61-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:16:116-161
+62        android:supportsRtl="true"
+62-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:16:221-247
+63        android:theme="@style/AppTheme"
+63-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:16:189-220
+64        android:usesCleartextTraffic="true" >
+64-->/home/philipp/Programming/plant-tracker/companion/android/app/src/debug/AndroidManifest.xml:6:18-53
+65        <meta-data
+65-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:17:5-83
+66            android:name="expo.modules.updates.ENABLED"
+66-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:17:16-59
+67            android:value="false" />
+67-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:17:60-81
+68        <meta-data
+68-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:18:5-105
+69            android:name="expo.modules.updates.EXPO_UPDATES_CHECK_ON_LAUNCH"
+69-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:18:16-80
+70            android:value="ALWAYS" />
+70-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:18:81-103
+71        <meta-data
+71-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:19:5-99
+72            android:name="expo.modules.updates.EXPO_UPDATES_LAUNCH_WAIT_MS"
+72-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:19:16-79
+73            android:value="0" />
+73-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:19:80-97
+74
+75        <activity
+75-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:20:5-32:16
+76            android:name="com.example.plantcompanion.MainActivity"
+76-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:20:15-43
+77            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|uiMode"
+77-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:20:44-134
+78            android:exported="true"
+78-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:20:256-279
+79            android:launchMode="singleTask"
+79-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:20:135-166
+80            android:screenOrientation="portrait"
+80-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:20:280-316
+81            android:theme="@style/Theme.App.SplashScreen"
+81-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:20:210-255
+82            android:windowSoftInputMode="adjustResize" >
+82-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:20:167-209
+83            <intent-filter>
+83-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:21:7-24:23
+84                <action android:name="android.intent.action.MAIN" />
+84-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:22:9-60
+84-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:22:17-58
+85
+86                <category android:name="android.intent.category.LAUNCHER" />
+86-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:23:9-68
+86-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:23:19-66
+87            </intent-filter>
+88            <intent-filter>
+88-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:25:7-31:23
+89                <action android:name="android.intent.action.VIEW" />
+89-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:11:7-58
+89-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:11:15-56
+90
+91                <category android:name="android.intent.category.DEFAULT" />
+91-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:27:9-67
+91-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:27:19-65
+92                <category android:name="android.intent.category.BROWSABLE" />
+92-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:12:7-67
+92-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:12:17-65
+93
+94                <data android:scheme="plantcompanion" />
+94-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:13:7-37
+94-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:13:13-35
+95                <data android:scheme="exp+plant-companion" />
+95-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:13:7-37
+95-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:13:13-35
+96            </intent-filter>
+97        </activity>
+98        <activity
+98-->[:expo-dev-launcher] /home/philipp/Programming/plant-tracker/companion/node_modules/expo-dev-launcher/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:9-16:75
+99            android:name="expo.modules.devlauncher.launcher.DevLauncherActivity"
+99-->[:expo-dev-launcher] /home/philipp/Programming/plant-tracker/companion/node_modules/expo-dev-launcher/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:13-81
+100            android:exported="true"
+100-->[:expo-dev-launcher] /home/philipp/Programming/plant-tracker/companion/node_modules/expo-dev-launcher/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:13-36
+101            android:launchMode="singleTask"
+101-->[:expo-dev-launcher] /home/philipp/Programming/plant-tracker/companion/node_modules/expo-dev-launcher/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:13-44
+102            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+102-->[:expo-dev-launcher] /home/philipp/Programming/plant-tracker/companion/node_modules/expo-dev-launcher/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:13-72
+103        <activity
+103-->[:expo-dev-launcher] /home/philipp/Programming/plant-tracker/companion/node_modules/expo-dev-launcher/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:17:9-30:20
+104            android:name="expo.modules.devlauncher.compose.AuthActivity"
+104-->[:expo-dev-launcher] /home/philipp/Programming/plant-tracker/companion/node_modules/expo-dev-launcher/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:18:13-73
+105            android:exported="true"
+105-->[:expo-dev-launcher] /home/philipp/Programming/plant-tracker/companion/node_modules/expo-dev-launcher/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:19:13-36
+106            android:launchMode="singleTask"
+106-->[:expo-dev-launcher] /home/philipp/Programming/plant-tracker/companion/node_modules/expo-dev-launcher/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:20:13-44
+107            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
+107-->[:expo-dev-launcher] /home/philipp/Programming/plant-tracker/companion/node_modules/expo-dev-launcher/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:21:13-72
+108            <intent-filter>
+108-->[:expo-dev-launcher] /home/philipp/Programming/plant-tracker/companion/node_modules/expo-dev-launcher/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:22:13-29:29
+109                <action android:name="android.intent.action.VIEW" />
+109-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:11:7-58
+109-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:11:15-56
+110
+111                <category android:name="android.intent.category.DEFAULT" />
+111-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:27:9-67
+111-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:27:19-65
+112                <category android:name="android.intent.category.BROWSABLE" />
+112-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:12:7-67
+112-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:12:17-65
+113
+114                <data android:scheme="expo-dev-launcher" />
+114-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:13:7-37
+114-->/home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:13:13-35
+115            </intent-filter>
+116        </activity>
+117        <activity
+117-->[:expo-dev-launcher] /home/philipp/Programming/plant-tracker/companion/node_modules/expo-dev-launcher/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:31:9-34:70
+118            android:name="expo.modules.devlauncher.launcher.errors.DevLauncherErrorActivity"
+118-->[:expo-dev-launcher] /home/philipp/Programming/plant-tracker/companion/node_modules/expo-dev-launcher/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:32:13-93
+119            android:screenOrientation="portrait"
+119-->[:expo-dev-launcher] /home/philipp/Programming/plant-tracker/companion/node_modules/expo-dev-launcher/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:33:13-49
+120            android:theme="@style/Theme.DevLauncher.ErrorActivity" />
+120-->[:expo-dev-launcher] /home/philipp/Programming/plant-tracker/companion/node_modules/expo-dev-launcher/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:34:13-67
+121
+122        <meta-data
+122-->[:expo-dev-launcher] /home/philipp/Programming/plant-tracker/companion/node_modules/expo-dev-launcher/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:36:9-38:42
+123            android:name="com.google.mlkit.vision.DEPENDENCIES"
+123-->[:expo-dev-launcher] /home/philipp/Programming/plant-tracker/companion/node_modules/expo-dev-launcher/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:37:13-64
+124            android:value="barcode_ui" />
+124-->[:expo-dev-launcher] /home/philipp/Programming/plant-tracker/companion/node_modules/expo-dev-launcher/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:38:13-39
+125        <meta-data
+125-->[:expo-modules-core] /home/philipp/Programming/plant-tracker/companion/node_modules/expo-modules-core/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:9-11:89
+126            android:name="org.unimodules.core.AppLoader#react-native-headless"
+126-->[:expo-modules-core] /home/philipp/Programming/plant-tracker/companion/node_modules/expo-modules-core/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:13-79
+127            android:value="expo.modules.adapters.react.apploader.RNHeadlessAppLoader" />
+127-->[:expo-modules-core] /home/philipp/Programming/plant-tracker/companion/node_modules/expo-modules-core/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:13-86
+128        <meta-data
+128-->[:expo-modules-core] /home/philipp/Programming/plant-tracker/companion/node_modules/expo-modules-core/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:9-15:45
+129            android:name="com.facebook.soloader.enabled"
+129-->[:expo-modules-core] /home/philipp/Programming/plant-tracker/companion/node_modules/expo-modules-core/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:13-57
+130            android:value="true" />
+130-->[:expo-modules-core] /home/philipp/Programming/plant-tracker/companion/node_modules/expo-modules-core/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:13-33
+131
+132        <activity
+132-->[com.facebook.react:react-android:0.81.5] /home/philipp/.gradle/caches/8.14.3/transforms/e5d515112484fe4dddc05785469cc380/transformed/react-android-0.81.5-debug/AndroidManifest.xml:19:9-21:40
+133            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+133-->[com.facebook.react:react-android:0.81.5] /home/philipp/.gradle/caches/8.14.3/transforms/e5d515112484fe4dddc05785469cc380/transformed/react-android-0.81.5-debug/AndroidManifest.xml:20:13-77
+134            android:exported="false" />
+134-->[com.facebook.react:react-android:0.81.5] /home/philipp/.gradle/caches/8.14.3/transforms/e5d515112484fe4dddc05785469cc380/transformed/react-android-0.81.5-debug/AndroidManifest.xml:21:13-37
+135
+136        <provider
+136-->[host.exp.exponent:expo.modules.filesystem:19.0.17] /home/philipp/.gradle/caches/8.14.3/transforms/79fb956c45fed9ef251d7e82b758a2e3/transformed/expo.modules.filesystem-19.0.17/AndroidManifest.xml:21:9-30:20
+137            android:name="expo.modules.filesystem.FileSystemFileProvider"
+137-->[host.exp.exponent:expo.modules.filesystem:19.0.17] /home/philipp/.gradle/caches/8.14.3/transforms/79fb956c45fed9ef251d7e82b758a2e3/transformed/expo.modules.filesystem-19.0.17/AndroidManifest.xml:22:13-74
+138            android:authorities="com.example.plantcompanion.FileSystemFileProvider"
+138-->[host.exp.exponent:expo.modules.filesystem:19.0.17] /home/philipp/.gradle/caches/8.14.3/transforms/79fb956c45fed9ef251d7e82b758a2e3/transformed/expo.modules.filesystem-19.0.17/AndroidManifest.xml:23:13-74
+139            android:exported="false"
+139-->[host.exp.exponent:expo.modules.filesystem:19.0.17] /home/philipp/.gradle/caches/8.14.3/transforms/79fb956c45fed9ef251d7e82b758a2e3/transformed/expo.modules.filesystem-19.0.17/AndroidManifest.xml:24:13-37
+140            android:grantUriPermissions="true" >
+140-->[host.exp.exponent:expo.modules.filesystem:19.0.17] /home/philipp/.gradle/caches/8.14.3/transforms/79fb956c45fed9ef251d7e82b758a2e3/transformed/expo.modules.filesystem-19.0.17/AndroidManifest.xml:25:13-47
+141            <meta-data
+141-->[host.exp.exponent:expo.modules.filesystem:19.0.17] /home/philipp/.gradle/caches/8.14.3/transforms/79fb956c45fed9ef251d7e82b758a2e3/transformed/expo.modules.filesystem-19.0.17/AndroidManifest.xml:27:13-29:70
+142                android:name="android.support.FILE_PROVIDER_PATHS"
+142-->[host.exp.exponent:expo.modules.filesystem:19.0.17] /home/philipp/.gradle/caches/8.14.3/transforms/79fb956c45fed9ef251d7e82b758a2e3/transformed/expo.modules.filesystem-19.0.17/AndroidManifest.xml:28:17-67
+143                android:resource="@xml/file_system_provider_paths" />
+143-->[host.exp.exponent:expo.modules.filesystem:19.0.17] /home/philipp/.gradle/caches/8.14.3/transforms/79fb956c45fed9ef251d7e82b758a2e3/transformed/expo.modules.filesystem-19.0.17/AndroidManifest.xml:29:17-67
+144        </provider>
+145
+146        <service
+146-->[host.exp.exponent:expo.modules.location:19.0.7] /home/philipp/.gradle/caches/8.14.3/transforms/68616525dcd110d73da6324a35417e2a/transformed/expo.modules.location-19.0.7/AndroidManifest.xml:11:9-14:56
+147            android:name="expo.modules.location.services.LocationTaskService"
+147-->[host.exp.exponent:expo.modules.location:19.0.7] /home/philipp/.gradle/caches/8.14.3/transforms/68616525dcd110d73da6324a35417e2a/transformed/expo.modules.location-19.0.7/AndroidManifest.xml:12:13-78
+148            android:exported="false"
+148-->[host.exp.exponent:expo.modules.location:19.0.7] /home/philipp/.gradle/caches/8.14.3/transforms/68616525dcd110d73da6324a35417e2a/transformed/expo.modules.location-19.0.7/AndroidManifest.xml:13:13-37
+149            android:foregroundServiceType="location" />
+149-->[host.exp.exponent:expo.modules.location:19.0.7] /home/philipp/.gradle/caches/8.14.3/transforms/68616525dcd110d73da6324a35417e2a/transformed/expo.modules.location-19.0.7/AndroidManifest.xml:14:13-53
+150
+151        <meta-data
+151-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] /home/philipp/.gradle/caches/8.14.3/transforms/4e58cce98c9b2e2747f3e1e6ed814d74/transformed/okhttp3-integration-4.11.0/AndroidManifest.xml:11:9-13:43
+152            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+152-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] /home/philipp/.gradle/caches/8.14.3/transforms/4e58cce98c9b2e2747f3e1e6ed814d74/transformed/okhttp3-integration-4.11.0/AndroidManifest.xml:12:13-84
+153            android:value="GlideModule" />
+153-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] /home/philipp/.gradle/caches/8.14.3/transforms/4e58cce98c9b2e2747f3e1e6ed814d74/transformed/okhttp3-integration-4.11.0/AndroidManifest.xml:13:13-40
+154        <!--
+155        This activity is an invisible delegate activity to start scanner activity
+156        and receive result, so it's unnecessary to support screen orientation and
+157        we can avoid any side effect from activity recreation in any case.
+158        -->
+159        <activity
+159-->[com.google.android.gms:play-services-code-scanner:16.1.0] /home/philipp/.gradle/caches/8.14.3/transforms/8273140ad44bce81d1de0be69046e2de/transformed/play-services-code-scanner-16.1.0/AndroidManifest.xml:15:9-20:20
+160            android:name="com.google.mlkit.vision.codescanner.internal.GmsBarcodeScanningDelegateActivity"
+160-->[com.google.android.gms:play-services-code-scanner:16.1.0] /home/philipp/.gradle/caches/8.14.3/transforms/8273140ad44bce81d1de0be69046e2de/transformed/play-services-code-scanner-16.1.0/AndroidManifest.xml:16:13-107
+161            android:exported="false"
+161-->[com.google.android.gms:play-services-code-scanner:16.1.0] /home/philipp/.gradle/caches/8.14.3/transforms/8273140ad44bce81d1de0be69046e2de/transformed/play-services-code-scanner-16.1.0/AndroidManifest.xml:17:13-37
+162            android:screenOrientation="portrait" >
+162-->[com.google.android.gms:play-services-code-scanner:16.1.0] /home/philipp/.gradle/caches/8.14.3/transforms/8273140ad44bce81d1de0be69046e2de/transformed/play-services-code-scanner-16.1.0/AndroidManifest.xml:18:13-49
+163        </activity>
+164
+165        <service
+165-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /home/philipp/.gradle/caches/8.14.3/transforms/942179f0f0e05e1316b32765d65e2f50/transformed/play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:9:9-15:19
+166            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+166-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /home/philipp/.gradle/caches/8.14.3/transforms/942179f0f0e05e1316b32765d65e2f50/transformed/play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:10:13-91
+167            android:directBootAware="true"
+167-->[com.google.mlkit:common:18.11.0] /home/philipp/.gradle/caches/8.14.3/transforms/9d8bf91ceafef1f72121d029e1e012cd/transformed/common-18.11.0/AndroidManifest.xml:17:13-43
+168            android:exported="false" >
+168-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /home/philipp/.gradle/caches/8.14.3/transforms/942179f0f0e05e1316b32765d65e2f50/transformed/play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:11:13-37
+169            <meta-data
+169-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /home/philipp/.gradle/caches/8.14.3/transforms/942179f0f0e05e1316b32765d65e2f50/transformed/play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:12:13-14:85
+170                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+170-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /home/philipp/.gradle/caches/8.14.3/transforms/942179f0f0e05e1316b32765d65e2f50/transformed/play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:13:17-120
+171                android:value="com.google.firebase.components.ComponentRegistrar" />
+171-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] /home/philipp/.gradle/caches/8.14.3/transforms/942179f0f0e05e1316b32765d65e2f50/transformed/play-services-mlkit-barcode-scanning-18.3.1/AndroidManifest.xml:14:17-82
+172            <meta-data
+172-->[com.google.mlkit:vision-common:17.3.0] /home/philipp/.gradle/caches/8.14.3/transforms/e4d67beea2af1b8c39f65e19e745f8ce/transformed/vision-common-17.3.0/AndroidManifest.xml:12:13-14:85
+173                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+173-->[com.google.mlkit:vision-common:17.3.0] /home/philipp/.gradle/caches/8.14.3/transforms/e4d67beea2af1b8c39f65e19e745f8ce/transformed/vision-common-17.3.0/AndroidManifest.xml:13:17-124
+174                android:value="com.google.firebase.components.ComponentRegistrar" />
+174-->[com.google.mlkit:vision-common:17.3.0] /home/philipp/.gradle/caches/8.14.3/transforms/e4d67beea2af1b8c39f65e19e745f8ce/transformed/vision-common-17.3.0/AndroidManifest.xml:14:17-82
+175            <meta-data
+175-->[com.google.mlkit:common:18.11.0] /home/philipp/.gradle/caches/8.14.3/transforms/9d8bf91ceafef1f72121d029e1e012cd/transformed/common-18.11.0/AndroidManifest.xml:20:13-22:85
+176                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+176-->[com.google.mlkit:common:18.11.0] /home/philipp/.gradle/caches/8.14.3/transforms/9d8bf91ceafef1f72121d029e1e012cd/transformed/common-18.11.0/AndroidManifest.xml:21:17-120
+177                android:value="com.google.firebase.components.ComponentRegistrar" />
+177-->[com.google.mlkit:common:18.11.0] /home/philipp/.gradle/caches/8.14.3/transforms/9d8bf91ceafef1f72121d029e1e012cd/transformed/common-18.11.0/AndroidManifest.xml:22:17-82
+178        </service>
+179
+180        <provider
+180-->[com.google.mlkit:common:18.11.0] /home/philipp/.gradle/caches/8.14.3/transforms/9d8bf91ceafef1f72121d029e1e012cd/transformed/common-18.11.0/AndroidManifest.xml:9:9-13:38
+181            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+181-->[com.google.mlkit:common:18.11.0] /home/philipp/.gradle/caches/8.14.3/transforms/9d8bf91ceafef1f72121d029e1e012cd/transformed/common-18.11.0/AndroidManifest.xml:10:13-78
+182            android:authorities="com.example.plantcompanion.mlkitinitprovider"
+182-->[com.google.mlkit:common:18.11.0] /home/philipp/.gradle/caches/8.14.3/transforms/9d8bf91ceafef1f72121d029e1e012cd/transformed/common-18.11.0/AndroidManifest.xml:11:13-69
+183            android:exported="false"
+183-->[com.google.mlkit:common:18.11.0] /home/philipp/.gradle/caches/8.14.3/transforms/9d8bf91ceafef1f72121d029e1e012cd/transformed/common-18.11.0/AndroidManifest.xml:12:13-37
+184            android:initOrder="99" />
+184-->[com.google.mlkit:common:18.11.0] /home/philipp/.gradle/caches/8.14.3/transforms/9d8bf91ceafef1f72121d029e1e012cd/transformed/common-18.11.0/AndroidManifest.xml:13:13-35
+185
+186        <activity
+186-->[com.google.android.gms:play-services-base:18.5.0] /home/philipp/.gradle/caches/8.14.3/transforms/e41bc02d0c4aac24d8f3e63d1474ba35/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+187            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+187-->[com.google.android.gms:play-services-base:18.5.0] /home/philipp/.gradle/caches/8.14.3/transforms/e41bc02d0c4aac24d8f3e63d1474ba35/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+188            android:exported="false"
+188-->[com.google.android.gms:play-services-base:18.5.0] /home/philipp/.gradle/caches/8.14.3/transforms/e41bc02d0c4aac24d8f3e63d1474ba35/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+189            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+189-->[com.google.android.gms:play-services-base:18.5.0] /home/philipp/.gradle/caches/8.14.3/transforms/e41bc02d0c4aac24d8f3e63d1474ba35/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+190
+191        <meta-data
+191-->[com.google.android.gms:play-services-basement:18.4.0] /home/philipp/.gradle/caches/8.14.3/transforms/5b79090ad889ec04e71c165b101075d1/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+192            android:name="com.google.android.gms.version"
+192-->[com.google.android.gms:play-services-basement:18.4.0] /home/philipp/.gradle/caches/8.14.3/transforms/5b79090ad889ec04e71c165b101075d1/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+193            android:value="@integer/google_play_services_version" />
+193-->[com.google.android.gms:play-services-basement:18.4.0] /home/philipp/.gradle/caches/8.14.3/transforms/5b79090ad889ec04e71c165b101075d1/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+194
+195        <activity
+195-->[androidx.compose.ui:ui-tooling-android:1.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/49a3c7abdc2084f905bbb7a29377a683/transformed/ui-tooling/AndroidManifest.xml:23:9-25:39
+196            android:name="androidx.compose.ui.tooling.PreviewActivity"
+196-->[androidx.compose.ui:ui-tooling-android:1.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/49a3c7abdc2084f905bbb7a29377a683/transformed/ui-tooling/AndroidManifest.xml:24:13-71
+197            android:exported="true" />
+197-->[androidx.compose.ui:ui-tooling-android:1.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/49a3c7abdc2084f905bbb7a29377a683/transformed/ui-tooling/AndroidManifest.xml:25:13-36
+198
+199        <provider
+199-->[androidx.emoji2:emoji2:1.4.0] /home/philipp/.gradle/caches/8.14.3/transforms/b58d9a2a12955913ab633f89d2a3f99c/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+200            android:name="androidx.startup.InitializationProvider"
+200-->[androidx.emoji2:emoji2:1.4.0] /home/philipp/.gradle/caches/8.14.3/transforms/b58d9a2a12955913ab633f89d2a3f99c/transformed/emoji2-1.4.0/AndroidManifest.xml:25:13-67
+201            android:authorities="com.example.plantcompanion.androidx-startup"
+201-->[androidx.emoji2:emoji2:1.4.0] /home/philipp/.gradle/caches/8.14.3/transforms/b58d9a2a12955913ab633f89d2a3f99c/transformed/emoji2-1.4.0/AndroidManifest.xml:26:13-68
+202            android:exported="false" >
+202-->[androidx.emoji2:emoji2:1.4.0] /home/philipp/.gradle/caches/8.14.3/transforms/b58d9a2a12955913ab633f89d2a3f99c/transformed/emoji2-1.4.0/AndroidManifest.xml:27:13-37
+203            <meta-data
+203-->[androidx.emoji2:emoji2:1.4.0] /home/philipp/.gradle/caches/8.14.3/transforms/b58d9a2a12955913ab633f89d2a3f99c/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+204                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+204-->[androidx.emoji2:emoji2:1.4.0] /home/philipp/.gradle/caches/8.14.3/transforms/b58d9a2a12955913ab633f89d2a3f99c/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
+205                android:value="androidx.startup" />
+205-->[androidx.emoji2:emoji2:1.4.0] /home/philipp/.gradle/caches/8.14.3/transforms/b58d9a2a12955913ab633f89d2a3f99c/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
+206            <meta-data
+206-->[androidx.lifecycle:lifecycle-process:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/f6bb139684f74e6a66156728993c4076/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:29:13-31:52
+207                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+207-->[androidx.lifecycle:lifecycle-process:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/f6bb139684f74e6a66156728993c4076/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:30:17-78
+208                android:value="androidx.startup" />
+208-->[androidx.lifecycle:lifecycle-process:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/f6bb139684f74e6a66156728993c4076/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:31:17-49
+209            <meta-data
+209-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/philipp/.gradle/caches/8.14.3/transforms/9d68f728eb696d12fecf146215de0b98/transformed/profileinstaller-1.4.1/AndroidManifest.xml:29:13-31:52
+210                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+210-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/philipp/.gradle/caches/8.14.3/transforms/9d68f728eb696d12fecf146215de0b98/transformed/profileinstaller-1.4.1/AndroidManifest.xml:30:17-85
+211                android:value="androidx.startup" />
+211-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/philipp/.gradle/caches/8.14.3/transforms/9d68f728eb696d12fecf146215de0b98/transformed/profileinstaller-1.4.1/AndroidManifest.xml:31:17-49
+212        </provider>
+213
+214        <receiver
+214-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/philipp/.gradle/caches/8.14.3/transforms/9d68f728eb696d12fecf146215de0b98/transformed/profileinstaller-1.4.1/AndroidManifest.xml:34:9-52:20
+215            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+215-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/philipp/.gradle/caches/8.14.3/transforms/9d68f728eb696d12fecf146215de0b98/transformed/profileinstaller-1.4.1/AndroidManifest.xml:35:13-76
+216            android:directBootAware="false"
+216-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/philipp/.gradle/caches/8.14.3/transforms/9d68f728eb696d12fecf146215de0b98/transformed/profileinstaller-1.4.1/AndroidManifest.xml:36:13-44
+217            android:enabled="true"
+217-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/philipp/.gradle/caches/8.14.3/transforms/9d68f728eb696d12fecf146215de0b98/transformed/profileinstaller-1.4.1/AndroidManifest.xml:37:13-35
+218            android:exported="true"
+218-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/philipp/.gradle/caches/8.14.3/transforms/9d68f728eb696d12fecf146215de0b98/transformed/profileinstaller-1.4.1/AndroidManifest.xml:38:13-36
+219            android:permission="android.permission.DUMP" >
+219-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/philipp/.gradle/caches/8.14.3/transforms/9d68f728eb696d12fecf146215de0b98/transformed/profileinstaller-1.4.1/AndroidManifest.xml:39:13-57
+220            <intent-filter>
+220-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/philipp/.gradle/caches/8.14.3/transforms/9d68f728eb696d12fecf146215de0b98/transformed/profileinstaller-1.4.1/AndroidManifest.xml:40:13-42:29
+221                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+221-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/philipp/.gradle/caches/8.14.3/transforms/9d68f728eb696d12fecf146215de0b98/transformed/profileinstaller-1.4.1/AndroidManifest.xml:41:17-91
+221-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/philipp/.gradle/caches/8.14.3/transforms/9d68f728eb696d12fecf146215de0b98/transformed/profileinstaller-1.4.1/AndroidManifest.xml:41:25-88
+222            </intent-filter>
+223            <intent-filter>
+223-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/philipp/.gradle/caches/8.14.3/transforms/9d68f728eb696d12fecf146215de0b98/transformed/profileinstaller-1.4.1/AndroidManifest.xml:43:13-45:29
+224                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+224-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/philipp/.gradle/caches/8.14.3/transforms/9d68f728eb696d12fecf146215de0b98/transformed/profileinstaller-1.4.1/AndroidManifest.xml:44:17-85
+224-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/philipp/.gradle/caches/8.14.3/transforms/9d68f728eb696d12fecf146215de0b98/transformed/profileinstaller-1.4.1/AndroidManifest.xml:44:25-82
+225            </intent-filter>
+226            <intent-filter>
+226-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/philipp/.gradle/caches/8.14.3/transforms/9d68f728eb696d12fecf146215de0b98/transformed/profileinstaller-1.4.1/AndroidManifest.xml:46:13-48:29
+227                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+227-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/philipp/.gradle/caches/8.14.3/transforms/9d68f728eb696d12fecf146215de0b98/transformed/profileinstaller-1.4.1/AndroidManifest.xml:47:17-88
+227-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/philipp/.gradle/caches/8.14.3/transforms/9d68f728eb696d12fecf146215de0b98/transformed/profileinstaller-1.4.1/AndroidManifest.xml:47:25-85
+228            </intent-filter>
+229            <intent-filter>
+229-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/philipp/.gradle/caches/8.14.3/transforms/9d68f728eb696d12fecf146215de0b98/transformed/profileinstaller-1.4.1/AndroidManifest.xml:49:13-51:29
+230                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+230-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/philipp/.gradle/caches/8.14.3/transforms/9d68f728eb696d12fecf146215de0b98/transformed/profileinstaller-1.4.1/AndroidManifest.xml:50:17-95
+230-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/philipp/.gradle/caches/8.14.3/transforms/9d68f728eb696d12fecf146215de0b98/transformed/profileinstaller-1.4.1/AndroidManifest.xml:50:25-92
+231            </intent-filter>
+232        </receiver>
+233
+234        <service
+234-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/philipp/.gradle/caches/8.14.3/transforms/f3d4730104367671fe5c0d35db519374/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+235            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+235-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/philipp/.gradle/caches/8.14.3/transforms/f3d4730104367671fe5c0d35db519374/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+236            android:exported="false" >
+236-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/philipp/.gradle/caches/8.14.3/transforms/f3d4730104367671fe5c0d35db519374/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+237            <meta-data
+237-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/philipp/.gradle/caches/8.14.3/transforms/f3d4730104367671fe5c0d35db519374/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+238                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+238-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/philipp/.gradle/caches/8.14.3/transforms/f3d4730104367671fe5c0d35db519374/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+239                android:value="cct" />
+239-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/philipp/.gradle/caches/8.14.3/transforms/f3d4730104367671fe5c0d35db519374/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+240        </service>
+241        <service
+241-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/philipp/.gradle/caches/8.14.3/transforms/c26896003b67dff23b03e3de03950ce3/transformed/transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+242            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+242-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/philipp/.gradle/caches/8.14.3/transforms/c26896003b67dff23b03e3de03950ce3/transformed/transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+243            android:exported="false"
+243-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/philipp/.gradle/caches/8.14.3/transforms/c26896003b67dff23b03e3de03950ce3/transformed/transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+244            android:permission="android.permission.BIND_JOB_SERVICE" >
+244-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/philipp/.gradle/caches/8.14.3/transforms/c26896003b67dff23b03e3de03950ce3/transformed/transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+245        </service>
+246
+247        <receiver
+247-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/philipp/.gradle/caches/8.14.3/transforms/c26896003b67dff23b03e3de03950ce3/transformed/transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+248            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+248-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/philipp/.gradle/caches/8.14.3/transforms/c26896003b67dff23b03e3de03950ce3/transformed/transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+249            android:exported="false" />
+249-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/philipp/.gradle/caches/8.14.3/transforms/c26896003b67dff23b03e3de03950ce3/transformed/transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+250    </application>
+251
+252</manifest>

@@ -1,0 +1,32 @@
+{
+  "db_name": "PostgreSQL",
+  "query": "INSERT INTO pot DEFAULT VALUES RETURNING *",
+  "describe": {
+    "columns": [
+      {
+        "ordinal": 0,
+        "name": "id",
+        "type_info": "Int4"
+      },
+      {
+        "ordinal": 1,
+        "name": "plant_id",
+        "type_info": "Int4"
+      },
+      {
+        "ordinal": 2,
+        "name": "owner_id",
+        "type_info": "Int4"
+      }
+    ],
+    "parameters": {
+      "Left": []
+    },
+    "nullable": [
+      false,
+      true,
+      true
+    ]
+  },
+  "hash": "4fd03561b061f6cd29ba80528a30a6149f56a2d02c84994d931237d954120e21"
+}

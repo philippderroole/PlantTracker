@@ -1,0 +1,62 @@
+{
+  "db_name": "PostgreSQL",
+  "query": "INSERT INTO measurement (pot, moisture, temperature, light, humidity, timestamp) VALUES ($1, $2, $3, $4, $5, NOW()) RETURNING *",
+  "describe": {
+    "columns": [
+      {
+        "ordinal": 0,
+        "name": "id",
+        "type_info": "Int4"
+      },
+      {
+        "ordinal": 1,
+        "name": "timestamp",
+        "type_info": "Timestamp"
+      },
+      {
+        "ordinal": 2,
+        "name": "moisture",
+        "type_info": "Float4"
+      },
+      {
+        "ordinal": 3,
+        "name": "light",
+        "type_info": "Float4"
+      },
+      {
+        "ordinal": 4,
+        "name": "temperature",
+        "type_info": "Float4"
+      },
+      {
+        "ordinal": 5,
+        "name": "humidity",
+        "type_info": "Float4"
+      },
+      {
+        "ordinal": 6,
+        "name": "pot",
+        "type_info": "Int4"
+      }
+    ],
+    "parameters": {
+      "Left": [
+        "Int4",
+        "Float4",
+        "Float4",
+        "Float4",
+        "Float4"
+      ]
+    },
+    "nullable": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  "hash": "cc760ba29124859565de1395a50ba999b4c43e2f376c8eb023289a42c26adec5"
+}

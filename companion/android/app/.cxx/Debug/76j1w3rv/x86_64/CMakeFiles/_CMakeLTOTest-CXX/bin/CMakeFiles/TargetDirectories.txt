@@ -1,0 +1,4 @@
+/home/philipp/Programming/plant-tracker/companion/android/app/.cxx/Debug/76j1w3rv/x86_64/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir
+/home/philipp/Programming/plant-tracker/companion/android/app/.cxx/Debug/76j1w3rv/x86_64/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir
+/home/philipp/Programming/plant-tracker/companion/android/app/.cxx/Debug/76j1w3rv/x86_64/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/edit_cache.dir
+/home/philipp/Programming/plant-tracker/companion/android/app/.cxx/Debug/76j1w3rv/x86_64/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/rebuild_cache.dir

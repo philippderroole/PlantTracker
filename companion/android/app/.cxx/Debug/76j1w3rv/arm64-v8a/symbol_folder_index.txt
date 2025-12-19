@@ -1,0 +1,1 @@
+/home/philipp/Programming/plant-tracker/companion/android/app/build/intermediates/cxx/Debug/76j1w3rv/obj/arm64-v8a

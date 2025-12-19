@@ -1,0 +1,3 @@
+ninja: Entering directory `/home/philipp/Programming/plant-tracker/companion/android/app/.cxx/Debug/76j1w3rv/x86_64'
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
