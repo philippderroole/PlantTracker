@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: backend
+    namespace: plant-tracker
+spec:
+    replicas: 1
+    selector:
+        matchLabels:
+            app: backend
+    template:
+        metadata:
+            labels:
+                app: backend
+        spec:
+            initContainers:
+                - name: wait-for-postgres
+                  image: busybox
+                  command:
+                      [
+                          "sh",
+                          "-c",
+                          "until nc -z database-service 5432; do echo waiting for postgres; sleep 2; done;",
+                      ]
+            containers:
+                - name: plant-tracker-backend
+                  image: philippderroole/plant-tracker-api:latest
+                  imagePullPolicy: Always
+                  ports:
+                      - containerPort: 8000
+                  env:
+                      - name: DATABASE_URL
+                        valueFrom:
+                            secretKeyRef:
+                                name: database-secrets
+                                key: url
