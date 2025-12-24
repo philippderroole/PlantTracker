@@ -1,0 +1,29 @@
+services:
+    api:
+        build:
+            context: api/.
+            dockerfile: Dockerfile
+        ports:
+            - "8000:8000"
+        volumes:
+            - .:/app
+        environment:
+            - DATABASE_URL=postgresql://postgres:password@postgres:5432/plant-tracker
+        depends_on:
+            - postgres
+    postgres:
+        image: postgres:latest
+        ports:
+            - "5432:5432"
+        environment:
+            POSTGRES_USER: postgres
+            POSTGRES_PASSWORD: password
+            POSTGRES_DB: plant-tracker
+    frontend:
+        build:
+            context: frontend/.
+            dockerfile: Dockerfile
+        ports:
+            - "3000:3000"
+        environment:
+            - INTERNAL_API_URL=http://backend:8000/api/v1
