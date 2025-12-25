@@ -1,0 +1,75 @@
+meta {
+  name: List all pots
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{baseUrl}}/pots
+  body: none
+  auth: inherit
+}
+
+params:query {
+  ~userId: 
+  ~status: 
+  ~limit: 
+  ~offset: 
+}
+
+example {
+  name: 200 Response
+  description: List of pots
+  
+  request: {
+    url: {{baseUrl}}/pots
+    method: GET
+    mode: none
+    params:query: {
+      ~userId: 
+      ~status: 
+      ~limit: 
+      ~offset: 
+    }
+  }
+  
+  response: {
+    headers: {
+      Content-Type: application/json
+    }
+  
+    status: {
+      code: 200
+      text: OK
+    }
+  
+    body: {
+      type: json
+      content: '''
+        {
+          "data": [
+            {
+              "id": "",
+              "userId": "",
+              "serialNumber": "",
+              "name": "",
+              "model": "",
+              "firmwareVersion": "",
+              "batteryLevel": 0,
+              "status": "",
+              "lastSeenAt": "",
+              "createdAt": "",
+              "updatedAt": ""
+            }
+          ],
+          "pagination": {
+            "total": 0,
+            "limit": 0,
+            "offset": 0,
+            "hasMore": false
+          }
+        }
+      '''
+    }
+  }
+}

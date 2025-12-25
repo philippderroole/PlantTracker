@@ -1,0 +1,161 @@
+meta {
+  name: Update plant
+  type: http
+  seq: 4
+}
+
+put {
+  url: {{baseUrl}}/plants/:plantId
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "name": "",
+    "species": "",
+    "location": "",
+    "notes": "",
+    "imageUrl": ""
+  }
+}
+
+example {
+  name: 200 Response
+  description: Plant updated successfully
+  
+  request: {
+    url: {{baseUrl}}/plants/:plantId
+    method: PUT
+    mode: json
+    body:json: {
+      {
+        "name": "",
+        "species": "",
+        "location": "",
+        "notes": "",
+        "imageUrl": ""
+      }
+    }
+  }
+  
+  response: {
+    headers: {
+      Content-Type: application/json
+    }
+  
+    status: {
+      code: 200
+      text: OK
+    }
+  
+    body: {
+      type: json
+      content: '''
+        {
+          "id": "",
+          "userId": "",
+          "name": "",
+          "species": "",
+          "location": "",
+          "notes": "",
+          "imageUrl": "",
+          "createdAt": "",
+          "updatedAt": ""
+        }
+      '''
+    }
+  }
+}
+
+example {
+  name: 400 Response
+  description: Bad request - Invalid input
+  
+  request: {
+    url: {{baseUrl}}/plants/:plantId
+    method: PUT
+    mode: json
+    body:json: {
+      {
+        "name": "",
+        "species": "",
+        "location": "",
+        "notes": "",
+        "imageUrl": ""
+      }
+    }
+  }
+  
+  response: {
+    headers: {
+      Content-Type: application/json
+    }
+  
+    status: {
+      code: 400
+      text: Bad Request
+    }
+  
+    body: {
+      type: json
+      content: '''
+        {
+          "error": {
+            "code": "VALIDATION_ERROR",
+            "message": "Invalid input data",
+            "statusCode": 400,
+            "details": {
+              "field": "email",
+              "issue": "Invalid email format"
+            }
+          }
+        }
+      '''
+    }
+  }
+}
+
+example {
+  name: 404 Response
+  description: Resource not found
+  
+  request: {
+    url: {{baseUrl}}/plants/:plantId
+    method: PUT
+    mode: json
+    body:json: {
+      {
+        "name": "",
+        "species": "",
+        "location": "",
+        "notes": "",
+        "imageUrl": ""
+      }
+    }
+  }
+  
+  response: {
+    headers: {
+      Content-Type: application/json
+    }
+  
+    status: {
+      code: 404
+      text: Not Found
+    }
+  
+    body: {
+      type: json
+      content: '''
+        {
+          "error": {
+            "code": "RESOURCE_NOT_FOUND",
+            "message": "The requested resource was not found",
+            "statusCode": 404
+          }
+        }
+      '''
+    }
+  }
+}

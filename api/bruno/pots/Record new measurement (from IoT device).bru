@@ -1,0 +1,173 @@
+meta {
+  name: Record new measurement (from IoT device)
+  type: http
+  seq: 7
+}
+
+post {
+  url: {{baseUrl}}/pots/:potId/measurements
+  body: json
+  auth: none
+}
+
+params:path {
+  potId: 1
+}
+
+body:json {
+  {
+    "timestamp": "1996-12-19T16:39:57-08:00",
+    "soilMoisture": 0,
+    "temperature": 0,
+    "humidity": 0,
+    "lightLevel": 0,
+    "batteryLevel": 0
+  }
+}
+
+example {
+  name: 201 Response
+  description: Measurement recorded successfully
+  
+  request: {
+    url: {{baseUrl}}/pots/:potId/measurements
+    method: POST
+    mode: json
+    body:json: {
+      {
+        "timestamp": "",
+        "soilMoisture": "",
+        "temperature": "",
+        "humidity": "",
+        "lightLevel": 0,
+        "batteryLevel": 0,
+        "rawData": {}
+      }
+    }
+  }
+  
+  response: {
+    headers: {
+      Content-Type: application/json
+    }
+  
+    status: {
+      code: 201
+      text: Created
+    }
+  
+    body: {
+      type: json
+      content: '''
+        {
+          "id": "",
+          "potId": "",
+          "plantId": "",
+          "timestamp": "",
+          "soilMoisture": "",
+          "temperature": "",
+          "humidity": "",
+          "lightLevel": 0,
+          "batteryLevel": 0,
+          "rawData": {}
+        }
+      '''
+    }
+  }
+}
+
+example {
+  name: 400 Response
+  description: Bad request - Invalid input
+  
+  request: {
+    url: {{baseUrl}}/pots/:potId/measurements
+    method: POST
+    mode: json
+    body:json: {
+      {
+        "timestamp": "",
+        "soilMoisture": "",
+        "temperature": "",
+        "humidity": "",
+        "lightLevel": 0,
+        "batteryLevel": 0,
+        "rawData": {}
+      }
+    }
+  }
+  
+  response: {
+    headers: {
+      Content-Type: application/json
+    }
+  
+    status: {
+      code: 400
+      text: Bad Request
+    }
+  
+    body: {
+      type: json
+      content: '''
+        {
+          "error": {
+            "code": "VALIDATION_ERROR",
+            "message": "Invalid input data",
+            "statusCode": 400,
+            "details": {
+              "field": "email",
+              "issue": "Invalid email format"
+            }
+          }
+        }
+      '''
+    }
+  }
+}
+
+example {
+  name: 404 Response
+  description: Resource not found
+  
+  request: {
+    url: {{baseUrl}}/pots/:potId/measurements
+    method: POST
+    mode: json
+    body:json: {
+      {
+        "timestamp": "",
+        "soilMoisture": "",
+        "temperature": "",
+        "humidity": "",
+        "lightLevel": 0,
+        "batteryLevel": 0,
+        "rawData": {}
+      }
+    }
+  }
+  
+  response: {
+    headers: {
+      Content-Type: application/json
+    }
+  
+    status: {
+      code: 404
+      text: Not Found
+    }
+  
+    body: {
+      type: json
+      content: '''
+        {
+          "error": {
+            "code": "RESOURCE_NOT_FOUND",
+            "message": "The requested resource was not found",
+            "statusCode": 404
+          }
+        }
+      '''
+    }
+  }
+}

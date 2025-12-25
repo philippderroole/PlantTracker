@@ -1,0 +1,110 @@
+meta {
+  name: Get all pots owned by user
+  type: http
+  seq: 6
+}
+
+get {
+  url: {{baseUrl}}/users/:userId/pots
+  body: none
+  auth: inherit
+}
+
+params:query {
+  ~limit: 
+  ~offset: 
+}
+
+example {
+  name: 200 Response
+  description: List of user's pots
+  
+  request: {
+    url: {{baseUrl}}/users/:userId/pots
+    method: GET
+    mode: none
+    params:query: {
+      ~limit: 
+      ~offset: 
+    }
+  }
+  
+  response: {
+    headers: {
+      Content-Type: application/json
+    }
+  
+    status: {
+      code: 200
+      text: OK
+    }
+  
+    body: {
+      type: json
+      content: '''
+        {
+          "data": [
+            {
+              "id": "",
+              "userId": "",
+              "serialNumber": "",
+              "name": "",
+              "model": "",
+              "firmwareVersion": "",
+              "batteryLevel": 0,
+              "status": "",
+              "lastSeenAt": "",
+              "createdAt": "",
+              "updatedAt": ""
+            }
+          ],
+          "pagination": {
+            "total": 0,
+            "limit": 0,
+            "offset": 0,
+            "hasMore": false
+          }
+        }
+      '''
+    }
+  }
+}
+
+example {
+  name: 404 Response
+  description: Resource not found
+  
+  request: {
+    url: {{baseUrl}}/users/:userId/pots
+    method: GET
+    mode: none
+    params:query: {
+      ~limit: 
+      ~offset: 
+    }
+  }
+  
+  response: {
+    headers: {
+      Content-Type: application/json
+    }
+  
+    status: {
+      code: 404
+      text: Not Found
+    }
+  
+    body: {
+      type: json
+      content: '''
+        {
+          "error": {
+            "code": "RESOURCE_NOT_FOUND",
+            "message": "The requested resource was not found",
+            "statusCode": 404
+          }
+        }
+      '''
+    }
+  }
+}

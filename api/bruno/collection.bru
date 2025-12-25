@@ -1,0 +1,15 @@
+meta {
+  name: Plant Tracker API
+}
+
+auth {
+  mode: bearer
+}
+
+auth:bearer {
+  token: {{token}}
+}
+
+vars:pre-request {
+  baseUrl: https://plant.splittery.de/api/v1
+}

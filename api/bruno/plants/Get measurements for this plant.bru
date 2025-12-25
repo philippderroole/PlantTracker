@@ -1,0 +1,115 @@
+meta {
+  name: Get measurements for this plant
+  type: http
+  seq: 7
+}
+
+get {
+  url: {{baseUrl}}/plants/:plantId/measurements
+  body: none
+  auth: inherit
+}
+
+params:query {
+  ~startDate: 
+  ~endDate: 
+  ~limit: 
+  ~offset: 
+}
+
+example {
+  name: 200 Response
+  description: List of measurements
+  
+  request: {
+    url: {{baseUrl}}/plants/:plantId/measurements
+    method: GET
+    mode: none
+    params:query: {
+      ~startDate: 
+      ~endDate: 
+      ~limit: 
+      ~offset: 
+    }
+  }
+  
+  response: {
+    headers: {
+      Content-Type: application/json
+    }
+  
+    status: {
+      code: 200
+      text: OK
+    }
+  
+    body: {
+      type: json
+      content: '''
+        {
+          "data": [
+            {
+              "id": "",
+              "potId": "",
+              "plantId": "",
+              "timestamp": "",
+              "soilMoisture": "",
+              "temperature": "",
+              "humidity": "",
+              "lightLevel": 0,
+              "batteryLevel": 0,
+              "rawData": {}
+            }
+          ],
+          "pagination": {
+            "total": 0,
+            "limit": 0,
+            "offset": 0,
+            "hasMore": false
+          }
+        }
+      '''
+    }
+  }
+}
+
+example {
+  name: 404 Response
+  description: Resource not found
+  
+  request: {
+    url: {{baseUrl}}/plants/:plantId/measurements
+    method: GET
+    mode: none
+    params:query: {
+      ~startDate: 
+      ~endDate: 
+      ~limit: 
+      ~offset: 
+    }
+  }
+  
+  response: {
+    headers: {
+      Content-Type: application/json
+    }
+  
+    status: {
+      code: 404
+      text: Not Found
+    }
+  
+    body: {
+      type: json
+      content: '''
+        {
+          "error": {
+            "code": "RESOURCE_NOT_FOUND",
+            "message": "The requested resource was not found",
+            "statusCode": 404
+          }
+        }
+      '''
+    }
+  }
+}

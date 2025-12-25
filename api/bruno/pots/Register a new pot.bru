@@ -1,0 +1,159 @@
+meta {
+  name: Register a new pot
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{baseUrl}}/pots
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "userId": "",
+    "serialNumber": "",
+    "name": "",
+    "model": ""
+  }
+}
+
+example {
+  name: 201 Response
+  description: Pot registered successfully
+  
+  request: {
+    url: {{baseUrl}}/pots
+    method: POST
+    mode: json
+    body:json: {
+      {
+        "userId": "",
+        "serialNumber": "",
+        "name": "",
+        "model": ""
+      }
+    }
+  }
+  
+  response: {
+    headers: {
+      Content-Type: application/json
+    }
+  
+    status: {
+      code: 201
+      text: Created
+    }
+  
+    body: {
+      type: json
+      content: '''
+        {
+          "id": "",
+          "userId": "",
+          "serialNumber": "",
+          "name": "",
+          "model": "",
+          "firmwareVersion": "",
+          "batteryLevel": 0,
+          "status": "",
+          "lastSeenAt": "",
+          "createdAt": "",
+          "updatedAt": ""
+        }
+      '''
+    }
+  }
+}
+
+example {
+  name: 400 Response
+  description: Bad request - Invalid input
+  
+  request: {
+    url: {{baseUrl}}/pots
+    method: POST
+    mode: json
+    body:json: {
+      {
+        "userId": "",
+        "serialNumber": "",
+        "name": "",
+        "model": ""
+      }
+    }
+  }
+  
+  response: {
+    headers: {
+      Content-Type: application/json
+    }
+  
+    status: {
+      code: 400
+      text: Bad Request
+    }
+  
+    body: {
+      type: json
+      content: '''
+        {
+          "error": {
+            "code": "VALIDATION_ERROR",
+            "message": "Invalid input data",
+            "statusCode": 400,
+            "details": {
+              "field": "email",
+              "issue": "Invalid email format"
+            }
+          }
+        }
+      '''
+    }
+  }
+}
+
+example {
+  name: 409 Response
+  description: Conflict - Resource already exists
+  
+  request: {
+    url: {{baseUrl}}/pots
+    method: POST
+    mode: json
+    body:json: {
+      {
+        "userId": "",
+        "serialNumber": "",
+        "name": "",
+        "model": ""
+      }
+    }
+  }
+  
+  response: {
+    headers: {
+      Content-Type: application/json
+    }
+  
+    status: {
+      code: 409
+      text: Conflict
+    }
+  
+    body: {
+      type: json
+      content: '''
+        {
+          "error": {
+            "code": "RESOURCE_CONFLICT",
+            "message": "A resource with this identifier already exists",
+            "statusCode": 409
+          }
+        }
+      '''
+    }
+  }
+}

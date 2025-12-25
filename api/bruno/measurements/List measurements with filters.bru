@@ -1,0 +1,80 @@
+meta {
+  name: List measurements with filters
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{baseUrl}}/measurements
+  body: none
+  auth: inherit
+}
+
+params:query {
+  ~potId: 
+  ~plantId: 
+  ~userId: 
+  ~startDate: 
+  ~endDate: 
+  ~limit: 
+  ~offset: 
+}
+
+example {
+  name: 200 Response
+  description: List of measurements
+  
+  request: {
+    url: {{baseUrl}}/measurements
+    method: GET
+    mode: none
+    params:query: {
+      ~potId: 
+      ~plantId: 
+      ~userId: 
+      ~startDate: 
+      ~endDate: 
+      ~limit: 
+      ~offset: 
+    }
+  }
+  
+  response: {
+    headers: {
+      Content-Type: application/json
+    }
+  
+    status: {
+      code: 200
+      text: OK
+    }
+  
+    body: {
+      type: json
+      content: '''
+        {
+          "data": [
+            {
+              "id": "",
+              "potId": "",
+              "plantId": "",
+              "timestamp": "",
+              "soilMoisture": "",
+              "temperature": "",
+              "humidity": "",
+              "lightLevel": 0,
+              "batteryLevel": 0,
+              "rawData": {}
+            }
+          ],
+          "pagination": {
+            "total": 0,
+            "limit": 0,
+            "offset": 0,
+            "hasMore": false
+          }
+        }
+      '''
+    }
+  }
+}

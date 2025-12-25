@@ -1,0 +1,77 @@
+meta {
+  name: List all plants
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{baseUrl}}/plants
+  body: none
+  auth: inherit
+}
+
+params:query {
+  ~userId: 
+  ~species: 
+  ~sort: 
+  ~order: 
+  ~limit: 
+  ~offset: 
+}
+
+example {
+  name: 200 Response
+  description: List of plants
+  
+  request: {
+    url: {{baseUrl}}/plants
+    method: GET
+    mode: none
+    params:query: {
+      ~userId: 
+      ~species: 
+      ~sort: 
+      ~order: 
+      ~limit: 
+      ~offset: 
+    }
+  }
+  
+  response: {
+    headers: {
+      Content-Type: application/json
+    }
+  
+    status: {
+      code: 200
+      text: OK
+    }
+  
+    body: {
+      type: json
+      content: '''
+        {
+          "data": [
+            {
+              "id": "",
+              "userId": "",
+              "name": "",
+              "species": "",
+              "location": "",
+              "notes": "",
+              "imageUrl": "",
+              "createdAt": "",
+              "updatedAt": ""
+            }
+          ],
+          "pagination": {
+            "total": 0,
+            "limit": 0,
+            "offset": 0,
+            "hasMore": false
+          }
+        }
+      '''
+    }
+  }
+}

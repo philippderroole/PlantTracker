@@ -1,0 +1,150 @@
+meta {
+  name: Update user
+  type: http
+  seq: 3
+}
+
+put {
+  url: {{baseUrl}}/users/:userId
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "email": "",
+    "name": "",
+    "avatarUrl": ""
+  }
+}
+
+example {
+  name: 200 Response
+  description: User updated successfully
+  
+  request: {
+    url: {{baseUrl}}/users/:userId
+    method: PUT
+    mode: json
+    body:json: {
+      {
+        "email": "",
+        "name": "",
+        "avatarUrl": ""
+      }
+    }
+  }
+  
+  response: {
+    headers: {
+      Content-Type: application/json
+    }
+  
+    status: {
+      code: 200
+      text: OK
+    }
+  
+    body: {
+      type: json
+      content: '''
+        {
+          "id": "",
+          "email": "",
+          "name": "",
+          "avatarUrl": "",
+          "createdAt": "",
+          "updatedAt": ""
+        }
+      '''
+    }
+  }
+}
+
+example {
+  name: 400 Response
+  description: Bad request - Invalid input
+  
+  request: {
+    url: {{baseUrl}}/users/:userId
+    method: PUT
+    mode: json
+    body:json: {
+      {
+        "email": "",
+        "name": "",
+        "avatarUrl": ""
+      }
+    }
+  }
+  
+  response: {
+    headers: {
+      Content-Type: application/json
+    }
+  
+    status: {
+      code: 400
+      text: Bad Request
+    }
+  
+    body: {
+      type: json
+      content: '''
+        {
+          "error": {
+            "code": "VALIDATION_ERROR",
+            "message": "Invalid input data",
+            "statusCode": 400,
+            "details": {
+              "field": "email",
+              "issue": "Invalid email format"
+            }
+          }
+        }
+      '''
+    }
+  }
+}
+
+example {
+  name: 404 Response
+  description: Resource not found
+  
+  request: {
+    url: {{baseUrl}}/users/:userId
+    method: PUT
+    mode: json
+    body:json: {
+      {
+        "email": "",
+        "name": "",
+        "avatarUrl": ""
+      }
+    }
+  }
+  
+  response: {
+    headers: {
+      Content-Type: application/json
+    }
+  
+    status: {
+      code: 404
+      text: Not Found
+    }
+  
+    body: {
+      type: json
+      content: '''
+        {
+          "error": {
+            "code": "RESOURCE_NOT_FOUND",
+            "message": "The requested resource was not found",
+            "statusCode": 404
+          }
+        }
+      '''
+    }
+  }
+}

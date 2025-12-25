@@ -1,0 +1,83 @@
+meta {
+  name: Get current plant link
+  type: http
+  seq: 8
+}
+
+get {
+  url: {{baseUrl}}/pots/:potId/link
+  body: none
+  auth: inherit
+}
+
+example {
+  name: 200 Response
+  description: Current pot link
+  
+  request: {
+    url: {{baseUrl}}/pots/:potId/link
+    method: GET
+    mode: none
+  }
+  
+  response: {
+    headers: {
+      Content-Type: application/json
+    }
+  
+    status: {
+      code: 200
+      text: OK
+    }
+  
+    body: {
+      type: json
+      content: '''
+        {
+          "id": "",
+          "potId": "",
+          "plantId": "",
+          "linkedAt": "",
+          "linkedBy": "",
+          "notes": ""
+        }
+      '''
+    }
+  }
+}
+
+example {
+  name: 404 Response
+  description: Pot not linked to any plant
+  
+  request: {
+    url: {{baseUrl}}/pots/:potId/link
+    method: GET
+    mode: none
+  }
+  
+  response: {
+    headers: {
+      Content-Type: application/json
+    }
+  
+    status: {
+      code: 404
+      text: Not Found
+    }
+  
+    body: {
+      type: json
+      content: '''
+        {
+          "error": {
+            "code": "",
+            "message": "",
+            "statusCode": 0,
+            "details": {}
+          }
+        }
+      '''
+    }
+  }
+}

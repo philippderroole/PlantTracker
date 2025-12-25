@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Plant App API",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
