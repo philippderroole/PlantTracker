@@ -12,7 +12,6 @@ pub fn create_routes() -> Router<PgPool> {
         Router::new()
             .merge(plant_routes())
             .merge(user_routes())
-            .merge(measurement_routes())
             .merge(pot_routes()),
     )
 }
@@ -32,12 +31,16 @@ fn user_routes() -> Router<PgPool> {
 }
 
 fn measurement_routes() -> Router<PgPool> {
-    Router::new().nest(
-        "/measurements/{pot_id}",
-        Router::new().route("/", post(measurement::create_measurement)),
-    )
+    Router::new()
+        .route("/", post(measurement::create_measurement))
+        .route("/", get(measurement::get_measurements))
 }
 
 fn pot_routes() -> Router<PgPool> {
-    Router::new().nest("/pots", Router::new().route("/", post(pot::create_pot)))
+    Router::new().nest(
+        "/pots",
+        Router::new()
+            .route("/", post(pot::create_pot))
+            .nest("/{pot_id}/measurements", measurement_routes()),
+    )
 }
