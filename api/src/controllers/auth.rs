@@ -1,8 +1,9 @@
 use axum::{Json, extract::State, http::StatusCode};
+use log::debug;
 use serde::{Deserialize, Serialize};
 use sqlx::PgPool;
 
-use crate::services;
+use crate::services::{self, auth::AuthError};
 
 #[derive(Serialize)]
 pub struct JwtResponse {
@@ -21,7 +22,14 @@ pub async fn register(
 ) -> Result<Json<JwtResponse>, StatusCode> {
     let token = services::auth::register(&pool, payload.email.as_str(), payload.password.as_str())
         .await
-        .map_err(|_| StatusCode::INTERNAL_SERVER_ERROR)?;
+        .map_err(|e| match e {
+            AuthError::UserAlreadyExists => return StatusCode::CONFLICT,
+            AuthError::InvalidCredentials => unreachable!(),
+            AuthError::InternalError(e) => {
+                debug!("Registration error: {}", e);
+                StatusCode::INTERNAL_SERVER_ERROR
+            }
+        })?;
 
     Ok(Json(JwtResponse { token }))
 }

@@ -1,21 +1,40 @@
-use anyhow::Ok;
+use std::fmt::Display;
+
+use anyhow::Error;
 use anyhow::Result;
 use anyhow::anyhow;
 use argon2::{
     Argon2, PasswordHash, PasswordHasher, PasswordVerifier,
     password_hash::{SaltString, rand_core::OsRng},
 };
-use serde::Deserialize;
-use serde::Serialize;
-use sqlx::types::chrono::Utc;
 use sqlx::{Pool, Postgres};
 
-use jsonwebtoken::{EncodingKey, Header, encode};
+use crate::services::jwt::generate_jwt;
 
-pub async fn register(pool: &Pool<Postgres>, email: &str, password: &str) -> Result<String> {
-    let password_hash = hash_password(password)?;
+pub enum AuthError {
+    UserAlreadyExists,
+    InvalidCredentials,
+    InternalError(Error),
+}
 
-    sqlx::query!(
+impl Display for AuthError {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        match self {
+            AuthError::UserAlreadyExists => write!(f, "User already exists"),
+            AuthError::InvalidCredentials => write!(f, "Invalid credentials"),
+            AuthError::InternalError(e) => write!(f, "Internal error: {}", e),
+        }
+    }
+}
+
+pub async fn register(
+    pool: &Pool<Postgres>,
+    email: &str,
+    password: &str,
+) -> Result<String, AuthError> {
+    let password_hash = hash_password(password).map_err(|e| AuthError::InternalError(e))?;
+
+    match sqlx::query!(
         r#"
         INSERT INTO "user" (email, password_hash)
         VALUES ($1, $2)
@@ -25,15 +44,25 @@ pub async fn register(pool: &Pool<Postgres>, email: &str, password: &str) -> Res
     )
     .execute(pool)
     .await
-    .map_err(|e| {
-        println!("Error registering user: {}", e);
-        e
-    })?;
-
-    Ok(generate_jwt(email)?)
+    {
+        Ok(_) => Ok(generate_jwt(email).map_err(|e| AuthError::InternalError(e))?),
+        Err(sqlx::Error::Database(db_err)) => {
+            if db_err.code() == Some("23505".into()) {
+                return Err(AuthError::UserAlreadyExists);
+            }
+            return Err(AuthError::InternalError(anyhow!(db_err)));
+        }
+        Err(e) => {
+            return Err(AuthError::InternalError(anyhow!(e)));
+        }
+    }
 }
 
-pub async fn login(pool: &Pool<Postgres>, email: &str, password: &str) -> Result<String> {
+pub async fn login(
+    pool: &Pool<Postgres>,
+    email: &str,
+    password: &str,
+) -> Result<String, AuthError> {
     let record = sqlx::query!(
         r#"
         SELECT password_hash FROM "user" WHERE email = $1
@@ -42,18 +71,19 @@ pub async fn login(pool: &Pool<Postgres>, email: &str, password: &str) -> Result
     )
     .fetch_one(pool)
     .await
-    .map_err(|e| {
-        println!("Error fetching user: {}", e);
-        e
+    .map_err(|e| match e {
+        sqlx::Error::RowNotFound => AuthError::InvalidCredentials,
+        _ => AuthError::InternalError(anyhow!(e)),
     })?;
 
-    let is_valid = verify_password(password, &record.password_hash)?;
+    let is_valid = verify_password(password, &record.password_hash)
+        .map_err(|e| AuthError::InternalError(e))?;
 
     if !is_valid {
-        return Err(anyhow!("Invalid credentials"));
+        return Err(AuthError::InvalidCredentials);
     }
 
-    Ok(generate_jwt(email)?)
+    Ok(generate_jwt(email).map_err(|e| AuthError::InternalError(e))?)
 }
 
 fn hash_password(password: &str) -> Result<String> {
@@ -75,29 +105,4 @@ fn verify_password(password: &str, password_hash: &str) -> Result<bool> {
         .map_err(|e| anyhow!(e))?;
 
     Ok(true)
-}
-
-#[derive(Serialize, Deserialize)]
-struct Claims {
-    sub: String,
-    exp: i64,
-    iat: i64,
-}
-
-fn generate_jwt(email: &str) -> Result<String> {
-    let now = Utc::now();
-
-    let claims = Claims {
-        sub: email.to_owned(),
-        exp: now.timestamp() + 3600,
-        iat: now.timestamp(),
-    };
-
-    let token = encode(
-        &Header::default(),
-        &claims,
-        &EncodingKey::from_secret("secret".as_ref()),
-    )?;
-
-    Ok(token)
 }
