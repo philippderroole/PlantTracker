@@ -1,7 +1,8 @@
 -- Active: 1730128115994@@127.0.0.1@5432
 CREATE TABLE "user" (
     id SERIAL PRIMARY KEY,
-    name TEXT NOT NULL
+    email TEXT UNIQUE NOT NULL,
+    password_hash TEXT NOT NULL
 );
 
 CREATE TABLE plant (

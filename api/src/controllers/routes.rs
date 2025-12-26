@@ -4,15 +4,24 @@ use axum::{
 };
 use sqlx::PgPool;
 
-use crate::controllers::{measurement, plant, pot, user};
+use crate::controllers::{auth, measurement, plant, pot};
 
 pub fn create_routes() -> Router<PgPool> {
     Router::new().nest(
         "/api/v1",
         Router::new()
             .merge(plant_routes())
-            .merge(user_routes())
-            .merge(pot_routes()),
+            .merge(pot_routes())
+            .merge(auth_routes()),
+    )
+}
+
+fn auth_routes() -> Router<PgPool> {
+    Router::new().nest(
+        "/auth",
+        Router::new()
+            .route("/login", post(auth::login))
+            .route("/register", post(auth::register)),
     )
 }
 
@@ -24,10 +33,6 @@ fn plant_routes() -> Router<PgPool> {
             .route("/", post(plant::create_plant))
             .route("/{plant_id}", get(plant::get_plant)),
     )
-}
-
-fn user_routes() -> Router<PgPool> {
-    Router::new().nest("/users", Router::new().route("/", post(user::create_user)))
 }
 
 fn measurement_routes() -> Router<PgPool> {

@@ -1,18 +1,15 @@
 pub struct User {
-    pub id: i32,
-    pub name: String,
+    pub email: String,
 }
 
 pub struct UserDb {
     pub id: i32,
-    pub name: String,
+    pub email: String,
+    pub password_hash: String,
 }
 
 impl From<UserDb> for User {
     fn from(db: UserDb) -> Self {
-        User {
-            id: db.id,
-            name: db.name,
-        }
+        User { email: db.email }
     }
 }
