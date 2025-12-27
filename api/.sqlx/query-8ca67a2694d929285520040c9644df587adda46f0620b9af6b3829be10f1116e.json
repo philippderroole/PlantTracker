@@ -1,6 +1,6 @@
 {
   "db_name": "PostgreSQL",
-  "query": "INSERT INTO \"user\" (name) VALUES ($1) RETURNING *",
+  "query": "SELECT * FROM pot WHERE id = $1 AND owner_id = $2",
   "describe": {
     "columns": [
       {
@@ -10,13 +10,14 @@
       },
       {
         "ordinal": 1,
-        "name": "name",
-        "type_info": "Text"
+        "name": "owner_id",
+        "type_info": "Int4"
       }
     ],
     "parameters": {
       "Left": [
-        "Text"
+        "Int4",
+        "Int4"
       ]
     },
     "nullable": [
@@ -24,5 +25,5 @@
       false
     ]
   },
-  "hash": "95f609e0172a39773d5a7dea72fc1a59b7ec07ce98c4749fe2316a5ef56fdf2f"
+  "hash": "8ca67a2694d929285520040c9644df587adda46f0620b9af6b3829be10f1116e"
 }

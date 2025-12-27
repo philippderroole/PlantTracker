@@ -1,5 +1,7 @@
 pub struct Plant {
+    pub id: i32,
     pub name: String,
+    pub owner_id: i32,
 }
 
 pub struct PlantDb {
@@ -10,6 +12,10 @@ pub struct PlantDb {
 
 impl From<PlantDb> for Plant {
     fn from(db: PlantDb) -> Self {
-        Plant { name: db.name }
+        Plant {
+            id: db.id,
+            name: db.name,
+            owner_id: db.owner_id,
+        }
     }
 }

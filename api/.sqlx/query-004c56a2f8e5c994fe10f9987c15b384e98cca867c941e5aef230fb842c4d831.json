@@ -1,6 +1,6 @@
 {
   "db_name": "PostgreSQL",
-  "query": "UPDATE pot SET plant_id = $1 WHERE id = $2",
+  "query": "INSERT INTO plant_pot_assignment (plant_id, pot_id)\n        VALUES ($1, $2)",
   "describe": {
     "columns": [],
     "parameters": {
@@ -11,5 +11,5 @@
     },
     "nullable": []
   },
-  "hash": "1d564ed012da2c605c9b6f275b7545032be650c305016865be791446141f8d4a"
+  "hash": "004c56a2f8e5c994fe10f9987c15b384e98cca867c941e5aef230fb842c4d831"
 }

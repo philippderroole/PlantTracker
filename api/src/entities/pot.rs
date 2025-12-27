@@ -4,8 +4,7 @@ pub struct Pot {
 
 pub struct PotDb {
     pub id: i32,
-    pub plant_id: Option<i32>,
-    pub owner_id: Option<i32>,
+    pub owner_id: i32,
 }
 
 impl From<PotDb> for Pot {

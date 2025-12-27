@@ -1,4 +1,6 @@
+#[derive(Clone, Debug)]
 pub struct User {
+    pub id: i32,
     pub email: String,
 }
 
@@ -10,6 +12,9 @@ pub struct UserDb {
 
 impl From<UserDb> for User {
     fn from(db: UserDb) -> Self {
-        User { email: db.email }
+        User {
+            id: db.id,
+            email: db.email,
+        }
     }
 }

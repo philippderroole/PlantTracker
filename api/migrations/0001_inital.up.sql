@@ -1,4 +1,4 @@
--- Active: 1730128115994@@127.0.0.1@5432
+-- Active: 1766588596653@@127.0.0.1@5432@plant-tracker@public
 CREATE TABLE "user" (
     id SERIAL PRIMARY KEY,
     email TEXT UNIQUE NOT NULL,
@@ -13,8 +13,7 @@ CREATE TABLE plant (
 
 CREATE TABLE pot (
     id SERIAL PRIMARY KEY,
-    plant_id INTEGER REFERENCES plant (id),
-    owner_id INTEGER REFERENCES "user" (id)
+    owner_id INTEGER NOT NULL REFERENCES "user" (id)
 );
 
 CREATE TABLE task (
@@ -30,5 +29,11 @@ CREATE TABLE measurement (
     temperature REAL NOT NULL,
     humidity REAL NOT NULL,
     battery_level INTEGER NOT NULL,
+    pot_id INTEGER NOT NULL REFERENCES pot (id)
+);
+
+CREATE TABLE plant_pot_assignment (
+    id SERIAL PRIMARY KEY,
+    plant_id INTEGER NOT NULL REFERENCES plant (id),
     pot_id INTEGER NOT NULL REFERENCES pot (id)
 );

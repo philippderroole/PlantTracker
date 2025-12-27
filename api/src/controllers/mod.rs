@@ -1,4 +1,5 @@
 mod auth;
+mod link;
 mod measurement;
 mod middleware;
 mod plant;

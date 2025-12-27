@@ -3,12 +3,12 @@ use sqlx::{Pool, Postgres};
 
 use crate::entities::{Plant, PlantDb};
 
-pub async fn create_plant(pool: &Pool<Postgres>, name: &str, session_id: i32) -> Result<Plant> {
+pub async fn create_plant(pool: &Pool<Postgres>, name: &str, user_id: i32) -> Result<Plant> {
     sqlx::query_as!(
         PlantDb,
         "INSERT INTO plant (name, owner_id) VALUES ($1, $2) RETURNING *",
         name,
-        session_id
+        user_id
     )
     .fetch_one(pool)
     .await
@@ -44,4 +44,26 @@ pub async fn get_plants(pool: &Pool<Postgres>) -> Result<Vec<Plant>> {
     tx.commit().await.map_err(|e| anyhow!(e))?;
 
     Ok(plants)
+}
+
+pub async fn update_plant(pool: &Pool<Postgres>, plant_id: i32, name: &str) -> Result<Plant> {
+    sqlx::query_as!(
+        PlantDb,
+        "UPDATE plant SET name = $1 WHERE id = $2 RETURNING *",
+        name,
+        plant_id
+    )
+    .fetch_one(pool)
+    .await
+    .map_err(|e| anyhow!(e))
+    .map(Plant::from)
+}
+
+pub async fn delete_plant(pool: &Pool<Postgres>, plant_id: i32) -> Result<()> {
+    sqlx::query!("DELETE FROM plant WHERE id = $1", plant_id)
+        .execute(pool)
+        .await
+        .map_err(|e| anyhow!(e))?;
+
+    Ok(())
 }

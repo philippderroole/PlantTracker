@@ -1,6 +1,6 @@
 {
   "db_name": "PostgreSQL",
-  "query": "INSERT INTO pot DEFAULT VALUES RETURNING *",
+  "query": "SELECT * FROM plant_pot_assignment\n        WHERE pot_id = $1",
   "describe": {
     "columns": [
       {
@@ -15,18 +15,20 @@
       },
       {
         "ordinal": 2,
-        "name": "owner_id",
+        "name": "pot_id",
         "type_info": "Int4"
       }
     ],
     "parameters": {
-      "Left": []
+      "Left": [
+        "Int4"
+      ]
     },
     "nullable": [
       false,
-      true,
-      true
+      false,
+      false
     ]
   },
-  "hash": "4fd03561b061f6cd29ba80528a30a6149f56a2d02c84994d931237d954120e21"
+  "hash": "beb059503b29b5dca1ebeb43507dae69dbd9b01f79e8dbf3b84612d2f1b9321a"
 }

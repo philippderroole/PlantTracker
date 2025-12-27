@@ -1,15 +1,14 @@
 {
   "db_name": "PostgreSQL",
-  "query": "UPDATE pot SET owner_id = $1 WHERE id = $2",
+  "query": "DELETE FROM plant WHERE id = $1",
   "describe": {
     "columns": [],
     "parameters": {
       "Left": [
-        "Int4",
         "Int4"
       ]
     },
     "nullable": []
   },
-  "hash": "1e76904c32af73debd883d9e1b03999af34b2396b1a650c94b5212975353eccf"
+  "hash": "36ac6098c8b9a26eee3cfc473558b1d1d09e69120286613c8b326d64250ff7cd"
 }

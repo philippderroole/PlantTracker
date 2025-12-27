@@ -5,9 +5,16 @@ meta {
 }
 
 delete {
-  url: {{baseUrl}}/pot-links/:linkId
-  body: none
+  url: {{baseUrl}}/link
+  body: json
   auth: inherit
+}
+
+body:json {
+  {
+    "potId": 1,
+    "plantId": 1
+  }
 }
 
 example {

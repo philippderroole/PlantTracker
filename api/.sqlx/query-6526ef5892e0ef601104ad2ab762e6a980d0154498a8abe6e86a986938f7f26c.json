@@ -1,0 +1,34 @@
+{
+  "db_name": "PostgreSQL",
+  "query": "SELECT * FROM plant_pot_assignment\n        WHERE plant_id = $1",
+  "describe": {
+    "columns": [
+      {
+        "ordinal": 0,
+        "name": "id",
+        "type_info": "Int4"
+      },
+      {
+        "ordinal": 1,
+        "name": "plant_id",
+        "type_info": "Int4"
+      },
+      {
+        "ordinal": 2,
+        "name": "pot_id",
+        "type_info": "Int4"
+      }
+    ],
+    "parameters": {
+      "Left": [
+        "Int4"
+      ]
+    },
+    "nullable": [
+      false,
+      false,
+      false
+    ]
+  },
+  "hash": "6526ef5892e0ef601104ad2ab762e6a980d0154498a8abe6e86a986938f7f26c"
+}
