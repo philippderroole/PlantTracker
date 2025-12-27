@@ -8,7 +8,11 @@ use axum::{
 use serde::{Deserialize, Serialize};
 use sqlx::PgPool;
 
-use crate::{entities::Plant, services};
+use crate::{
+    controllers::middleware::RequireAuth,
+    entities::Plant,
+    services::{self, jwt::Claims},
+};
 
 #[derive(Serialize, Deserialize)]
 pub struct PlantResponse {
@@ -28,16 +32,10 @@ pub struct CreatePlantPayload {
 
 pub async fn create_plant(
     State(pool): State<PgPool>,
-    Query(params): Query<HashMap<String, String>>,
+    RequireAuth(claims): RequireAuth,
     Json(payload): Json<CreatePlantPayload>,
 ) -> Result<Json<PlantResponse>, StatusCode> {
-    let session_id = params
-        .get("user_id")
-        .ok_or(StatusCode::UNAUTHORIZED)?
-        .parse::<i32>()
-        .map_err(|_| StatusCode::UNAUTHORIZED)?;
-
-    let plant = services::plant::create_plant(&pool, payload.name.as_str(), session_id)
+    let plant = services::plant::create_plant(&pool, payload.name.as_str(), claims.sub)
         .await
         .map_err(|_| StatusCode::INTERNAL_SERVER_ERROR)?;
 

@@ -67,3 +67,29 @@ pub async fn get_all_pots(pool: &Pool<Postgres>, claims: Claims) -> Result<Vec<P
         .collect();
     Ok(pots)
 }
+
+pub async fn get_pot(pool: &Pool<Postgres>, claims: Claims, pot_id: i32) -> Result<Pot> {
+    let email = claims.sub;
+    let user = sqlx::query!(r#"SELECT id FROM "user" WHERE email = $1"#, email)
+        .fetch_one(pool)
+        .await
+        .map_err(|e| {
+            error!("{e}");
+            anyhow!(e)
+        })?;
+
+    let pot = sqlx::query_as!(
+        PotDb,
+        "SELECT * FROM pot WHERE id = $1 AND owner_id = $2",
+        pot_id,
+        user.id
+    )
+    .fetch_one(pool)
+    .await
+    .map_err(|e| {
+        error!("{e}");
+        anyhow!(e)
+    })
+    .map(Pot::from)?;
+    Ok(pot)
+}

@@ -51,6 +51,7 @@ fn pot_routes() -> Router<PgPool> {
             Router::new()
                 .route("/", get(pot::get_all_pots))
                 .route("/", post(pot::create_pot))
+                .route("/{pot_id}", get(pot::get_pot))
                 .nest("/{pot_id}/measurements", measurement_routes()),
         )
         .route_layer(from_extractor::<RequireAuth>())

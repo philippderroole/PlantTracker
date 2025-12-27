@@ -1,4 +1,8 @@
-use axum::{Json, extract::State, http::StatusCode};
+use axum::{
+    Json,
+    extract::{Path, State},
+    http::StatusCode,
+};
 use serde::{Deserialize, Serialize};
 use sqlx::PgPool;
 
@@ -40,4 +44,16 @@ pub async fn get_all_pots(
         .map_err(|_| StatusCode::NOT_FOUND)?;
 
     Ok(Json(pot.into_iter().map(PotResponse::from).collect()))
+}
+
+pub async fn get_pot(
+    State(pool): State<PgPool>,
+    RequireAuth(claims): RequireAuth,
+    Path(pot_id): Path<i32>,
+) -> Result<Json<PotResponse>, StatusCode> {
+    let pot = services::pot::get_pot(&pool, claims, pot_id)
+        .await
+        .map_err(|_| StatusCode::NOT_FOUND)?;
+
+    Ok(Json(PotResponse::from(pot)))
 }
