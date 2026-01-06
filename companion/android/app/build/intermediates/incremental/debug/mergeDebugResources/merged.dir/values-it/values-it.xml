@@ -70,6 +70,7 @@
     <string name="common_signin_button_text">Accedi</string>
     <string name="common_signin_button_text_long">Accedi con Google</string>
     <string msgid="3260749812566568062" name="copy_toast_msg">"Link copiato negli appunti"</string>
+    <string name="crop_image_menu_crop">Ritaglia</string>
     <string msgid="8038256446254964252" name="default_error_message">"Valore non valido"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"Finestra popup"</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"Menu a discesa"</string>
@@ -80,6 +81,11 @@
     <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Apri nel browser"</string>
     <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Condividi link"</string>
     <string gender="unknown" name="header_description">Titolo</string>
+    <string name="ic_flip_24">Capovolgi</string>
+    <string name="ic_flip_24_horizontally">Capovolgi orizzontalmente</string>
+    <string name="ic_flip_24_vertically">Capovolgi verticalmente</string>
+    <string name="ic_rotate_left_24">Ruota in senso antiorario</string>
+    <string name="ic_rotate_right_24">Ruota</string>
     <string name="icon_content_description">Icona della finestra di dialogo</string>
     <string gender="unknown" name="image_description">Immagine</string>
     <string gender="unknown" name="imagebutton_description">Pulsante, Immagine</string>
@@ -149,6 +155,9 @@
     <string msgid="542007171693138492" name="navigation_menu">"Menu di navigazione"</string>
     <string msgid="6610465462668679431" name="not_selected">"Opzione non selezionata"</string>
     <string name="password_toggle_content_description">Mostra password</string>
+    <string name="pick_image_camera">Fotocamera</string>
+    <string name="pick_image_chooser_title">Seleziona origine</string>
+    <string name="pick_image_gallery">Galleria</string>
     <string gender="unknown" name="progressbar_description">Barra di avanzamento</string>
     <string gender="unknown" name="radiogroup_description">Gruppo radio</string>
     <string msgid="5941395253238309765" name="range_end">"Fine intervallo"</string>

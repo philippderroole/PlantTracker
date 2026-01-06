@@ -7,6 +7,7 @@
  */
 
 #include "autolinking.h"
+#include <rnasyncstorage.h>
 #include <rngesturehandler_codegen.h>
 #include <react/renderer/components/rngesturehandler_codegen/ComponentDescriptors.h>
 #include <rnreanimated.h>
@@ -20,6 +21,10 @@ namespace facebook {
 namespace react {
 
 std::shared_ptr<TurboModule> autolinking_ModuleProvider(const std::string moduleName, const JavaTurboModule::InitParams &params) {
+auto module_rnasyncstorage = rnasyncstorage_ModuleProvider(moduleName, params);
+if (module_rnasyncstorage != nullptr) {
+return module_rnasyncstorage;
+}
 auto module_rngesturehandler_codegen = rngesturehandler_codegen_ModuleProvider(moduleName, params);
 if (module_rngesturehandler_codegen != nullptr) {
 return module_rngesturehandler_codegen;

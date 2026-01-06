@@ -70,6 +70,7 @@
     <string name="common_signin_button_text">Inloggen</string>
     <string name="common_signin_button_text_long">Inloggen met Google</string>
     <string msgid="3260749812566568062" name="copy_toast_msg">"Link naar klembord gekopieerd"</string>
+    <string name="crop_image_menu_crop">Bijsnijden</string>
     <string msgid="8038256446254964252" name="default_error_message">"Ongeldige invoer"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"Pop-upvenster"</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"Dropdownmenu"</string>
@@ -80,6 +81,11 @@
     <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Openen in browser"</string>
     <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Link delen"</string>
     <string gender="unknown" name="header_description">Kop</string>
+    <string name="ic_flip_24">Spiegelen</string>
+    <string name="ic_flip_24_horizontally">Horizontaal spiegelen</string>
+    <string name="ic_flip_24_vertically">Verticaal spiegelen</string>
+    <string name="ic_rotate_left_24">Tegen de klok in draaien</string>
+    <string name="ic_rotate_right_24">Draaien</string>
     <string name="icon_content_description">Icoon voor dialoogvenster</string>
     <string gender="unknown" name="image_description">Afbeelding</string>
     <string gender="unknown" name="imagebutton_description">Knop, afbeelding</string>
@@ -149,6 +155,9 @@
     <string msgid="542007171693138492" name="navigation_menu">"Navigatiemenu"</string>
     <string msgid="6610465462668679431" name="not_selected">"Niet geselecteerd"</string>
     <string name="password_toggle_content_description">Wachtwoord tonen</string>
+    <string name="pick_image_camera">Camera</string>
+    <string name="pick_image_chooser_title">Bron selecteren</string>
+    <string name="pick_image_gallery">Galerij</string>
     <string gender="unknown" name="progressbar_description">Voortgangsbalk</string>
     <string gender="unknown" name="radiogroup_description">Keuzegroep</string>
     <string msgid="5941395253238309765" name="range_end">"Einde bereik"</string>

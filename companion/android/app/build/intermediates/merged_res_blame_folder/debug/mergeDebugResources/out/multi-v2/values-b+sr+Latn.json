@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.plantcompanion.app-mergeDebugResources-77:/values-b+sr+Latn/values-b+sr+Latn.xml",
+            "outputFile": "com.example.plantcompanion.app-mergeDebugResources-82:/values-b+sr+Latn/values-b+sr+Latn.xml",
             "map": [
                 {
                     "source": "/home/philipp/.gradle/caches/8.14.3/transforms/e41bc02d0c4aac24d8f3e63d1474ba35/transformed/play-services-base-18.5.0/res/values-b+sr+Latn/values.xml",

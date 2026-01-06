@@ -70,6 +70,7 @@
     <string name="common_signin_button_text">Đăng nhập</string>
     <string name="common_signin_button_text_long">Đăng nhập bằng Google</string>
     <string msgid="3260749812566568062" name="copy_toast_msg">"Đã sao chép đường liên kết vào bảng nhớ tạm"</string>
+    <string name="crop_image_menu_crop">Cắt</string>
     <string msgid="8038256446254964252" name="default_error_message">"Giá trị nhập không hợp lệ"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"Cửa sổ bật lên"</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"Trình đơn thả xuống"</string>
@@ -80,6 +81,11 @@
     <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Mở trong trình duyệt"</string>
     <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Chia sẻ đường liên kết"</string>
     <string gender="unknown" name="header_description">Tiêu đề</string>
+    <string name="ic_flip_24">Lật</string>
+    <string name="ic_flip_24_horizontally">Lật theo chiều ngang</string>
+    <string name="ic_flip_24_vertically">Lật theo chiều dọc</string>
+    <string name="ic_rotate_left_24">Xoay theo chiều kim đồng hồ</string>
+    <string name="ic_rotate_right_24">Xoay</string>
     <string name="icon_content_description">Biểu tượng hộp thoại</string>
     <string gender="unknown" name="image_description">Hình ảnh</string>
     <string gender="unknown" name="imagebutton_description">Nút, Hình ảnh</string>
@@ -150,6 +156,7 @@
     <string msgid="542007171693138492" name="navigation_menu">"Trình đơn điều hướng"</string>
     <string msgid="6610465462668679431" name="not_selected">"Chưa chọn"</string>
     <string name="password_toggle_content_description">Hiện mật khẩu</string>
+    <string name="pick_image_chooser_title">Chọn nguồn</string>
     <string gender="unknown" name="progressbar_description">Thanh tiến độ</string>
     <string gender="unknown" name="radiogroup_description">Nhóm nút radio</string>
     <string msgid="5941395253238309765" name="range_end">"Điểm kết thúc phạm vi"</string>

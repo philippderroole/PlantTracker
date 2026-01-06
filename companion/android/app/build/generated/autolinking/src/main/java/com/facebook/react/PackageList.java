@@ -10,6 +10,8 @@ import com.facebook.react.shell.MainReactPackage;
 import java.util.Arrays;
 import java.util.ArrayList;
 
+// @react-native-async-storage/async-storage
+import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
 // expo
 import expo.modules.ExpoModulesPackage;
 // react-native-gesture-handler
@@ -70,6 +72,7 @@ public class PackageList {
   public ArrayList<ReactPackage> getPackages() {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
       new MainReactPackage(mConfig),
+      new AsyncStoragePackage(),
       new ExpoModulesPackage(),
       new RNGestureHandlerPackage(),
       new ReanimatedPackage(),

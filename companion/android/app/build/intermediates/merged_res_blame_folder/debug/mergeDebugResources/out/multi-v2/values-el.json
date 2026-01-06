@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.plantcompanion.app-mergeDebugResources-77:/values-el/values-el.xml",
+            "outputFile": "com.example.plantcompanion.app-mergeDebugResources-82:/values-el/values-el.xml",
             "map": [
                 {
                     "source": "/home/philipp/.gradle/caches/8.14.3/transforms/787b77627abc9529d2a3f776a4eae7ad/transformed/browser-1.6.0/res/values-el/values-el.xml",

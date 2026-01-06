@@ -70,6 +70,7 @@
     <string name="common_signin_button_text">साइन इन करें</string>
     <string name="common_signin_button_text_long">Google के ज़रिए साइन इन करें</string>
     <string msgid="3260749812566568062" name="copy_toast_msg">"लिंक क्लिपबोर्ड पर कॉपी किया गया"</string>
+    <string name="crop_image_menu_crop">काटे</string>
     <string msgid="8038256446254964252" name="default_error_message">"अमान्य इनपुट"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"पॉप-अप विंडो"</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"ड्रॉपडाउन मेन्यू"</string>
@@ -80,6 +81,11 @@
     <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"ब्राउज़र में खोलें"</string>
     <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"लिंक शेयर करें"</string>
     <string gender="unknown" name="header_description">शीर्षक</string>
+    <string name="ic_flip_24">फ्लिप</string>
+    <string name="ic_flip_24_horizontally">क्षैतिज फ्लिप</string>
+    <string name="ic_flip_24_vertically">लंबवत फ्लिप करें</string>
+    <string name="ic_rotate_left_24">घड़ी की सुई के विपरीत दिशा में घुमाइए</string>
+    <string name="ic_rotate_right_24">घुमाएँ</string>
     <string name="icon_content_description">डायलॉग का आइकॉन</string>
     <string gender="unknown" name="image_description">फ़ोटो</string>
     <string gender="unknown" name="imagebutton_description">बटन, फ़ोटो</string>
@@ -151,6 +157,7 @@
     <string msgid="542007171693138492" name="navigation_menu">"नेविगेशन मेन्यू"</string>
     <string msgid="6610465462668679431" name="not_selected">"नहीं चुना गया"</string>
     <string name="password_toggle_content_description">पासवर्ड दिखाएं</string>
+    <string name="pick_image_chooser_title">सोर्स चुनें</string>
     <string gender="unknown" name="progressbar_description">प्रोग्रेस बार</string>
     <string gender="unknown" name="radiogroup_description">रेडियो ग्रुप</string>
     <string msgid="5941395253238309765" name="range_end">"रेंज की सीमा"</string>

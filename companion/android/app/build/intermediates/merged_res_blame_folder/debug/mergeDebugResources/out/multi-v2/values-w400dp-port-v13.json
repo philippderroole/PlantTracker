@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.plantcompanion.app-mergeDebugResources-77:/values-w400dp-port-v13/values-w400dp-port-v13.xml",
+            "outputFile": "com.example.plantcompanion.app-mergeDebugResources-82:/values-w400dp-port-v13/values-w400dp-port-v13.xml",
             "map": [
                 {
                     "source": "/home/philipp/.gradle/caches/8.14.3/transforms/690345e09d348ff71f70b2d03095d173/transformed/material-1.12.0/res/values-w400dp-port-v13/values-w400dp-port-v13.xml",

@@ -128,6 +128,11 @@
     <attr format="boolean" name="elevationOverlayEnabled"/>
     <attr format="boolean" name="enableEdgeToEdge"/>
     <attr format="boolean" name="ensureMinTouchTargetSize"/>
+    <attr format="color" name="expoCropBackButtonIconColor"/>
+    <attr format="color" name="expoCropBackgroundColor"/>
+    <attr format="color" name="expoCropToolbarActionTextColor"/>
+    <attr format="color" name="expoCropToolbarColor"/>
+    <attr format="color" name="expoCropToolbarIconColor"/>
     <attr format="reference" name="extendedFloatingActionButtonPrimaryStyle"/>
     <attr format="reference" name="extendedFloatingActionButtonSecondaryStyle"/>
     <attr format="reference" name="extendedFloatingActionButtonStyle"/>
@@ -642,6 +647,11 @@
     <color name="dim_foreground_material_light">#ff323232</color>
     <color name="error_color_material_dark">#ff7043</color>
     <color name="error_color_material_light">#ff5722</color>
+    <color name="expoCropBackButtonIconColor">#000000</color>
+    <color name="expoCropBackgroundColor">#ffffff</color>
+    <color name="expoCropToolbarActionTextColor">#000000</color>
+    <color name="expoCropToolbarColor">#00000000</color>
+    <color name="expoCropToolbarIconColor">#000000</color>
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
@@ -2058,6 +2068,7 @@
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="copy_toast_msg">Link copied to clipboard</string>
+    <string name="crop_image_menu_crop">Crop</string>
     <string name="default_error_message">"Invalid input"</string>
     <string name="default_popup_window_title" ns1:ignore="ExtraTranslation">"Pop-Up Window"</string>
     <string name="dropdown_menu">"Dropdown menu"</string>
@@ -2065,6 +2076,7 @@
     Error: invalid
   </string>
     <string name="error_icon_content_description">Error</string>
+    <string name="expo_notifications_fallback_channel_name">Miscellaneous</string>
     <string name="expo_splash_screen_resize_mode" translatable="false">contain</string>
     <string name="expo_splash_screen_status_bar_translucent" translatable="false">false</string>
     <string name="expo_system_ui_user_interface_style" translatable="false">automatic</string>
@@ -2074,8 +2086,14 @@
     <string name="fallback_menu_item_copy_link">Copy link</string>
     <string name="fallback_menu_item_open_in_browser">Open in browser</string>
     <string name="fallback_menu_item_share_link">Share link</string>
+    <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
     <string description="heading to a page or section" name="header_description">Heading</string>
     <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="ic_flip_24">Flip</string>
+    <string name="ic_flip_24_horizontally">Flip horizontally</string>
+    <string name="ic_flip_24_vertically">Flip vertically</string>
+    <string name="ic_rotate_left_24">Rotate counter clockwise</string>
+    <string name="ic_rotate_right_24">Rotate</string>
     <string description="Content description for an icon that appears in the title area of a dialog" name="icon_content_description">Dialog Icon</string>
     <string description="images, code snippets, text, emojis, or other content that can be combined to deliver information in a visual manner" name="image_description">Image</string>
     <string description="Displays a button with an image (instead of text) that can be pressed or clicked by the user" name="imagebutton_description">Button, Image</string>
@@ -2199,11 +2217,14 @@
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
+    <string name="pick_image_camera" ns1:ignore="MissingTranslation">Camera</string>
+    <string name="pick_image_chooser_title">Select source</string>
+    <string name="pick_image_gallery" ns1:ignore="MissingTranslation">Gallery</string>
     <string description="displays the progress status for tasks that take a long time" name="progressbar_description">Progress Bar</string>
     <string description="a group of radio buttons" name="radiogroup_description">Radio Group</string>
     <string name="range_end">"Range end"</string>
     <string name="range_start">"Range start"</string>
-    <string name="react_native_dev_server_ip" translatable="false">192.168.178.203</string>
+    <string name="react_native_dev_server_ip" translatable="false">192.168.178.156</string>
     <string description="an interactive element inside a tablist" name="rn_tab_description">Tab</string>
     <string description="controls the scrolling of content within a viewing area" name="scrollbar_description">Scroll Bar</string>
     <string name="search_menu_title">Search</string>
@@ -11053,6 +11074,65 @@
             <flag name="all" value="0x77"/>
         </attr>
     </declare-styleable>
+    <declare-styleable name="CropImageView">
+    <attr name="cropGuidelines">
+      <enum name="off" value="0"/>
+      <enum name="onTouch" value="1"/>
+      <enum name="on" value="2"/>
+    </attr>
+    <attr name="cropScaleType">
+      <enum name="fitCenter" value="0"/>
+      <enum name="center" value="1"/>
+      <enum name="centerCrop" value="2"/>
+      <enum name="centerInside" value="3"/>
+    </attr>
+    <attr name="cropShape">
+      <enum name="rectangle" value="0"/>
+      <enum name="oval" value="1"/>
+      <enum name="rectangleVerticalOnly" value="2"/>
+      <enum name="rectangleHorizontalOnly" value="3"/>
+    </attr>
+    <attr name="cornerShape">
+      <enum name="rectangle" value="0"/>
+      <enum name="oval" value="1"/>
+    </attr>
+    <attr format="boolean" name="cropAutoZoomEnabled"/>
+    <attr format="integer" name="cropMaxZoom"/>
+    <attr format="boolean" name="cropMultiTouchEnabled"/>
+    <attr format="boolean" name="cropCenterMoveEnabled"/>
+    <attr format="boolean" name="cropFixAspectRatio"/>
+    <attr format="integer" name="cropAspectRatioX"/>
+    <attr format="integer" name="cropAspectRatioY"/>
+    <attr format="float" name="cropInitialCropWindowPaddingRatio"/>
+    <attr format="dimension" name="cropBorderLineThickness"/>
+    <attr format="color" name="cropBorderLineColor"/>
+    <attr format="dimension" name="cropBorderCornerThickness"/>
+    <attr format="dimension" name="cropBorderCornerOffset"/>
+    <attr format="dimension" name="cropBorderCornerLength"/>
+    <attr format="color" name="cropBorderCornerColor"/>
+    <attr format="dimension" name="cropGuidelinesThickness"/>
+    <attr format="color" name="cropGuidelinesColor"/>
+    <attr format="color" name="cropBackgroundColor"/>
+    <attr format="dimension" name="cropSnapRadius"/>
+    <attr format="dimension" name="cropTouchRadius"/>
+    <attr format="boolean" name="cropSaveBitmapToInstanceState"/>
+    <attr format="boolean" name="cropShowCropOverlay"/>
+    <attr format="boolean" name="cropShowProgressBar"/>
+    <attr format="dimension" name="cropMinCropWindowWidth"/>
+    <attr format="dimension" name="cropMinCropWindowHeight"/>
+    <attr format="float" name="cropMinCropResultWidthPX"/>
+    <attr format="float" name="cropMinCropResultHeightPX"/>
+    <attr format="float" name="cropMaxCropResultWidthPX"/>
+    <attr format="float" name="cropMaxCropResultHeightPX"/>
+    <attr format="boolean" name="cropFlipHorizontally"/>
+    <attr format="boolean" name="cropFlipVertically"/>
+    <attr format="color" name="cropCornerCircleFillColor"/>
+    <attr format="dimension" name="cropCornerRadius"/>
+    <attr format="float" name="cropperLabelTextSize"/>
+    <attr format="color" name="cropperLabelTextColor"/>
+    <attr format="string" name="cropperLabelText"/>
+    <attr format="boolean" name="cropShowLabel"/>
+  </declare-styleable>
     <declare-styleable name="CustomAttribute"><attr format="string" name="attributeName"/><attr format="color" name="customColorValue"/><attr format="color" name="customColorDrawableValue"/><attr format="integer" name="customIntegerValue"/><attr format="float" name="customFloatValue"/><attr format="string" name="customStringValue"/><attr format="dimension" name="customDimension"/><attr format="dimension" name="customPixelDimension"/><attr format="boolean" name="customBoolean"/></declare-styleable>
     <declare-styleable name="DrawerArrowToggle">
         

@@ -70,6 +70,7 @@
     <string name="common_signin_button_text">ورود به سیستم</string>
     <string name="common_signin_button_text_long">‏ورود به سیستم با Google‎</string>
     <string msgid="3260749812566568062" name="copy_toast_msg">"پیوند در بریده‌دان کپی شد"</string>
+    <string name="crop_image_menu_crop">بریدن (کراپ)</string>
     <string msgid="8038256446254964252" name="default_error_message">"ورودی نامعتبر"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"پنجره بالاپر"</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"منوی کرکره‌ای"</string>
@@ -80,6 +81,11 @@
     <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"بازکردن در مرورگر"</string>
     <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"هم‌رسانی پیوند"</string>
     <string gender="unknown" name="header_description">سر‌صفحه</string>
+    <string name="ic_flip_24">آیینه کردن</string>
+    <string name="ic_flip_24_horizontally">آیینه کردن به صورت افقی</string>
+    <string name="ic_flip_24_vertically">آیینه کردن به صورت عمودی</string>
+    <string name="ic_rotate_left_24">چرخش در جهت عقربه های ساعت</string>
+    <string name="ic_rotate_right_24">چرخش</string>
     <string name="icon_content_description">نماد کادر گفتگو</string>
     <string gender="unknown" name="image_description">تصویر</string>
     <string gender="unknown" name="imagebutton_description">دکمه، تصویر</string>
@@ -151,6 +157,7 @@
     <string msgid="542007171693138492" name="navigation_menu">"منوی پیمایش"</string>
     <string msgid="6610465462668679431" name="not_selected">"انتخاب‌نشده"</string>
     <string name="password_toggle_content_description">نمایش گذرواژه</string>
+    <string name="pick_image_chooser_title">منبع را انتخاب کنید</string>
     <string gender="unknown" name="progressbar_description">نوار پیشرفت</string>
     <string gender="unknown" name="radiogroup_description">گروه رادیویی</string>
     <string msgid="5941395253238309765" name="range_end">"پایان محدوده"</string>

@@ -70,6 +70,7 @@
     <string name="common_signin_button_text">Oturum aç</string>
     <string name="common_signin_button_text_long">Google\'da oturum aç</string>
     <string msgid="3260749812566568062" name="copy_toast_msg">"Bağlantı panoya kopyalandı"</string>
+    <string name="crop_image_menu_crop">Kırp</string>
     <string msgid="8038256446254964252" name="default_error_message">"Geçersiz giriş"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"Pop-up Pencere"</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"Açılır menü"</string>
@@ -80,6 +81,11 @@
     <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Tarayıcıda aç"</string>
     <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Bağlantıyı paylaş"</string>
     <string gender="unknown" name="header_description">Başlık</string>
+    <string name="ic_flip_24">çevir</string>
+    <string name="ic_flip_24_horizontally">Yatay olarak çevir</string>
+    <string name="ic_flip_24_vertically">Dikey olarak çevir</string>
+    <string name="ic_rotate_left_24">Saat yönünde döndür</string>
+    <string name="ic_rotate_right_24">döndürmek</string>
     <string name="icon_content_description">İletişim kutusu simgesi</string>
     <string gender="unknown" name="image_description">Görsel</string>
     <string gender="unknown" name="imagebutton_description">Düğme, Görsel</string>
@@ -151,6 +157,7 @@
     <string msgid="542007171693138492" name="navigation_menu">"Gezinme menüsü"</string>
     <string msgid="6610465462668679431" name="not_selected">"Seçili değil"</string>
     <string name="password_toggle_content_description">Şifreyi göster</string>
+    <string name="pick_image_chooser_title">Kaynağı seçin</string>
     <string gender="unknown" name="progressbar_description">İlerleme Çubuğu</string>
     <string gender="unknown" name="radiogroup_description">Radyo Grubu</string>
     <string msgid="5941395253238309765" name="range_end">"Aralık sonu"</string>

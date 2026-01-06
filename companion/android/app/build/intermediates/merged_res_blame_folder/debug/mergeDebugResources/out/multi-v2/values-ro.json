@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.plantcompanion.app-mergeDebugResources-77:/values-ro/values-ro.xml",
+            "outputFile": "com.example.plantcompanion.app-mergeDebugResources-82:/values-ro/values-ro.xml",
             "map": [
                 {
                     "source": "/home/philipp/.gradle/caches/8.14.3/transforms/e5d515112484fe4dddc05785469cc380/transformed/react-android-0.81.5-debug/res/values-ro/values-ro.xml",

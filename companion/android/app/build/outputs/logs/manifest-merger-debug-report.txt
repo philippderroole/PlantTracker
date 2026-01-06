@@ -8,6 +8,7 @@ INJECTED from /home/philipp/Programming/plant-tracker/companion/android/app/src/
 MERGED from [:react-native-gesture-handler] /home/philipp/Programming/plant-tracker/companion/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-safe-area-context] /home/philipp/Programming/plant-tracker/companion/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-screens] /home/philipp/Programming/plant-tracker/companion/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-async-storage_async-storage] /home/philipp/Programming/plant-tracker/companion/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
 MERGED from [:expo] /home/philipp/Programming/plant-tracker/companion/node_modules/expo/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-reanimated] /home/philipp/Programming/plant-tracker/companion/node_modules/react-native-reanimated/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-wifi-reborn] /home/philipp/Programming/plant-tracker/companion/node_modules/react-native-wifi-reborn/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-13:12
@@ -26,14 +27,21 @@ MERGED from [:expo-dev-client] /home/philipp/Programming/plant-tracker/companion
 MERGED from [:expo-manifests] /home/philipp/Programming/plant-tracker/companion/node_modules/expo-manifests/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
 MERGED from [:expo-json-utils] /home/philipp/Programming/plant-tracker/companion/node_modules/expo-json-utils/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
 MERGED from [:expo-updates-interface] /home/philipp/Programming/plant-tracker/companion/node_modules/expo-updates-interface/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [host.exp.exponent:expo.modules.application:7.0.8] /home/philipp/.gradle/caches/8.14.3/transforms/d317ccef4e1bdd4bfdd060b8f68d9fe6/transformed/expo.modules.application-7.0.8/AndroidManifest.xml:2:1-7:12
 MERGED from [expo.modules.asset:expo.modules.asset:12.0.9] /home/philipp/.gradle/caches/8.14.3/transforms/87e95362e71704d06066dd1de994f859/transformed/expo.modules.asset-12.0.9/AndroidManifest.xml:2:1-7:12
 MERGED from [host.exp.exponent:expo.modules.filesystem:19.0.17] /home/philipp/.gradle/caches/8.14.3/transforms/79fb956c45fed9ef251d7e82b758a2e3/transformed/expo.modules.filesystem-19.0.17/AndroidManifest.xml:2:1-33:12
 MERGED from [host.exp.exponent:expo.modules.haptics:15.0.7] /home/philipp/.gradle/caches/8.14.3/transforms/605341d47726c85f3efecda76edaf2e8/transformed/expo.modules.haptics-15.0.7/AndroidManifest.xml:2:1-9:12
+MERGED from [host.exp.exponent:expo.modules.imageloader:6.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/83a4c0133a6e5c2df99bf1c228ace091/transformed/expo.modules.imageloader-6.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:2:1-59:12
 MERGED from [host.exp.exponent:expo.modules.keepawake:15.0.7] /home/philipp/.gradle/caches/8.14.3/transforms/f61f36bce3aaba21ed9eb5a12c52f9e3/transformed/expo.modules.keepawake-15.0.7/AndroidManifest.xml:2:1-7:12
 MERGED from [host.exp.exponent:expo.modules.linking:8.0.8] /home/philipp/.gradle/caches/8.14.3/transforms/045d23f89129fd9b35aacd42bdda857a/transformed/expo.modules.linking-8.0.8/AndroidManifest.xml:2:1-7:12
 MERGED from [host.exp.exponent:expo.modules.location:19.0.7] /home/philipp/.gradle/caches/8.14.3/transforms/68616525dcd110d73da6324a35417e2a/transformed/expo.modules.location-19.0.7/AndroidManifest.xml:2:1-17:12
+MERGED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:2:1-43:12
 MERGED from [host.exp.exponent:expo.modules.webbrowser:15.0.9] /home/philipp/.gradle/caches/8.14.3/transforms/887ae93d7eb3f8beba8a5b51a221ab6b/transformed/expo.modules.webbrowser-15.0.9/AndroidManifest.xml:2:1-15:12
 MERGED from [com.google.android.material:material:1.12.0] /home/philipp/.gradle/caches/8.14.3/transforms/690345e09d348ff71f70b2d03095d173/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-messaging:24.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/cb72cc0c078ae8c375400415cfbf9fad/transformed/firebase-messaging-24.0.1/AndroidManifest.xml:17:1-66:12
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/2e90ae09c3b4c34ea24a896741e25fc0/transformed/firebase-installations-17.2.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/bc085e3c51e7bf1c64a62cff24b982c2/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:2:1-18:12
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:3.6.0] /home/philipp/.gradle/caches/8.14.3/transforms/d5d9d053325bb837c7b9b0efc9d6e3fd/transformed/imagepipeline-okhttp3-3.6.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.github.bumptech.glide:okhttp3-integration:4.11.0] /home/philipp/.gradle/caches/8.14.3/transforms/4e58cce98c9b2e2747f3e1e6ed814d74/transformed/okhttp3-integration-4.11.0/AndroidManifest.xml:2:1-16:12
 MERGED from [com.apollographql.apollo:apollo-runtime-android-debug:4.3.1] /home/philipp/.gradle/caches/8.14.3/transforms/150a4bd032fc6652e0318933a3870964/transformed/apollo-runtime-debug/AndroidManifest.xml:2:1-8:12
@@ -44,6 +52,7 @@ MERGED from [io.coil-kt.coil3:coil-network-core-android:3.0.4] /home/philipp/.gr
 MERGED from [io.coil-kt.coil3:coil-core-android:3.0.4] /home/philipp/.gradle/caches/8.14.3/transforms/5729b851b3f5d96e36f7f2371b0f8023/transformed/coil-core-release/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /home/philipp/.gradle/caches/8.14.3/transforms/99b567e5ce22075f2750ee27c18c5341/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.github.penfeizhou.android.animation:glide-plugin:3.0.5] /home/philipp/.gradle/caches/8.14.3/transforms/9624af5047db726fa987582d8c4415d0/transformed/glide-plugin-3.0.5/AndroidManifest.xml:2:1-7:12
+MERGED from [com.vanniktech:android-image-cropper:4.6.0] /home/philipp/.gradle/caches/8.14.3/transforms/30de3346b9d65fc927c629fd3105e5d0/transformed/android-image-cropper-4.6.0/AndroidManifest.xml:2:1-36:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/d1bfd17a595e985d9895e0f1999a5bb0/transformed/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.gms:play-services-code-scanner:16.1.0] /home/philipp/.gradle/caches/8.14.3/transforms/8273140ad44bce81d1de0be69046e2de/transformed/play-services-code-scanner-16.1.0/AndroidManifest.xml:2:1-23:12
 MERGED from [com.google.mlkit:barcode-scanning:17.3.0] /home/philipp/.gradle/caches/8.14.3/transforms/4adeb117c11d6eb46709252010260ef0/transformed/barcode-scanning-17.3.0/AndroidManifest.xml:2:1-7:12
@@ -64,15 +73,14 @@ MERGED from [jp.wasabeef:glide-transformations:4.3.0] /home/philipp/.gradle/cach
 MERGED from [com.github.bumptech.glide:glide:4.16.0] /home/philipp/.gradle/caches/8.14.3/transforms/1d36ef82b0190924fe9f4da6344f33d3/transformed/glide-4.16.0/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/1a7352ef838afc8f9ac145a3d13c2441/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-location:21.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/aaa20c5fc2041b5eefc084131995f722/transformed/play-services-location-21.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-common:21.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/0d43b38315b89a96880e1efc6c895c6c/transformed/firebase-common-21.0.0/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/philipp/.gradle/caches/8.14.3/transforms/792cd0344818629e9b76dff48e2f8cfc/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/6d7ab2cbcaccf7785a552d8b81853715/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/eecda797b336f3237450db06bc5cbb9a/transformed/play-services-cloud-messaging-17.2.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/philipp/.gradle/caches/8.14.3/transforms/0592e5fe3aa6ccf713cbe1d0dba908bd/transformed/play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-base:18.5.0] /home/philipp/.gradle/caches/8.14.3/transforms/e41bc02d0c4aac24d8f3e63d1474ba35/transformed/play-services-base-18.5.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.mlkit:vision-interfaces:16.3.0] /home/philipp/.gradle/caches/8.14.3/transforms/b844b87ae7d3d65e369e749ed3970f86/transformed/vision-interfaces-16.3.0/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/02690b604cd936acaf93cd5a4d12e6a2/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:2:1-5:12
-MERGED from [com.google.android.gms:play-services-basement:18.4.0] /home/philipp/.gradle/caches/8.14.3/transforms/5b79090ad889ec04e71c165b101075d1/transformed/play-services-basement-18.4.0/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.fragment:fragment:1.6.1] /home/philipp/.gradle/caches/8.14.3/transforms/d4d22ac7e9c6a53661148c0e3d4e2a74/transformed/fragment-1.6.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.fragment:fragment-ktx:1.6.1] /home/philipp/.gradle/caches/8.14.3/transforms/a60133d97d770bd96affe1ed19bfcbfb/transformed/fragment-ktx-1.6.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/9ba8c05e06ec010121ac0893963d67c9/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/9cf36f9f5aa6018c2ba795ada9ff023f/transformed/coordinatorlayout-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /home/philipp/.gradle/caches/8.14.3/transforms/40582d553322999ef6987df4bc1073fc/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /home/philipp/.gradle/caches/8.14.3/transforms/407023dcf3175e79ad0384a66a9db090/transformed/firebase-installations-interop-17.1.1/AndroidManifest.xml:15:1-19:12
 MERGED from [androidx.navigation:navigation-runtime-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/8cdf388793e8f7fb74e1e512dbd40f26/transformed/navigation-runtime-release/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/707397dafc0f22e34aca3944e4e639fe/transformed/navigation-common-release/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-compose-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/af00d974fa340350d79b436d545cdbe7/transformed/navigation-compose-release/AndroidManifest.xml:2:1-7:12
@@ -91,12 +99,13 @@ MERGED from [androidx.compose.ui:ui-text-android:1.9.0] /home/philipp/.gradle/ca
 MERGED from [androidx.compose.ui:ui-tooling-android:1.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/49a3c7abdc2084f905bbb7a29377a683/transformed/ui-tooling/AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.compose.material:material:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/163a89e7f03761cdb527fc0b1ae123a5/transformed/material-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.compose.foundation:foundation-android:1.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/03c78f4698667755389cb8ce9335e12a/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.activity:activity:1.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/c4b594ec0626795ab27bcbfbbc68a138/transformed/activity-1.9.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity-ktx:1.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/6dde38313aa2f53a7ced085d8c9978f5/transformed/activity-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.activity:activity-compose:1.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/26cb5aeac3b33e358b687bf9d19a1334/transformed/activity-compose-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.10.0] /home/philipp/.gradle/caches/8.14.3/transforms/abe791d903e453efdb98363b493edf0d/transformed/activity-ktx-1.10.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.10.0] /home/philipp/.gradle/caches/8.14.3/transforms/b20f67a59d7a11a3429fa17a15a2b043/transformed/activity-1.10.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-compose:1.10.0] /home/philipp/.gradle/caches/8.14.3/transforms/ea12acbe9646b54f5fc535ae151189de/transformed/activity-compose-1.10.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.material:material-icons-core:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/625a91e344b905112177a1dd8bbc68c4/transformed/material-icons-core-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.transition:transition:1.5.0] /home/philipp/.gradle/caches/8.14.3/transforms/eac3864e1dae0af0eb5048054d9da96b/transformed/transition-1.5.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/36b2c1165e97f25e79e9d3b55eb486fb/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/9ba8c05e06ec010121ac0893963d67c9/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/eaee112a031698ae3adca4624a4634b9/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/6dcece7035f2517db78b488e4218b02d/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate-ktx:1.3.0] /home/philipp/.gradle/caches/8.14.3/transforms/99074195a6a9d32218fbe4c08c725607/transformed/savedstate-ktx-1.3.0/AndroidManifest.xml:2:1-7:12
@@ -107,21 +116,8 @@ MERGED from [androidx.compose.runtime:runtime-android:1.9.0] /home/philipp/.grad
 MERGED from [androidx.compose.runtime:runtime-saveable-android:1.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/1e2141519d623bc6e36e2446b0f387d6/transformed/runtime-saveable/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.4.0] /home/philipp/.gradle/caches/8.14.3/transforms/85b5647b4ed7370b104d7b6397ed9931/transformed/emoji2-views-helper-1.4.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.4.0] /home/philipp/.gradle/caches/8.14.3/transforms/b58d9a2a12955913ab633f89d2a3f99c/transformed/emoji2-1.4.0/AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/d7dd470cb3b5bc548ee3e6b801a4f973/transformed/lifecycle-runtime-ktx/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/0a1a10cb28da9fa2150fab08580117e7/transformed/lifecycle-runtime-2.9.0/AndroidManifest.xml:2:1-5:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/616f2bdc0a2f93e192965a1107567f19/transformed/lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/65dc7d3e87ba287ad7f61e56b444a128/transformed/lifecycle-viewmodel-ktx-2.9.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-service:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/1dae2806a34aff33ee6053a0adc76d24/transformed/lifecycle-service-2.9.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/f6bb139684f74e6a66156728993c4076/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/e12cb7f3c308b6db49525d20002b00db/transformed/lifecycle-livedata-core-ktx-2.9.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/24472fabc77fdf97139f9c868566b68e/transformed/lifecycle-livedata-core-2.9.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/ed4f97fe9c6322358557185d5cd8b2a9/transformed/lifecycle-livedata-2.9.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/57799cb8a98dfcd554996c803514cd0c/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/9c2540303a6d48f83c29a5977e96a396/transformed/lifecycle-viewmodel-savedstate-release/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/6b94f8bae5426a010d9ce37d1eb46765/transformed/lifecycle-viewmodel-2.9.0/AndroidManifest.xml:2:1-5:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/469f388659498c73e29bcf14d7ff4670/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/d86b2c590ccc19e7cd76e40209ec6a12/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-android:1.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/e822fea9f522615b585a926b20f7ab3b/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/9cf36f9f5aa6018c2ba795ada9ff023f/transformed/coordinatorlayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /home/philipp/.gradle/caches/8.14.3/transforms/40582d553322999ef6987df4bc1073fc/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.autofill:autofill:1.1.0] /home/philipp/.gradle/caches/8.14.3/transforms/f64db6c5be43242dee0fe7d116b22db0/transformed/autofill-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.facebook.fresco:animated-gif:3.6.0] /home/philipp/.gradle/caches/8.14.3/transforms/e704b886518ca7ed9c186f8e02194b26/transformed/animated-gif-3.6.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.facebook.fresco:webpsupport:3.6.0] /home/philipp/.gradle/caches/8.14.3/transforms/2027af81d9b1b3c8ad7dfdb180425560/transformed/webpsupport-3.6.0/AndroidManifest.xml:2:1-7:12
@@ -157,6 +153,25 @@ MERGED from [androidx.customview:customview:1.1.0] /home/philipp/.gradle/caches/
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/75e95101c405ab6cef4a583203aaca4b/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.graphics:graphics-path:1.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/48ad68e0e317fe7421f00341584427bc/transformed/graphics-path-1.0.1/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.core:core:1.16.0] /home/philipp/.gradle/caches/8.14.3/transforms/e46b185fb05c9a9bdde92c2512835042/transformed/core-1.16.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/d7dd470cb3b5bc548ee3e6b801a4f973/transformed/lifecycle-runtime-ktx/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/0a1a10cb28da9fa2150fab08580117e7/transformed/lifecycle-runtime-2.9.0/AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/616f2bdc0a2f93e192965a1107567f19/transformed/lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/65dc7d3e87ba287ad7f61e56b444a128/transformed/lifecycle-viewmodel-ktx-2.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/1dae2806a34aff33ee6053a0adc76d24/transformed/lifecycle-service-2.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/f6bb139684f74e6a66156728993c4076/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/e12cb7f3c308b6db49525d20002b00db/transformed/lifecycle-livedata-core-ktx-2.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/24472fabc77fdf97139f9c868566b68e/transformed/lifecycle-livedata-core-2.9.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/ed4f97fe9c6322358557185d5cd8b2a9/transformed/lifecycle-livedata-2.9.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/57799cb8a98dfcd554996c803514cd0c/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/9c2540303a6d48f83c29a5977e96a396/transformed/lifecycle-viewmodel-savedstate-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/6b94f8bae5426a010d9ce37d1eb46765/transformed/lifecycle-viewmodel-2.9.0/AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/469f388659498c73e29bcf14d7ff4670/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/d86b2c590ccc19e7cd76e40209ec6a12/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/e822fea9f522615b585a926b20f7ab3b/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/02690b604cd936acaf93cd5a4d12e6a2/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /home/philipp/.gradle/caches/8.14.3/transforms/5b79090ad889ec04e71c165b101075d1/transformed/play-services-basement-18.4.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.6.1] /home/philipp/.gradle/caches/8.14.3/transforms/d4d22ac7e9c6a53661148c0e3d4e2a74/transformed/fragment-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.1] /home/philipp/.gradle/caches/8.14.3/transforms/a60133d97d770bd96affe1ed19bfcbfb/transformed/fragment-ktx-1.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/c4154a86644a3338366c284362471e40/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.core:core-ktx:1.16.0] /home/philipp/.gradle/caches/8.14.3/transforms/b513a6aacba6cdce9202a0789ddb695d/transformed/core-ktx-1.16.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] /home/philipp/.gradle/caches/8.14.3/transforms/9d68f728eb696d12fecf146215de0b98/transformed/profileinstaller-1.4.1/AndroidManifest.xml:17:1-55:12
@@ -171,23 +186,26 @@ MERGED from [com.facebook.fresco:vito-renderer:3.6.0] /home/philipp/.gradle/cach
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/philipp/.gradle/caches/8.14.3/transforms/a98f0e4a12e242b067bb847e3b14bdf1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
 MERGED from [com.facebook.react:hermes-android:0.81.5] /home/philipp/.gradle/caches/8.14.3/transforms/f3d279cf13499f4c93e2b512ac9499e6/transformed/hermes-android-0.81.5-debug/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:viewbinding:8.11.0] /home/philipp/.gradle/caches/8.14.3/transforms/d569b5ae00f498f19b28b0ec16b85426/transformed/viewbinding-8.11.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /home/philipp/.gradle/caches/8.14.3/transforms/971b8d6dbb982fb2fd7b1aaec9961645/transformed/exifinterface-1.3.7/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/c379609ddb82b315fe3d751c7650687f/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/90f4ed8cd9677cd23701d2c393e8cf50/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/05d650c56800867a8e0a7c8133c27a26/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /home/philipp/.gradle/caches/8.14.3/transforms/f3d4730104367671fe5c0d35db519374/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:15:1-38:12
-MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /home/philipp/.gradle/caches/8.14.3/transforms/c26896003b67dff23b03e3de03950ce3/transformed/transport-runtime-2.2.6/AndroidManifest.xml:15:1-41:12
-MERGED from [com.google.android.datatransport:transport-api:2.2.1] /home/philipp/.gradle/caches/8.14.3/transforms/bab328609e615489a70e8506c97e27ed/transformed/transport-api-2.2.1/AndroidManifest.xml:15:1-22:12
-MERGED from [com.google.firebase:firebase-components:16.1.0] /home/philipp/.gradle/caches/8.14.3/transforms/969df1f885afd692d445383c5e8ff3a0/transformed/firebase-components-16.1.0/AndroidManifest.xml:15:1-23:12
-MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /home/philipp/.gradle/caches/8.14.3/transforms/8b0fffae231888f6cea8be0ea0d1268d/transformed/firebase-encoders-json-17.1.0/AndroidManifest.xml:15:1-23:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] /home/philipp/.gradle/caches/8.14.3/transforms/d9f13e9cecb1eec84e4580788ebab8cb/transformed/gifdecoder-4.16.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-components:18.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/eaf4a5098c87be4064a3a472de370c82/transformed/firebase-components-18.0.0/AndroidManifest.xml:15:1-20:12
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/405e84b1c55c3127697f0c60dafbd880/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:15:1-31:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/philipp/.gradle/caches/8.14.3/transforms/872c9fc07072b1a23d766190a5ab2f11/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/0c56c95dfb6b9fe068c65d0b5bd517a1/transformed/firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/philipp/.gradle/caches/8.14.3/transforms/d4bc326084c0cc66368bc2cf45a63a69/transformed/transport-runtime-3.1.9/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] /home/philipp/.gradle/caches/8.14.3/transforms/96e30702ad6a9d645f515132472e1ba1/transformed/transport-api-3.1.0/AndroidManifest.xml:15:1-20:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/e4a217637869a5b0b76180b11f088cec/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/307ce9bb7b3883d6930481522e26c221/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/8aacba71b329b36994f2ca89d11cbcfa/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.exifinterface:exifinterface:1.3.7] /home/philipp/.gradle/caches/8.14.3/transforms/971b8d6dbb982fb2fd7b1aaec9961645/transformed/exifinterface-1.3.7/AndroidManifest.xml:17:1-24:12
 MERGED from [io.github.thanosfisherman.wifiutils:wifiutils:1.6.6] /home/philipp/.gradle/caches/8.14.3/transforms/d5a9ff24b4ede1cfcfca562aaf2a429c/transformed/wifiutils-1.6.6/AndroidManifest.xml:2:1-18:12
 MERGED from [com.facebook.fbjni:fbjni:0.7.0] /home/philipp/.gradle/caches/8.14.3/transforms/488fe6e480efb97ec75859f6e274282f/transformed/fbjni-0.7.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.facebook.soloader:soloader:0.12.1] /home/philipp/.gradle/caches/8.14.3/transforms/05ca301ef8caf9bf145c0fbd2f24a323/transformed/soloader-0.12.1/AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.installreferrer:installreferrer:2.2] /home/philipp/.gradle/caches/8.14.3/transforms/d93169e057e3c702a04d6f87a3fcccfa/transformed/installreferrer-2.2/AndroidManifest.xml:2:1-13:12
 MERGED from [com.caverock:androidsvg-aar:1.4] /home/philipp/.gradle/caches/8.14.3/transforms/fd2f6184191a9f8db9e25fc33d4b0b10/transformed/androidsvg-aar-1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /home/philipp/.gradle/caches/8.14.3/transforms/acf02160189ad79c9f743db6cbf59d93/transformed/ShortcutBadger-1.1.22/AndroidManifest.xml:2:1-52:12
 MERGED from [org.aomedia.avif.android:avif:1.1.1.14d8e3c4] /home/philipp/.gradle/caches/8.14.3/transforms/d36fe0b388d18d20887dd334271d2049/transformed/avif-1.1.1.14d8e3c4/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.odml:image:1.0.0-beta1] /home/philipp/.gradle/caches/8.14.3/transforms/1fc8e43967824749fc7ab9f720e27404/transformed/image-1.0.0-beta1/AndroidManifest.xml:2:1-9:12
 	package
@@ -222,8 +240,12 @@ MERGED from [BareExpo:expo.modules.image:3.0.10] /home/philipp/.gradle/caches/8.
 MERGED from [BareExpo:expo.modules.image:3.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/8aff255269f8ff35f49d76037f05e17b/transformed/expo.modules.image-3.0.10/AndroidManifest.xml:7:5-67
 MERGED from [host.exp.exponent:expo.modules.filesystem:19.0.17] /home/philipp/.gradle/caches/8.14.3/transforms/79fb956c45fed9ef251d7e82b758a2e3/transformed/expo.modules.filesystem-19.0.17/AndroidManifest.xml:8:5-67
 MERGED from [host.exp.exponent:expo.modules.filesystem:19.0.17] /home/philipp/.gradle/caches/8.14.3/transforms/79fb956c45fed9ef251d7e82b758a2e3/transformed/expo.modules.filesystem-19.0.17/AndroidManifest.xml:8:5-67
-MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /home/philipp/.gradle/caches/8.14.3/transforms/f3d4730104367671fe5c0d35db519374/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
-MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /home/philipp/.gradle/caches/8.14.3/transforms/f3d4730104367671fe5c0d35db519374/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/2e90ae09c3b4c34ea24a896741e25fc0/transformed/firebase-installations-17.2.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/2e90ae09c3b4c34ea24a896741e25fc0/transformed/firebase-installations-17.2.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/eecda797b336f3237450db06bc5cbb9a/transformed/play-services-cloud-messaging-17.2.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/eecda797b336f3237450db06bc5cbb9a/transformed/play-services-cloud-messaging-17.2.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/philipp/.gradle/caches/8.14.3/transforms/872c9fc07072b1a23d766190a5ab2f11/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/philipp/.gradle/caches/8.14.3/transforms/872c9fc07072b1a23d766190a5ab2f11/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:25:5-67
 	android:name
 		ADDED from /home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:4:20-62
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
@@ -232,6 +254,8 @@ MERGED from [BareExpo:expo.modules.image:3.0.10] /home/philipp/.gradle/caches/8.
 MERGED from [BareExpo:expo.modules.image:3.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/8aff255269f8ff35f49d76037f05e17b/transformed/expo.modules.image-3.0.10/AndroidManifest.xml:15:5-17:38
 MERGED from [host.exp.exponent:expo.modules.filesystem:19.0.17] /home/philipp/.gradle/caches/8.14.3/transforms/79fb956c45fed9ef251d7e82b758a2e3/transformed/expo.modules.filesystem-19.0.17/AndroidManifest.xml:10:5-80
 MERGED from [host.exp.exponent:expo.modules.filesystem:19.0.17] /home/philipp/.gradle/caches/8.14.3/transforms/79fb956c45fed9ef251d7e82b758a2e3/transformed/expo.modules.filesystem-19.0.17/AndroidManifest.xml:10:5-80
+MERGED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:12:5-80
+MERGED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:12:5-80
 	android:maxSdkVersion
 		ADDED from [BareExpo:expo.modules.image:3.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/8aff255269f8ff35f49d76037f05e17b/transformed/expo.modules.image-3.0.10/AndroidManifest.xml:17:9-35
 	android:name
@@ -254,6 +278,8 @@ uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from /home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:8:3-78
 MERGED from [host.exp.exponent:expo.modules.filesystem:19.0.17] /home/philipp/.gradle/caches/8.14.3/transforms/79fb956c45fed9ef251d7e82b758a2e3/transformed/expo.modules.filesystem-19.0.17/AndroidManifest.xml:9:5-81
 MERGED from [host.exp.exponent:expo.modules.filesystem:19.0.17] /home/philipp/.gradle/caches/8.14.3/transforms/79fb956c45fed9ef251d7e82b758a2e3/transformed/expo.modules.filesystem-19.0.17/AndroidManifest.xml:9:5-81
+MERGED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:11:5-81
+MERGED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:11:5-81
 	android:name
 		ADDED from /home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:8:20-76
 queries
@@ -262,8 +288,12 @@ MERGED from [:expo-dev-launcher] /home/philipp/Programming/plant-tracker/compani
 MERGED from [:expo-dev-launcher] /home/philipp/Programming/plant-tracker/companion/node_modules/expo-dev-launcher/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-9:15
 MERGED from [host.exp.exponent:expo.modules.filesystem:19.0.17] /home/philipp/.gradle/caches/8.14.3/transforms/79fb956c45fed9ef251d7e82b758a2e3/transformed/expo.modules.filesystem-19.0.17/AndroidManifest.xml:12:5-18:15
 MERGED from [host.exp.exponent:expo.modules.filesystem:19.0.17] /home/philipp/.gradle/caches/8.14.3/transforms/79fb956c45fed9ef251d7e82b758a2e3/transformed/expo.modules.filesystem-19.0.17/AndroidManifest.xml:12:5-18:15
+MERGED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:14:5-25:15
+MERGED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:14:5-25:15
 MERGED from [host.exp.exponent:expo.modules.webbrowser:15.0.9] /home/philipp/.gradle/caches/8.14.3/transforms/887ae93d7eb3f8beba8a5b51a221ab6b/transformed/expo.modules.webbrowser-15.0.9/AndroidManifest.xml:7:5-13:15
 MERGED from [host.exp.exponent:expo.modules.webbrowser:15.0.9] /home/philipp/.gradle/caches/8.14.3/transforms/887ae93d7eb3f8beba8a5b51a221ab6b/transformed/expo.modules.webbrowser-15.0.9/AndroidManifest.xml:7:5-13:15
+MERGED from [com.vanniktech:android-image-cropper:4.6.0] /home/philipp/.gradle/caches/8.14.3/transforms/30de3346b9d65fc927c629fd3105e5d0/transformed/android-image-cropper-4.6.0/AndroidManifest.xml:7:5-18:15
+MERGED from [com.vanniktech:android-image-cropper:4.6.0] /home/philipp/.gradle/caches/8.14.3/transforms/30de3346b9d65fc927c629fd3105e5d0/transformed/android-image-cropper-4.6.0/AndroidManifest.xml:7:5-18:15
 intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:scheme:https
 ADDED from /home/philipp/Programming/plant-tracker/companion/android/app/src/main/AndroidManifest.xml:10:5-14:14
 action#android.intent.action.VIEW
@@ -291,12 +321,24 @@ MERGED from [com.facebook.react:react-android:0.81.5] /home/philipp/.gradle/cach
 MERGED from [com.facebook.react:react-android:0.81.5] /home/philipp/.gradle/caches/8.14.3/transforms/e5d515112484fe4dddc05785469cc380/transformed/react-android-0.81.5-debug/AndroidManifest.xml:18:5-22:19
 MERGED from [host.exp.exponent:expo.modules.filesystem:19.0.17] /home/philipp/.gradle/caches/8.14.3/transforms/79fb956c45fed9ef251d7e82b758a2e3/transformed/expo.modules.filesystem-19.0.17/AndroidManifest.xml:20:5-31:19
 MERGED from [host.exp.exponent:expo.modules.filesystem:19.0.17] /home/philipp/.gradle/caches/8.14.3/transforms/79fb956c45fed9ef251d7e82b758a2e3/transformed/expo.modules.filesystem-19.0.17/AndroidManifest.xml:20:5-31:19
+MERGED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:27:5-57:19
+MERGED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:27:5-57:19
 MERGED from [host.exp.exponent:expo.modules.location:19.0.7] /home/philipp/.gradle/caches/8.14.3/transforms/68616525dcd110d73da6324a35417e2a/transformed/expo.modules.location-19.0.7/AndroidManifest.xml:10:5-15:19
 MERGED from [host.exp.exponent:expo.modules.location:19.0.7] /home/philipp/.gradle/caches/8.14.3/transforms/68616525dcd110d73da6324a35417e2a/transformed/expo.modules.location-19.0.7/AndroidManifest.xml:10:5-15:19
+MERGED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:10:5-41:19
+MERGED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:10:5-41:19
 MERGED from [com.google.android.material:material:1.12.0] /home/philipp/.gradle/caches/8.14.3/transforms/690345e09d348ff71f70b2d03095d173/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] /home/philipp/.gradle/caches/8.14.3/transforms/690345e09d348ff71f70b2d03095d173/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-messaging:24.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/cb72cc0c078ae8c375400415cfbf9fad/transformed/firebase-messaging-24.0.1/AndroidManifest.xml:28:5-64:19
+MERGED from [com.google.firebase:firebase-messaging:24.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/cb72cc0c078ae8c375400415cfbf9fad/transformed/firebase-messaging-24.0.1/AndroidManifest.xml:28:5-64:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/2e90ae09c3b4c34ea24a896741e25fc0/transformed/firebase-installations-17.2.0/AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/2e90ae09c3b4c34ea24a896741e25fc0/transformed/firebase-installations-17.2.0/AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/bc085e3c51e7bf1c64a62cff24b982c2/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/bc085e3c51e7bf1c64a62cff24b982c2/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
 MERGED from [com.github.bumptech.glide:okhttp3-integration:4.11.0] /home/philipp/.gradle/caches/8.14.3/transforms/4e58cce98c9b2e2747f3e1e6ed814d74/transformed/okhttp3-integration-4.11.0/AndroidManifest.xml:10:5-14:19
 MERGED from [com.github.bumptech.glide:okhttp3-integration:4.11.0] /home/philipp/.gradle/caches/8.14.3/transforms/4e58cce98c9b2e2747f3e1e6ed814d74/transformed/okhttp3-integration-4.11.0/AndroidManifest.xml:10:5-14:19
+MERGED from [com.vanniktech:android-image-cropper:4.6.0] /home/philipp/.gradle/caches/8.14.3/transforms/30de3346b9d65fc927c629fd3105e5d0/transformed/android-image-cropper-4.6.0/AndroidManifest.xml:20:5-34:19
+MERGED from [com.vanniktech:android-image-cropper:4.6.0] /home/philipp/.gradle/caches/8.14.3/transforms/30de3346b9d65fc927c629fd3105e5d0/transformed/android-image-cropper-4.6.0/AndroidManifest.xml:20:5-34:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/d1bfd17a595e985d9895e0f1999a5bb0/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/d1bfd17a595e985d9895e0f1999a5bb0/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-code-scanner:16.1.0] /home/philipp/.gradle/caches/8.14.3/transforms/8273140ad44bce81d1de0be69046e2de/transformed/play-services-code-scanner-16.1.0/AndroidManifest.xml:8:5-21:19
@@ -311,34 +353,46 @@ MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/philipp/.gradl
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/f22615ca0880f0461d7a81059193e8f7/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
 MERGED from [com.google.android.gms:play-services-location:21.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/aaa20c5fc2041b5eefc084131995f722/transformed/play-services-location-21.0.1/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-location:21.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/aaa20c5fc2041b5eefc084131995f722/transformed/play-services-location-21.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-common:21.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/0d43b38315b89a96880e1efc6c895c6c/transformed/firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/0d43b38315b89a96880e1efc6c895c6c/transformed/firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/philipp/.gradle/caches/8.14.3/transforms/792cd0344818629e9b76dff48e2f8cfc/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/philipp/.gradle/caches/8.14.3/transforms/792cd0344818629e9b76dff48e2f8cfc/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/6d7ab2cbcaccf7785a552d8b81853715/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/6d7ab2cbcaccf7785a552d8b81853715/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/philipp/.gradle/caches/8.14.3/transforms/0592e5fe3aa6ccf713cbe1d0dba908bd/transformed/play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/philipp/.gradle/caches/8.14.3/transforms/0592e5fe3aa6ccf713cbe1d0dba908bd/transformed/play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-base:18.5.0] /home/philipp/.gradle/caches/8.14.3/transforms/e41bc02d0c4aac24d8f3e63d1474ba35/transformed/play-services-base-18.5.0/AndroidManifest.xml:4:5-6:19
 MERGED from [com.google.android.gms:play-services-base:18.5.0] /home/philipp/.gradle/caches/8.14.3/transforms/e41bc02d0c4aac24d8f3e63d1474ba35/transformed/play-services-base-18.5.0/AndroidManifest.xml:4:5-6:19
-MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/02690b604cd936acaf93cd5a4d12e6a2/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
-MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/02690b604cd936acaf93cd5a4d12e6a2/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
-MERGED from [com.google.android.gms:play-services-basement:18.4.0] /home/philipp/.gradle/caches/8.14.3/transforms/5b79090ad889ec04e71c165b101075d1/transformed/play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
-MERGED from [com.google.android.gms:play-services-basement:18.4.0] /home/philipp/.gradle/caches/8.14.3/transforms/5b79090ad889ec04e71c165b101075d1/transformed/play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/49a3c7abdc2084f905bbb7a29377a683/transformed/ui-tooling/AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/49a3c7abdc2084f905bbb7a29377a683/transformed/ui-tooling/AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.emoji2:emoji2:1.4.0] /home/philipp/.gradle/caches/8.14.3/transforms/b58d9a2a12955913ab633f89d2a3f99c/transformed/emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.4.0] /home/philipp/.gradle/caches/8.14.3/transforms/b58d9a2a12955913ab633f89d2a3f99c/transformed/emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/f6bb139684f74e6a66156728993c4076/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/f6bb139684f74e6a66156728993c4076/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.core:core:1.16.0] /home/philipp/.gradle/caches/8.14.3/transforms/e46b185fb05c9a9bdde92c2512835042/transformed/core-1.16.0/AndroidManifest.xml:28:5-89
 MERGED from [androidx.core:core:1.16.0] /home/philipp/.gradle/caches/8.14.3/transforms/e46b185fb05c9a9bdde92c2512835042/transformed/core-1.16.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/f6bb139684f74e6a66156728993c4076/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/f6bb139684f74e6a66156728993c4076/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/02690b604cd936acaf93cd5a4d12e6a2/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/02690b604cd936acaf93cd5a4d12e6a2/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /home/philipp/.gradle/caches/8.14.3/transforms/5b79090ad889ec04e71c165b101075d1/transformed/play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /home/philipp/.gradle/caches/8.14.3/transforms/5b79090ad889ec04e71c165b101075d1/transformed/play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] /home/philipp/.gradle/caches/8.14.3/transforms/9d68f728eb696d12fecf146215de0b98/transformed/profileinstaller-1.4.1/AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] /home/philipp/.gradle/caches/8.14.3/transforms/9d68f728eb696d12fecf146215de0b98/transformed/profileinstaller-1.4.1/AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] /home/philipp/.gradle/caches/8.14.3/transforms/36f287c722a0dfb5e1b413d9d15af655/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] /home/philipp/.gradle/caches/8.14.3/transforms/36f287c722a0dfb5e1b413d9d15af655/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/philipp/.gradle/caches/8.14.3/transforms/a98f0e4a12e242b067bb847e3b14bdf1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/philipp/.gradle/caches/8.14.3/transforms/a98f0e4a12e242b067bb847e3b14bdf1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /home/philipp/.gradle/caches/8.14.3/transforms/f3d4730104367671fe5c0d35db519374/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:28:5-36:19
-MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /home/philipp/.gradle/caches/8.14.3/transforms/f3d4730104367671fe5c0d35db519374/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:28:5-36:19
-MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /home/philipp/.gradle/caches/8.14.3/transforms/c26896003b67dff23b03e3de03950ce3/transformed/transport-runtime-2.2.6/AndroidManifest.xml:25:5-39:19
-MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /home/philipp/.gradle/caches/8.14.3/transforms/c26896003b67dff23b03e3de03950ce3/transformed/transport-runtime-2.2.6/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/405e84b1c55c3127697f0c60dafbd880/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:21:5-29:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/405e84b1c55c3127697f0c60dafbd880/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:21:5-29:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/philipp/.gradle/caches/8.14.3/transforms/872c9fc07072b1a23d766190a5ab2f11/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/philipp/.gradle/caches/8.14.3/transforms/872c9fc07072b1a23d766190a5ab2f11/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/philipp/.gradle/caches/8.14.3/transforms/d4bc326084c0cc66368bc2cf45a63a69/transformed/transport-runtime-3.1.9/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/philipp/.gradle/caches/8.14.3/transforms/d4bc326084c0cc66368bc2cf45a63a69/transformed/transport-runtime-3.1.9/AndroidManifest.xml:25:5-39:19
 MERGED from [io.github.thanosfisherman.wifiutils:wifiutils:1.6.6] /home/philipp/.gradle/caches/8.14.3/transforms/d5a9ff24b4ede1cfcfca562aaf2a429c/transformed/wifiutils-1.6.6/AndroidManifest.xml:15:5-16:19
 MERGED from [io.github.thanosfisherman.wifiutils:wifiutils:1.6.6] /home/philipp/.gradle/caches/8.14.3/transforms/d5a9ff24b4ede1cfcfca562aaf2a429c/transformed/wifiutils-1.6.6/AndroidManifest.xml:15:5-16:19
 MERGED from [com.facebook.soloader:soloader:0.12.1] /home/philipp/.gradle/caches/8.14.3/transforms/05ca301ef8caf9bf145c0fbd2f24a323/transformed/soloader-0.12.1/AndroidManifest.xml:11:5-15:19
 MERGED from [com.facebook.soloader:soloader:0.12.1] /home/philipp/.gradle/caches/8.14.3/transforms/05ca301ef8caf9bf145c0fbd2f24a323/transformed/soloader-0.12.1/AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.installreferrer:installreferrer:2.2] /home/philipp/.gradle/caches/8.14.3/transforms/d93169e057e3c702a04d6f87a3fcccfa/transformed/installreferrer-2.2/AndroidManifest.xml:11:5-20
+MERGED from [com.android.installreferrer:installreferrer:2.2] /home/philipp/.gradle/caches/8.14.3/transforms/d93169e057e3c702a04d6f87a3fcccfa/transformed/installreferrer-2.2/AndroidManifest.xml:11:5-20
 MERGED from [org.aomedia.avif.android:avif:1.1.1.14d8e3c4] /home/philipp/.gradle/caches/8.14.3/transforms/d36fe0b388d18d20887dd334271d2049/transformed/avif-1.1.1.14d8e3c4/AndroidManifest.xml:5:5-6:19
 MERGED from [org.aomedia.avif.android:avif:1.1.1.14d8e3c4] /home/philipp/.gradle/caches/8.14.3/transforms/d36fe0b388d18d20887dd334271d2049/transformed/avif-1.1.1.14d8e3c4/AndroidManifest.xml:5:5-6:19
 MERGED from [com.google.android.odml:image:1.0.0-beta1] /home/philipp/.gradle/caches/8.14.3/transforms/1fc8e43967824749fc7ab9f720e27404/transformed/image-1.0.0-beta1/AndroidManifest.xml:7:5-20
@@ -439,6 +493,8 @@ MERGED from [:react-native-safe-area-context] /home/philipp/Programming/plant-tr
 MERGED from [:react-native-safe-area-context] /home/philipp/Programming/plant-tracker/companion/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
 MERGED from [:react-native-screens] /home/philipp/Programming/plant-tracker/companion/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
 MERGED from [:react-native-screens] /home/philipp/Programming/plant-tracker/companion/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-async-storage_async-storage] /home/philipp/Programming/plant-tracker/companion/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-async-storage_async-storage] /home/philipp/Programming/plant-tracker/companion/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
 MERGED from [:expo] /home/philipp/Programming/plant-tracker/companion/node_modules/expo/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
 MERGED from [:expo] /home/philipp/Programming/plant-tracker/companion/node_modules/expo/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
 MERGED from [:react-native-reanimated] /home/philipp/Programming/plant-tracker/companion/node_modules/react-native-reanimated/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
@@ -475,22 +531,36 @@ MERGED from [:expo-json-utils] /home/philipp/Programming/plant-tracker/companion
 MERGED from [:expo-json-utils] /home/philipp/Programming/plant-tracker/companion/node_modules/expo-json-utils/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
 MERGED from [:expo-updates-interface] /home/philipp/Programming/plant-tracker/companion/node_modules/expo-updates-interface/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
 MERGED from [:expo-updates-interface] /home/philipp/Programming/plant-tracker/companion/node_modules/expo-updates-interface/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [host.exp.exponent:expo.modules.application:7.0.8] /home/philipp/.gradle/caches/8.14.3/transforms/d317ccef4e1bdd4bfdd060b8f68d9fe6/transformed/expo.modules.application-7.0.8/AndroidManifest.xml:5:5-44
+MERGED from [host.exp.exponent:expo.modules.application:7.0.8] /home/philipp/.gradle/caches/8.14.3/transforms/d317ccef4e1bdd4bfdd060b8f68d9fe6/transformed/expo.modules.application-7.0.8/AndroidManifest.xml:5:5-44
 MERGED from [expo.modules.asset:expo.modules.asset:12.0.9] /home/philipp/.gradle/caches/8.14.3/transforms/87e95362e71704d06066dd1de994f859/transformed/expo.modules.asset-12.0.9/AndroidManifest.xml:5:5-44
 MERGED from [expo.modules.asset:expo.modules.asset:12.0.9] /home/philipp/.gradle/caches/8.14.3/transforms/87e95362e71704d06066dd1de994f859/transformed/expo.modules.asset-12.0.9/AndroidManifest.xml:5:5-44
 MERGED from [host.exp.exponent:expo.modules.filesystem:19.0.17] /home/philipp/.gradle/caches/8.14.3/transforms/79fb956c45fed9ef251d7e82b758a2e3/transformed/expo.modules.filesystem-19.0.17/AndroidManifest.xml:6:5-44
 MERGED from [host.exp.exponent:expo.modules.filesystem:19.0.17] /home/philipp/.gradle/caches/8.14.3/transforms/79fb956c45fed9ef251d7e82b758a2e3/transformed/expo.modules.filesystem-19.0.17/AndroidManifest.xml:6:5-44
 MERGED from [host.exp.exponent:expo.modules.haptics:15.0.7] /home/philipp/.gradle/caches/8.14.3/transforms/605341d47726c85f3efecda76edaf2e8/transformed/expo.modules.haptics-15.0.7/AndroidManifest.xml:5:5-44
 MERGED from [host.exp.exponent:expo.modules.haptics:15.0.7] /home/philipp/.gradle/caches/8.14.3/transforms/605341d47726c85f3efecda76edaf2e8/transformed/expo.modules.haptics-15.0.7/AndroidManifest.xml:5:5-44
+MERGED from [host.exp.exponent:expo.modules.imageloader:6.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/83a4c0133a6e5c2df99bf1c228ace091/transformed/expo.modules.imageloader-6.0.0/AndroidManifest.xml:5:5-44
+MERGED from [host.exp.exponent:expo.modules.imageloader:6.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/83a4c0133a6e5c2df99bf1c228ace091/transformed/expo.modules.imageloader-6.0.0/AndroidManifest.xml:5:5-44
+MERGED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:6:5-44
+MERGED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:6:5-44
 MERGED from [host.exp.exponent:expo.modules.keepawake:15.0.7] /home/philipp/.gradle/caches/8.14.3/transforms/f61f36bce3aaba21ed9eb5a12c52f9e3/transformed/expo.modules.keepawake-15.0.7/AndroidManifest.xml:5:5-44
 MERGED from [host.exp.exponent:expo.modules.keepawake:15.0.7] /home/philipp/.gradle/caches/8.14.3/transforms/f61f36bce3aaba21ed9eb5a12c52f9e3/transformed/expo.modules.keepawake-15.0.7/AndroidManifest.xml:5:5-44
 MERGED from [host.exp.exponent:expo.modules.linking:8.0.8] /home/philipp/.gradle/caches/8.14.3/transforms/045d23f89129fd9b35aacd42bdda857a/transformed/expo.modules.linking-8.0.8/AndroidManifest.xml:5:5-44
 MERGED from [host.exp.exponent:expo.modules.linking:8.0.8] /home/philipp/.gradle/caches/8.14.3/transforms/045d23f89129fd9b35aacd42bdda857a/transformed/expo.modules.linking-8.0.8/AndroidManifest.xml:5:5-44
 MERGED from [host.exp.exponent:expo.modules.location:19.0.7] /home/philipp/.gradle/caches/8.14.3/transforms/68616525dcd110d73da6324a35417e2a/transformed/expo.modules.location-19.0.7/AndroidManifest.xml:5:5-44
 MERGED from [host.exp.exponent:expo.modules.location:19.0.7] /home/philipp/.gradle/caches/8.14.3/transforms/68616525dcd110d73da6324a35417e2a/transformed/expo.modules.location-19.0.7/AndroidManifest.xml:5:5-44
+MERGED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:5:5-44
+MERGED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:5:5-44
 MERGED from [host.exp.exponent:expo.modules.webbrowser:15.0.9] /home/philipp/.gradle/caches/8.14.3/transforms/887ae93d7eb3f8beba8a5b51a221ab6b/transformed/expo.modules.webbrowser-15.0.9/AndroidManifest.xml:5:5-44
 MERGED from [host.exp.exponent:expo.modules.webbrowser:15.0.9] /home/philipp/.gradle/caches/8.14.3/transforms/887ae93d7eb3f8beba8a5b51a221ab6b/transformed/expo.modules.webbrowser-15.0.9/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.material:material:1.12.0] /home/philipp/.gradle/caches/8.14.3/transforms/690345e09d348ff71f70b2d03095d173/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.12.0] /home/philipp/.gradle/caches/8.14.3/transforms/690345e09d348ff71f70b2d03095d173/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:24.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/cb72cc0c078ae8c375400415cfbf9fad/transformed/firebase-messaging-24.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:24.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/cb72cc0c078ae8c375400415cfbf9fad/transformed/firebase-messaging-24.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/2e90ae09c3b4c34ea24a896741e25fc0/transformed/firebase-installations-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/2e90ae09c3b4c34ea24a896741e25fc0/transformed/firebase-installations-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/bc085e3c51e7bf1c64a62cff24b982c2/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/bc085e3c51e7bf1c64a62cff24b982c2/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:3.6.0] /home/philipp/.gradle/caches/8.14.3/transforms/d5d9d053325bb837c7b9b0efc9d6e3fd/transformed/imagepipeline-okhttp3-3.6.0/AndroidManifest.xml:5:5-44
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:3.6.0] /home/philipp/.gradle/caches/8.14.3/transforms/d5d9d053325bb837c7b9b0efc9d6e3fd/transformed/imagepipeline-okhttp3-3.6.0/AndroidManifest.xml:5:5-44
 MERGED from [com.github.bumptech.glide:okhttp3-integration:4.11.0] /home/philipp/.gradle/caches/8.14.3/transforms/4e58cce98c9b2e2747f3e1e6ed814d74/transformed/okhttp3-integration-4.11.0/AndroidManifest.xml:6:5-8:41
@@ -511,6 +581,8 @@ MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /home/philipp/.gradle
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /home/philipp/.gradle/caches/8.14.3/transforms/99b567e5ce22075f2750ee27c18c5341/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
 MERGED from [com.github.penfeizhou.android.animation:glide-plugin:3.0.5] /home/philipp/.gradle/caches/8.14.3/transforms/9624af5047db726fa987582d8c4415d0/transformed/glide-plugin-3.0.5/AndroidManifest.xml:5:5-44
 MERGED from [com.github.penfeizhou.android.animation:glide-plugin:3.0.5] /home/philipp/.gradle/caches/8.14.3/transforms/9624af5047db726fa987582d8c4415d0/transformed/glide-plugin-3.0.5/AndroidManifest.xml:5:5-44
+MERGED from [com.vanniktech:android-image-cropper:4.6.0] /home/philipp/.gradle/caches/8.14.3/transforms/30de3346b9d65fc927c629fd3105e5d0/transformed/android-image-cropper-4.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.vanniktech:android-image-cropper:4.6.0] /home/philipp/.gradle/caches/8.14.3/transforms/30de3346b9d65fc927c629fd3105e5d0/transformed/android-image-cropper-4.6.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/d1bfd17a595e985d9895e0f1999a5bb0/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/d1bfd17a595e985d9895e0f1999a5bb0/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-code-scanner:16.1.0] /home/philipp/.gradle/caches/8.14.3/transforms/8273140ad44bce81d1de0be69046e2de/transformed/play-services-code-scanner-16.1.0/AndroidManifest.xml:6:5-44
@@ -551,24 +623,22 @@ MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/philipp/.gradle/caches/
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/1a7352ef838afc8f9ac145a3d13c2441/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-location:21.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/aaa20c5fc2041b5eefc084131995f722/transformed/play-services-location-21.0.1/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-location:21.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/aaa20c5fc2041b5eefc084131995f722/transformed/play-services-location-21.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/0d43b38315b89a96880e1efc6c895c6c/transformed/firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/0d43b38315b89a96880e1efc6c895c6c/transformed/firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/philipp/.gradle/caches/8.14.3/transforms/792cd0344818629e9b76dff48e2f8cfc/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/philipp/.gradle/caches/8.14.3/transforms/792cd0344818629e9b76dff48e2f8cfc/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/6d7ab2cbcaccf7785a552d8b81853715/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/6d7ab2cbcaccf7785a552d8b81853715/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/eecda797b336f3237450db06bc5cbb9a/transformed/play-services-cloud-messaging-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/eecda797b336f3237450db06bc5cbb9a/transformed/play-services-cloud-messaging-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/philipp/.gradle/caches/8.14.3/transforms/0592e5fe3aa6ccf713cbe1d0dba908bd/transformed/play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/philipp/.gradle/caches/8.14.3/transforms/0592e5fe3aa6ccf713cbe1d0dba908bd/transformed/play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-base:18.5.0] /home/philipp/.gradle/caches/8.14.3/transforms/e41bc02d0c4aac24d8f3e63d1474ba35/transformed/play-services-base-18.5.0/AndroidManifest.xml:3:5-44
 MERGED from [com.google.android.gms:play-services-base:18.5.0] /home/philipp/.gradle/caches/8.14.3/transforms/e41bc02d0c4aac24d8f3e63d1474ba35/transformed/play-services-base-18.5.0/AndroidManifest.xml:3:5-44
 MERGED from [com.google.mlkit:vision-interfaces:16.3.0] /home/philipp/.gradle/caches/8.14.3/transforms/b844b87ae7d3d65e369e749ed3970f86/transformed/vision-interfaces-16.3.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.mlkit:vision-interfaces:16.3.0] /home/philipp/.gradle/caches/8.14.3/transforms/b844b87ae7d3d65e369e749ed3970f86/transformed/vision-interfaces-16.3.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/02690b604cd936acaf93cd5a4d12e6a2/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
-MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/02690b604cd936acaf93cd5a4d12e6a2/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
-MERGED from [com.google.android.gms:play-services-basement:18.4.0] /home/philipp/.gradle/caches/8.14.3/transforms/5b79090ad889ec04e71c165b101075d1/transformed/play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
-MERGED from [com.google.android.gms:play-services-basement:18.4.0] /home/philipp/.gradle/caches/8.14.3/transforms/5b79090ad889ec04e71c165b101075d1/transformed/play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
-MERGED from [androidx.fragment:fragment:1.6.1] /home/philipp/.gradle/caches/8.14.3/transforms/d4d22ac7e9c6a53661148c0e3d4e2a74/transformed/fragment-1.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.6.1] /home/philipp/.gradle/caches/8.14.3/transforms/d4d22ac7e9c6a53661148c0e3d4e2a74/transformed/fragment-1.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment-ktx:1.6.1] /home/philipp/.gradle/caches/8.14.3/transforms/a60133d97d770bd96affe1ed19bfcbfb/transformed/fragment-ktx-1.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment-ktx:1.6.1] /home/philipp/.gradle/caches/8.14.3/transforms/a60133d97d770bd96affe1ed19bfcbfb/transformed/fragment-ktx-1.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/9ba8c05e06ec010121ac0893963d67c9/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/9ba8c05e06ec010121ac0893963d67c9/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/9cf36f9f5aa6018c2ba795ada9ff023f/transformed/coordinatorlayout-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/9cf36f9f5aa6018c2ba795ada9ff023f/transformed/coordinatorlayout-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /home/philipp/.gradle/caches/8.14.3/transforms/40582d553322999ef6987df4bc1073fc/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /home/philipp/.gradle/caches/8.14.3/transforms/40582d553322999ef6987df4bc1073fc/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /home/philipp/.gradle/caches/8.14.3/transforms/407023dcf3175e79ad0384a66a9db090/transformed/firebase-installations-interop-17.1.1/AndroidManifest.xml:17:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /home/philipp/.gradle/caches/8.14.3/transforms/407023dcf3175e79ad0384a66a9db090/transformed/firebase-installations-interop-17.1.1/AndroidManifest.xml:17:5-44
 MERGED from [androidx.navigation:navigation-runtime-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/8cdf388793e8f7fb74e1e512dbd40f26/transformed/navigation-runtime-release/AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-runtime-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/8cdf388793e8f7fb74e1e512dbd40f26/transformed/navigation-runtime-release/AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-common-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/707397dafc0f22e34aca3944e4e639fe/transformed/navigation-common-release/AndroidManifest.xml:20:5-44
@@ -605,18 +675,20 @@ MERGED from [androidx.compose.material:material:1.0.0] /home/philipp/.gradle/cac
 MERGED from [androidx.compose.material:material:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/163a89e7f03761cdb527fc0b1ae123a5/transformed/material-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.compose.foundation:foundation-android:1.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/03c78f4698667755389cb8ce9335e12a/transformed/foundation-release/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.foundation:foundation-android:1.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/03c78f4698667755389cb8ce9335e12a/transformed/foundation-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity:1.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/c4b594ec0626795ab27bcbfbbc68a138/transformed/activity-1.9.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/c4b594ec0626795ab27bcbfbbc68a138/transformed/activity-1.9.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity-ktx:1.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/6dde38313aa2f53a7ced085d8c9978f5/transformed/activity-ktx-1.9.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-ktx:1.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/6dde38313aa2f53a7ced085d8c9978f5/transformed/activity-ktx-1.9.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-compose:1.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/26cb5aeac3b33e358b687bf9d19a1334/transformed/activity-compose-1.9.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-compose:1.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/26cb5aeac3b33e358b687bf9d19a1334/transformed/activity-compose-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.10.0] /home/philipp/.gradle/caches/8.14.3/transforms/abe791d903e453efdb98363b493edf0d/transformed/activity-ktx-1.10.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.10.0] /home/philipp/.gradle/caches/8.14.3/transforms/abe791d903e453efdb98363b493edf0d/transformed/activity-ktx-1.10.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.10.0] /home/philipp/.gradle/caches/8.14.3/transforms/b20f67a59d7a11a3429fa17a15a2b043/transformed/activity-1.10.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.10.0] /home/philipp/.gradle/caches/8.14.3/transforms/b20f67a59d7a11a3429fa17a15a2b043/transformed/activity-1.10.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.10.0] /home/philipp/.gradle/caches/8.14.3/transforms/ea12acbe9646b54f5fc535ae151189de/transformed/activity-compose-1.10.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.10.0] /home/philipp/.gradle/caches/8.14.3/transforms/ea12acbe9646b54f5fc535ae151189de/transformed/activity-compose-1.10.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.material:material-icons-core:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/625a91e344b905112177a1dd8bbc68c4/transformed/material-icons-core-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.compose.material:material-icons-core:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/625a91e344b905112177a1dd8bbc68c4/transformed/material-icons-core-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.transition:transition:1.5.0] /home/philipp/.gradle/caches/8.14.3/transforms/eac3864e1dae0af0eb5048054d9da96b/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.transition:transition:1.5.0] /home/philipp/.gradle/caches/8.14.3/transforms/eac3864e1dae0af0eb5048054d9da96b/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/36b2c1165e97f25e79e9d3b55eb486fb/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/36b2c1165e97f25e79e9d3b55eb486fb/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/9ba8c05e06ec010121ac0893963d67c9/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/9ba8c05e06ec010121ac0893963d67c9/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/eaee112a031698ae3adca4624a4634b9/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/eaee112a031698ae3adca4624a4634b9/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/6dcece7035f2517db78b488e4218b02d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
@@ -637,36 +709,10 @@ MERGED from [androidx.emoji2:emoji2-views-helper:1.4.0] /home/philipp/.gradle/ca
 MERGED from [androidx.emoji2:emoji2-views-helper:1.4.0] /home/philipp/.gradle/caches/8.14.3/transforms/85b5647b4ed7370b104d7b6397ed9931/transformed/emoji2-views-helper-1.4.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2:1.4.0] /home/philipp/.gradle/caches/8.14.3/transforms/b58d9a2a12955913ab633f89d2a3f99c/transformed/emoji2-1.4.0/AndroidManifest.xml:21:5-44
 MERGED from [androidx.emoji2:emoji2:1.4.0] /home/philipp/.gradle/caches/8.14.3/transforms/b58d9a2a12955913ab633f89d2a3f99c/transformed/emoji2-1.4.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/d7dd470cb3b5bc548ee3e6b801a4f973/transformed/lifecycle-runtime-ktx/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/d7dd470cb3b5bc548ee3e6b801a4f973/transformed/lifecycle-runtime-ktx/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/0a1a10cb28da9fa2150fab08580117e7/transformed/lifecycle-runtime-2.9.0/AndroidManifest.xml:4:5-43
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/0a1a10cb28da9fa2150fab08580117e7/transformed/lifecycle-runtime-2.9.0/AndroidManifest.xml:4:5-43
-MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/616f2bdc0a2f93e192965a1107567f19/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/616f2bdc0a2f93e192965a1107567f19/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/65dc7d3e87ba287ad7f61e56b444a128/transformed/lifecycle-viewmodel-ktx-2.9.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/65dc7d3e87ba287ad7f61e56b444a128/transformed/lifecycle-viewmodel-ktx-2.9.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-service:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/1dae2806a34aff33ee6053a0adc76d24/transformed/lifecycle-service-2.9.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-service:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/1dae2806a34aff33ee6053a0adc76d24/transformed/lifecycle-service-2.9.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/f6bb139684f74e6a66156728993c4076/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/f6bb139684f74e6a66156728993c4076/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/e12cb7f3c308b6db49525d20002b00db/transformed/lifecycle-livedata-core-ktx-2.9.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/e12cb7f3c308b6db49525d20002b00db/transformed/lifecycle-livedata-core-ktx-2.9.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/24472fabc77fdf97139f9c868566b68e/transformed/lifecycle-livedata-core-2.9.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/24472fabc77fdf97139f9c868566b68e/transformed/lifecycle-livedata-core-2.9.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/ed4f97fe9c6322358557185d5cd8b2a9/transformed/lifecycle-livedata-2.9.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/ed4f97fe9c6322358557185d5cd8b2a9/transformed/lifecycle-livedata-2.9.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/57799cb8a98dfcd554996c803514cd0c/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/57799cb8a98dfcd554996c803514cd0c/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/9c2540303a6d48f83c29a5977e96a396/transformed/lifecycle-viewmodel-savedstate-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/9c2540303a6d48f83c29a5977e96a396/transformed/lifecycle-viewmodel-savedstate-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/6b94f8bae5426a010d9ce37d1eb46765/transformed/lifecycle-viewmodel-2.9.0/AndroidManifest.xml:4:5-43
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/6b94f8bae5426a010d9ce37d1eb46765/transformed/lifecycle-viewmodel-2.9.0/AndroidManifest.xml:4:5-43
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/469f388659498c73e29bcf14d7ff4670/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/469f388659498c73e29bcf14d7ff4670/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/d86b2c590ccc19e7cd76e40209ec6a12/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/d86b2c590ccc19e7cd76e40209ec6a12/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-android:1.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/e822fea9f522615b585a926b20f7ab3b/transformed/ui-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-android:1.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/e822fea9f522615b585a926b20f7ab3b/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/9cf36f9f5aa6018c2ba795ada9ff023f/transformed/coordinatorlayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/9cf36f9f5aa6018c2ba795ada9ff023f/transformed/coordinatorlayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /home/philipp/.gradle/caches/8.14.3/transforms/40582d553322999ef6987df4bc1073fc/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /home/philipp/.gradle/caches/8.14.3/transforms/40582d553322999ef6987df4bc1073fc/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.autofill:autofill:1.1.0] /home/philipp/.gradle/caches/8.14.3/transforms/f64db6c5be43242dee0fe7d116b22db0/transformed/autofill-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.autofill:autofill:1.1.0] /home/philipp/.gradle/caches/8.14.3/transforms/f64db6c5be43242dee0fe7d116b22db0/transformed/autofill-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.facebook.fresco:animated-gif:3.6.0] /home/philipp/.gradle/caches/8.14.3/transforms/e704b886518ca7ed9c186f8e02194b26/transformed/animated-gif-3.6.0/AndroidManifest.xml:5:5-44
@@ -737,6 +783,44 @@ MERGED from [androidx.graphics:graphics-path:1.0.1] /home/philipp/.gradle/caches
 MERGED from [androidx.graphics:graphics-path:1.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/48ad68e0e317fe7421f00341584427bc/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core:1.16.0] /home/philipp/.gradle/caches/8.14.3/transforms/e46b185fb05c9a9bdde92c2512835042/transformed/core-1.16.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.16.0] /home/philipp/.gradle/caches/8.14.3/transforms/e46b185fb05c9a9bdde92c2512835042/transformed/core-1.16.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/d7dd470cb3b5bc548ee3e6b801a4f973/transformed/lifecycle-runtime-ktx/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/d7dd470cb3b5bc548ee3e6b801a4f973/transformed/lifecycle-runtime-ktx/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/0a1a10cb28da9fa2150fab08580117e7/transformed/lifecycle-runtime-2.9.0/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/0a1a10cb28da9fa2150fab08580117e7/transformed/lifecycle-runtime-2.9.0/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/616f2bdc0a2f93e192965a1107567f19/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/616f2bdc0a2f93e192965a1107567f19/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/65dc7d3e87ba287ad7f61e56b444a128/transformed/lifecycle-viewmodel-ktx-2.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/65dc7d3e87ba287ad7f61e56b444a128/transformed/lifecycle-viewmodel-ktx-2.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/1dae2806a34aff33ee6053a0adc76d24/transformed/lifecycle-service-2.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/1dae2806a34aff33ee6053a0adc76d24/transformed/lifecycle-service-2.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/f6bb139684f74e6a66156728993c4076/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/f6bb139684f74e6a66156728993c4076/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/e12cb7f3c308b6db49525d20002b00db/transformed/lifecycle-livedata-core-ktx-2.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/e12cb7f3c308b6db49525d20002b00db/transformed/lifecycle-livedata-core-ktx-2.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/24472fabc77fdf97139f9c868566b68e/transformed/lifecycle-livedata-core-2.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/24472fabc77fdf97139f9c868566b68e/transformed/lifecycle-livedata-core-2.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/ed4f97fe9c6322358557185d5cd8b2a9/transformed/lifecycle-livedata-2.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/ed4f97fe9c6322358557185d5cd8b2a9/transformed/lifecycle-livedata-2.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/57799cb8a98dfcd554996c803514cd0c/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/57799cb8a98dfcd554996c803514cd0c/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/9c2540303a6d48f83c29a5977e96a396/transformed/lifecycle-viewmodel-savedstate-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/9c2540303a6d48f83c29a5977e96a396/transformed/lifecycle-viewmodel-savedstate-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/6b94f8bae5426a010d9ce37d1eb46765/transformed/lifecycle-viewmodel-2.9.0/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/6b94f8bae5426a010d9ce37d1eb46765/transformed/lifecycle-viewmodel-2.9.0/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/469f388659498c73e29bcf14d7ff4670/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/469f388659498c73e29bcf14d7ff4670/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/d86b2c590ccc19e7cd76e40209ec6a12/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/d86b2c590ccc19e7cd76e40209ec6a12/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/e822fea9f522615b585a926b20f7ab3b/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/e822fea9f522615b585a926b20f7ab3b/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/02690b604cd936acaf93cd5a4d12e6a2/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/02690b604cd936acaf93cd5a4d12e6a2/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /home/philipp/.gradle/caches/8.14.3/transforms/5b79090ad889ec04e71c165b101075d1/transformed/play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /home/philipp/.gradle/caches/8.14.3/transforms/5b79090ad889ec04e71c165b101075d1/transformed/play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
+MERGED from [androidx.fragment:fragment:1.6.1] /home/philipp/.gradle/caches/8.14.3/transforms/d4d22ac7e9c6a53661148c0e3d4e2a74/transformed/fragment-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.1] /home/philipp/.gradle/caches/8.14.3/transforms/d4d22ac7e9c6a53661148c0e3d4e2a74/transformed/fragment-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.1] /home/philipp/.gradle/caches/8.14.3/transforms/a60133d97d770bd96affe1ed19bfcbfb/transformed/fragment-ktx-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.1] /home/philipp/.gradle/caches/8.14.3/transforms/a60133d97d770bd96affe1ed19bfcbfb/transformed/fragment-ktx-1.6.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/c4154a86644a3338366c284362471e40/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/c4154a86644a3338366c284362471e40/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
 MERGED from [androidx.core:core-ktx:1.16.0] /home/philipp/.gradle/caches/8.14.3/transforms/b513a6aacba6cdce9202a0789ddb695d/transformed/core-ktx-1.16.0/AndroidManifest.xml:5:5-44
@@ -765,40 +849,46 @@ MERGED from [com.facebook.react:hermes-android:0.81.5] /home/philipp/.gradle/cac
 MERGED from [com.facebook.react:hermes-android:0.81.5] /home/philipp/.gradle/caches/8.14.3/transforms/f3d279cf13499f4c93e2b512ac9499e6/transformed/hermes-android-0.81.5-debug/AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:viewbinding:8.11.0] /home/philipp/.gradle/caches/8.14.3/transforms/d569b5ae00f498f19b28b0ec16b85426/transformed/viewbinding-8.11.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:viewbinding:8.11.0] /home/philipp/.gradle/caches/8.14.3/transforms/d569b5ae00f498f19b28b0ec16b85426/transformed/viewbinding-8.11.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /home/philipp/.gradle/caches/8.14.3/transforms/971b8d6dbb982fb2fd7b1aaec9961645/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /home/philipp/.gradle/caches/8.14.3/transforms/971b8d6dbb982fb2fd7b1aaec9961645/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/c379609ddb82b315fe3d751c7650687f/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/c379609ddb82b315fe3d751c7650687f/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/90f4ed8cd9677cd23701d2c393e8cf50/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/90f4ed8cd9677cd23701d2c393e8cf50/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/05d650c56800867a8e0a7c8133c27a26/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/05d650c56800867a8e0a7c8133c27a26/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /home/philipp/.gradle/caches/8.14.3/transforms/f3d4730104367671fe5c0d35db519374/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /home/philipp/.gradle/caches/8.14.3/transforms/f3d4730104367671fe5c0d35db519374/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /home/philipp/.gradle/caches/8.14.3/transforms/c26896003b67dff23b03e3de03950ce3/transformed/transport-runtime-2.2.6/AndroidManifest.xml:18:5-20:41
-MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /home/philipp/.gradle/caches/8.14.3/transforms/c26896003b67dff23b03e3de03950ce3/transformed/transport-runtime-2.2.6/AndroidManifest.xml:18:5-20:41
-MERGED from [com.google.android.datatransport:transport-api:2.2.1] /home/philipp/.gradle/caches/8.14.3/transforms/bab328609e615489a70e8506c97e27ed/transformed/transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
-MERGED from [com.google.android.datatransport:transport-api:2.2.1] /home/philipp/.gradle/caches/8.14.3/transforms/bab328609e615489a70e8506c97e27ed/transformed/transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
-MERGED from [com.google.firebase:firebase-components:16.1.0] /home/philipp/.gradle/caches/8.14.3/transforms/969df1f885afd692d445383c5e8ff3a0/transformed/firebase-components-16.1.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-components:16.1.0] /home/philipp/.gradle/caches/8.14.3/transforms/969df1f885afd692d445383c5e8ff3a0/transformed/firebase-components-16.1.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /home/philipp/.gradle/caches/8.14.3/transforms/8b0fffae231888f6cea8be0ea0d1268d/transformed/firebase-encoders-json-17.1.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /home/philipp/.gradle/caches/8.14.3/transforms/8b0fffae231888f6cea8be0ea0d1268d/transformed/firebase-encoders-json-17.1.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] /home/philipp/.gradle/caches/8.14.3/transforms/d9f13e9cecb1eec84e4580788ebab8cb/transformed/gifdecoder-4.16.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] /home/philipp/.gradle/caches/8.14.3/transforms/d9f13e9cecb1eec84e4580788ebab8cb/transformed/gifdecoder-4.16.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-components:18.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/eaf4a5098c87be4064a3a472de370c82/transformed/firebase-components-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/eaf4a5098c87be4064a3a472de370c82/transformed/firebase-components-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/405e84b1c55c3127697f0c60dafbd880/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/405e84b1c55c3127697f0c60dafbd880/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/philipp/.gradle/caches/8.14.3/transforms/872c9fc07072b1a23d766190a5ab2f11/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/philipp/.gradle/caches/8.14.3/transforms/872c9fc07072b1a23d766190a5ab2f11/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/0c56c95dfb6b9fe068c65d0b5bd517a1/transformed/firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/0c56c95dfb6b9fe068c65d0b5bd517a1/transformed/firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/philipp/.gradle/caches/8.14.3/transforms/d4bc326084c0cc66368bc2cf45a63a69/transformed/transport-runtime-3.1.9/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/philipp/.gradle/caches/8.14.3/transforms/d4bc326084c0cc66368bc2cf45a63a69/transformed/transport-runtime-3.1.9/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] /home/philipp/.gradle/caches/8.14.3/transforms/96e30702ad6a9d645f515132472e1ba1/transformed/transport-api-3.1.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] /home/philipp/.gradle/caches/8.14.3/transforms/96e30702ad6a9d645f515132472e1ba1/transformed/transport-api-3.1.0/AndroidManifest.xml:18:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/e4a217637869a5b0b76180b11f088cec/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/e4a217637869a5b0b76180b11f088cec/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/307ce9bb7b3883d6930481522e26c221/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/307ce9bb7b3883d6930481522e26c221/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/8aacba71b329b36994f2ca89d11cbcfa/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/8aacba71b329b36994f2ca89d11cbcfa/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.exifinterface:exifinterface:1.3.7] /home/philipp/.gradle/caches/8.14.3/transforms/971b8d6dbb982fb2fd7b1aaec9961645/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.7] /home/philipp/.gradle/caches/8.14.3/transforms/971b8d6dbb982fb2fd7b1aaec9961645/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
 MERGED from [io.github.thanosfisherman.wifiutils:wifiutils:1.6.6] /home/philipp/.gradle/caches/8.14.3/transforms/d5a9ff24b4ede1cfcfca562aaf2a429c/transformed/wifiutils-1.6.6/AndroidManifest.xml:5:5-7:41
 MERGED from [io.github.thanosfisherman.wifiutils:wifiutils:1.6.6] /home/philipp/.gradle/caches/8.14.3/transforms/d5a9ff24b4ede1cfcfca562aaf2a429c/transformed/wifiutils-1.6.6/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fbjni:fbjni:0.7.0] /home/philipp/.gradle/caches/8.14.3/transforms/488fe6e480efb97ec75859f6e274282f/transformed/fbjni-0.7.0/AndroidManifest.xml:5:5-44
 MERGED from [com.facebook.fbjni:fbjni:0.7.0] /home/philipp/.gradle/caches/8.14.3/transforms/488fe6e480efb97ec75859f6e274282f/transformed/fbjni-0.7.0/AndroidManifest.xml:5:5-44
 MERGED from [com.facebook.soloader:soloader:0.12.1] /home/philipp/.gradle/caches/8.14.3/transforms/05ca301ef8caf9bf145c0fbd2f24a323/transformed/soloader-0.12.1/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.soloader:soloader:0.12.1] /home/philipp/.gradle/caches/8.14.3/transforms/05ca301ef8caf9bf145c0fbd2f24a323/transformed/soloader-0.12.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.installreferrer:installreferrer:2.2] /home/philipp/.gradle/caches/8.14.3/transforms/d93169e057e3c702a04d6f87a3fcccfa/transformed/installreferrer-2.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.installreferrer:installreferrer:2.2] /home/philipp/.gradle/caches/8.14.3/transforms/d93169e057e3c702a04d6f87a3fcccfa/transformed/installreferrer-2.2/AndroidManifest.xml:5:5-7:41
 MERGED from [com.caverock:androidsvg-aar:1.4] /home/philipp/.gradle/caches/8.14.3/transforms/fd2f6184191a9f8db9e25fc33d4b0b10/transformed/androidsvg-aar-1.4/AndroidManifest.xml:7:5-9:41
 MERGED from [com.caverock:androidsvg-aar:1.4] /home/philipp/.gradle/caches/8.14.3/transforms/fd2f6184191a9f8db9e25fc33d4b0b10/transformed/androidsvg-aar-1.4/AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /home/philipp/.gradle/caches/8.14.3/transforms/acf02160189ad79c9f743db6cbf59d93/transformed/ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /home/philipp/.gradle/caches/8.14.3/transforms/acf02160189ad79c9f743db6cbf59d93/transformed/ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
 MERGED from [org.aomedia.avif.android:avif:1.1.1.14d8e3c4] /home/philipp/.gradle/caches/8.14.3/transforms/d36fe0b388d18d20887dd334271d2049/transformed/avif-1.1.1.14d8e3c4/AndroidManifest.xml:4:5-44
 MERGED from [org.aomedia.avif.android:avif:1.1.1.14d8e3c4] /home/philipp/.gradle/caches/8.14.3/transforms/d36fe0b388d18d20887dd334271d2049/transformed/avif-1.1.1.14d8e3c4/AndroidManifest.xml:4:5-44
 MERGED from [com.google.android.odml:image:1.0.0-beta1] /home/philipp/.gradle/caches/8.14.3/transforms/1fc8e43967824749fc7ab9f720e27404/transformed/image-1.0.0-beta1/AndroidManifest.xml:5:5-44
@@ -829,10 +919,16 @@ uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [:react-native-wifi-reborn] /home/philipp/Programming/plant-tracker/companion/node_modules/react-native-wifi-reborn/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:5-79
 MERGED from [BareExpo:expo.modules.image:3.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/8aff255269f8ff35f49d76037f05e17b/transformed/expo.modules.image-3.0.10/AndroidManifest.xml:12:5-79
 MERGED from [BareExpo:expo.modules.image:3.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/8aff255269f8ff35f49d76037f05e17b/transformed/expo.modules.image-3.0.10/AndroidManifest.xml:12:5-79
-MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /home/philipp/.gradle/caches/8.14.3/transforms/f3d4730104367671fe5c0d35db519374/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
-MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /home/philipp/.gradle/caches/8.14.3/transforms/f3d4730104367671fe5c0d35db519374/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
-MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /home/philipp/.gradle/caches/8.14.3/transforms/c26896003b67dff23b03e3de03950ce3/transformed/transport-runtime-2.2.6/AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /home/philipp/.gradle/caches/8.14.3/transforms/c26896003b67dff23b03e3de03950ce3/transformed/transport-runtime-2.2.6/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-messaging:24.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/cb72cc0c078ae8c375400415cfbf9fad/transformed/firebase-messaging-24.0.1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-messaging:24.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/cb72cc0c078ae8c375400415cfbf9fad/transformed/firebase-messaging-24.0.1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/2e90ae09c3b4c34ea24a896741e25fc0/transformed/firebase-installations-17.2.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/2e90ae09c3b4c34ea24a896741e25fc0/transformed/firebase-installations-17.2.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/eecda797b336f3237450db06bc5cbb9a/transformed/play-services-cloud-messaging-17.2.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/eecda797b336f3237450db06bc5cbb9a/transformed/play-services-cloud-messaging-17.2.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/philipp/.gradle/caches/8.14.3/transforms/872c9fc07072b1a23d766190a5ab2f11/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/philipp/.gradle/caches/8.14.3/transforms/872c9fc07072b1a23d766190a5ab2f11/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/philipp/.gradle/caches/8.14.3/transforms/d4bc326084c0cc66368bc2cf45a63a69/transformed/transport-runtime-3.1.9/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/philipp/.gradle/caches/8.14.3/transforms/d4bc326084c0cc66368bc2cf45a63a69/transformed/transport-runtime-3.1.9/AndroidManifest.xml:22:5-79
 MERGED from [io.github.thanosfisherman.wifiutils:wifiutils:1.6.6] /home/philipp/.gradle/caches/8.14.3/transforms/d5a9ff24b4ede1cfcfca562aaf2a429c/transformed/wifiutils-1.6.6/AndroidManifest.xml:10:5-79
 MERGED from [io.github.thanosfisherman.wifiutils:wifiutils:1.6.6] /home/philipp/.gradle/caches/8.14.3/transforms/d5a9ff24b4ede1cfcfca562aaf2a429c/transformed/wifiutils-1.6.6/AndroidManifest.xml:10:5-79
 	android:name
@@ -924,6 +1020,64 @@ ADDED from [host.exp.exponent:expo.modules.filesystem:19.0.17] /home/philipp/.gr
 		ADDED from [host.exp.exponent:expo.modules.filesystem:19.0.17] /home/philipp/.gradle/caches/8.14.3/transforms/79fb956c45fed9ef251d7e82b758a2e3/transformed/expo.modules.filesystem-19.0.17/AndroidManifest.xml:29:17-67
 	android:name
 		ADDED from [host.exp.exponent:expo.modules.filesystem:19.0.17] /home/philipp/.gradle/caches/8.14.3/transforms/79fb956c45fed9ef251d7e82b758a2e3/transformed/expo.modules.filesystem-19.0.17/AndroidManifest.xml:28:17-67
+uses-permission#android.permission.CAMERA
+ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:8:5-65
+	android:name
+		ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:8:22-62
+intent#action:name:android.media.action.IMAGE_CAPTURE
+ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:15:9-19:18
+action#android.media.action.IMAGE_CAPTURE
+ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:18:13-73
+	android:name
+		ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:18:21-70
+intent#action:name:android.media.action.ACTION_VIDEO_CAPTURE
+ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:20:9-24:18
+action#android.media.action.ACTION_VIDEO_CAPTURE
+ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:23:13-80
+	android:name
+		ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:23:21-77
+service#com.google.android.gms.metadata.ModuleDependencies
+ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:28:9-40:19
+	android:enabled
+		ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:30:13-36
+	android:exported
+		ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:31:13-37
+	tools:ignore
+		ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:32:13-40
+	android:name
+		ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:29:13-78
+intent-filter#action:name:com.google.android.gms.metadata.MODULE_DEPENDENCIES
+ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:33:13-35:29
+action#com.google.android.gms.metadata.MODULE_DEPENDENCIES
+ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:34:17-94
+	android:name
+		ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:34:25-91
+meta-data#photopicker_activity:0:required
+ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:37:13-39:36
+	android:value
+		ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:39:17-33
+	android:name
+		ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:38:17-63
+activity#expo.modules.imagepicker.ExpoCropImageActivity
+ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:42:9-46:48
+	android:exported
+		ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:44:13-37
+	android:theme
+		ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:45:13-56
+	tools:replace
+		ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:46:13-45
+	android:name
+		ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:43:13-74
+provider#expo.modules.imagepicker.fileprovider.ImagePickerFileProvider
+ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:48:9-56:20
+	android:grantUriPermissions
+		ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:52:13-47
+	android:authorities
+		ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:50:13-75
+	android:exported
+		ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:51:13-37
+	android:name
+		ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.10] /home/philipp/.gradle/caches/8.14.3/transforms/fc711f873d3fb7eb3cb1ed8fff21b9d4/transformed/expo.modules.imagepicker-17.0.10/AndroidManifest.xml:49:13-89
 service#expo.modules.location.services.LocationTaskService
 ADDED from [host.exp.exponent:expo.modules.location:19.0.7] /home/philipp/.gradle/caches/8.14.3/transforms/68616525dcd110d73da6324a35417e2a/transformed/expo.modules.location-19.0.7/AndroidManifest.xml:11:9-14:56
 	android:exported
@@ -932,18 +1086,208 @@ ADDED from [host.exp.exponent:expo.modules.location:19.0.7] /home/philipp/.gradl
 		ADDED from [host.exp.exponent:expo.modules.location:19.0.7] /home/philipp/.gradle/caches/8.14.3/transforms/68616525dcd110d73da6324a35417e2a/transformed/expo.modules.location-19.0.7/AndroidManifest.xml:14:13-53
 	android:name
 		ADDED from [host.exp.exponent:expo.modules.location:19.0.7] /home/philipp/.gradle/caches/8.14.3/transforms/68616525dcd110d73da6324a35417e2a/transformed/expo.modules.location-19.0.7/AndroidManifest.xml:12:13-78
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:8:5-77
+MERGED from [com.google.firebase:firebase-messaging:24.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/cb72cc0c078ae8c375400415cfbf9fad/transformed/firebase-messaging-24.0.1/AndroidManifest.xml:23:5-77
+MERGED from [com.google.firebase:firebase-messaging:24.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/cb72cc0c078ae8c375400415cfbf9fad/transformed/firebase-messaging-24.0.1/AndroidManifest.xml:23:5-77
+	android:name
+		ADDED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:8:22-74
+service#expo.modules.notifications.service.ExpoFirebaseMessagingService
+ADDED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:11:9-17:19
+	android:exported
+		ADDED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:12:13-91
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:14:13-16:29
+	android:priority
+		ADDED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:14:28-49
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:15:17-78
+	android:name
+		ADDED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:15:25-75
+receiver#expo.modules.notifications.service.NotificationsService
+ADDED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:19:9-31:20
+	android:enabled
+		ADDED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:21:13-35
+	android:exported
+		ADDED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:22:13-37
+	android:name
+		ADDED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:20:13-83
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:android.intent.action.REBOOT+action:name:com.htc.intent.action.QUICKBOOT_POWERON+action:name:expo.modules.notifications.NOTIFICATION_EVENT
+ADDED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:23:13-30:29
+	android:priority
+		ADDED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:23:28-49
+action#expo.modules.notifications.NOTIFICATION_EVENT
+ADDED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:24:17-88
+	android:name
+		ADDED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:24:25-85
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:25:17-79
+	android:name
+		ADDED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:25:25-76
+action#android.intent.action.REBOOT
+ADDED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:26:17-71
+	android:name
+		ADDED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:26:25-68
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:27:17-82
+	android:name
+		ADDED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:27:25-79
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:28:17-82
+	android:name
+		ADDED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:28:25-79
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:29:17-84
+	android:name
+		ADDED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:29:25-81
+activity#expo.modules.notifications.service.NotificationForwarderActivity
+ADDED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:33:9-40:75
+	android:excludeFromRecents
+		ADDED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:35:13-46
+	android:launchMode
+		ADDED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:37:13-42
+	android:noHistory
+		ADDED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:38:13-37
+	android:exported
+		ADDED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:36:13-37
+	android:theme
+		ADDED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:40:13-72
+	android:taskAffinity
+		ADDED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:39:13-36
+	android:name
+		ADDED from [host.exp.exponent:expo.modules.notifications:0.32.15] /home/philipp/.gradle/caches/8.14.3/transforms/108816aacb75cd8e4e1b82030d93d3e4/transformed/expo.modules.notifications-0.32.15/AndroidManifest.xml:34:13-92
 intent#action:name:android.support.customtabs.action.CustomTabsService
 ADDED from [host.exp.exponent:expo.modules.webbrowser:15.0.9] /home/philipp/.gradle/caches/8.14.3/transforms/887ae93d7eb3f8beba8a5b51a221ab6b/transformed/expo.modules.webbrowser-15.0.9/AndroidManifest.xml:8:9-12:18
 action#android.support.customtabs.action.CustomTabsService
 ADDED from [host.exp.exponent:expo.modules.webbrowser:15.0.9] /home/philipp/.gradle/caches/8.14.3/transforms/887ae93d7eb3f8beba8a5b51a221ab6b/transformed/expo.modules.webbrowser-15.0.9/AndroidManifest.xml:11:13-90
 	android:name
 		ADDED from [host.exp.exponent:expo.modules.webbrowser:15.0.9] /home/philipp/.gradle/caches/8.14.3/transforms/887ae93d7eb3f8beba8a5b51a221ab6b/transformed/expo.modules.webbrowser-15.0.9/AndroidManifest.xml:11:21-87
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/cb72cc0c078ae8c375400415cfbf9fad/transformed/firebase-messaging-24.0.1/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/eecda797b336f3237450db06bc5cbb9a/transformed/play-services-cloud-messaging-17.2.0/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/eecda797b336f3237450db06bc5cbb9a/transformed/play-services-cloud-messaging-17.2.0/AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/cb72cc0c078ae8c375400415cfbf9fad/transformed/firebase-messaging-24.0.1/AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/cb72cc0c078ae8c375400415cfbf9fad/transformed/firebase-messaging-24.0.1/AndroidManifest.xml:26:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/eecda797b336f3237450db06bc5cbb9a/transformed/play-services-cloud-messaging-17.2.0/AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/eecda797b336f3237450db06bc5cbb9a/transformed/play-services-cloud-messaging-17.2.0/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/cb72cc0c078ae8c375400415cfbf9fad/transformed/firebase-messaging-24.0.1/AndroidManifest.xml:26:22-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/cb72cc0c078ae8c375400415cfbf9fad/transformed/firebase-messaging-24.0.1/AndroidManifest.xml:29:9-40:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/cb72cc0c078ae8c375400415cfbf9fad/transformed/firebase-messaging-24.0.1/AndroidManifest.xml:31:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/cb72cc0c078ae8c375400415cfbf9fad/transformed/firebase-messaging-24.0.1/AndroidManifest.xml:32:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/cb72cc0c078ae8c375400415cfbf9fad/transformed/firebase-messaging-24.0.1/AndroidManifest.xml:30:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/cb72cc0c078ae8c375400415cfbf9fad/transformed/firebase-messaging-24.0.1/AndroidManifest.xml:33:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/cb72cc0c078ae8c375400415cfbf9fad/transformed/firebase-messaging-24.0.1/AndroidManifest.xml:34:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/cb72cc0c078ae8c375400415cfbf9fad/transformed/firebase-messaging-24.0.1/AndroidManifest.xml:34:25-78
+meta-data#com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED
+ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/cb72cc0c078ae8c375400415cfbf9fad/transformed/firebase-messaging-24.0.1/AndroidManifest.xml:37:13-39:40
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/cb72cc0c078ae8c375400415cfbf9fad/transformed/firebase-messaging-24.0.1/AndroidManifest.xml:39:17-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/cb72cc0c078ae8c375400415cfbf9fad/transformed/firebase-messaging-24.0.1/AndroidManifest.xml:38:17-92
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/cb72cc0c078ae8c375400415cfbf9fad/transformed/firebase-messaging-24.0.1/AndroidManifest.xml:46:9-53:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/cb72cc0c078ae8c375400415cfbf9fad/transformed/firebase-messaging-24.0.1/AndroidManifest.xml:49:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/cb72cc0c078ae8c375400415cfbf9fad/transformed/firebase-messaging-24.0.1/AndroidManifest.xml:48:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/cb72cc0c078ae8c375400415cfbf9fad/transformed/firebase-messaging-24.0.1/AndroidManifest.xml:47:13-82
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/cb72cc0c078ae8c375400415cfbf9fad/transformed/firebase-messaging-24.0.1/AndroidManifest.xml:54:9-63:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/2e90ae09c3b4c34ea24a896741e25fc0/transformed/firebase-installations-17.2.0/AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/2e90ae09c3b4c34ea24a896741e25fc0/transformed/firebase-installations-17.2.0/AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/bc085e3c51e7bf1c64a62cff24b982c2/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/bc085e3c51e7bf1c64a62cff24b982c2/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/0d43b38315b89a96880e1efc6c895c6c/transformed/firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/0d43b38315b89a96880e1efc6c895c6c/transformed/firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/405e84b1c55c3127697f0c60dafbd880/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:22:9-28:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/405e84b1c55c3127697f0c60dafbd880/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:22:9-28:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/cb72cc0c078ae8c375400415cfbf9fad/transformed/firebase-messaging-24.0.1/AndroidManifest.xml:56:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/0d43b38315b89a96880e1efc6c895c6c/transformed/firebase-common-21.0.0/AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/0d43b38315b89a96880e1efc6c895c6c/transformed/firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/cb72cc0c078ae8c375400415cfbf9fad/transformed/firebase-messaging-24.0.1/AndroidManifest.xml:55:13-84
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar
+ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/cb72cc0c078ae8c375400415cfbf9fad/transformed/firebase-messaging-24.0.1/AndroidManifest.xml:57:13-59:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/cb72cc0c078ae8c375400415cfbf9fad/transformed/firebase-messaging-24.0.1/AndroidManifest.xml:59:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/cb72cc0c078ae8c375400415cfbf9fad/transformed/firebase-messaging-24.0.1/AndroidManifest.xml:58:17-122
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/cb72cc0c078ae8c375400415cfbf9fad/transformed/firebase-messaging-24.0.1/AndroidManifest.xml:60:13-62:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/cb72cc0c078ae8c375400415cfbf9fad/transformed/firebase-messaging-24.0.1/AndroidManifest.xml:62:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/philipp/.gradle/caches/8.14.3/transforms/cb72cc0c078ae8c375400415cfbf9fad/transformed/firebase-messaging-24.0.1/AndroidManifest.xml:61:17-119
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/2e90ae09c3b4c34ea24a896741e25fc0/transformed/firebase-installations-17.2.0/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/2e90ae09c3b4c34ea24a896741e25fc0/transformed/firebase-installations-17.2.0/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/2e90ae09c3b4c34ea24a896741e25fc0/transformed/firebase-installations-17.2.0/AndroidManifest.xml:16:17-130
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/2e90ae09c3b4c34ea24a896741e25fc0/transformed/firebase-installations-17.2.0/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/2e90ae09c3b4c34ea24a896741e25fc0/transformed/firebase-installations-17.2.0/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/2e90ae09c3b4c34ea24a896741e25fc0/transformed/firebase-installations-17.2.0/AndroidManifest.xml:19:17-127
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/bc085e3c51e7bf1c64a62cff24b982c2/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/bc085e3c51e7bf1c64a62cff24b982c2/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/bc085e3c51e7bf1c64a62cff24b982c2/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
 meta-data#com.bumptech.glide.integration.okhttp3.OkHttpGlideModule
 ADDED from [com.github.bumptech.glide:okhttp3-integration:4.11.0] /home/philipp/.gradle/caches/8.14.3/transforms/4e58cce98c9b2e2747f3e1e6ed814d74/transformed/okhttp3-integration-4.11.0/AndroidManifest.xml:11:9-13:43
 	android:value
 		ADDED from [com.github.bumptech.glide:okhttp3-integration:4.11.0] /home/philipp/.gradle/caches/8.14.3/transforms/4e58cce98c9b2e2747f3e1e6ed814d74/transformed/okhttp3-integration-4.11.0/AndroidManifest.xml:13:13-40
 	android:name
 		ADDED from [com.github.bumptech.glide:okhttp3-integration:4.11.0] /home/philipp/.gradle/caches/8.14.3/transforms/4e58cce98c9b2e2747f3e1e6ed814d74/transformed/okhttp3-integration-4.11.0/AndroidManifest.xml:12:13-84
+intent#action:name:android.intent.action.GET_CONTENT+category:name:android.intent.category.OPENABLE+data:mimeType:*/*
+ADDED from [com.vanniktech:android-image-cropper:4.6.0] /home/philipp/.gradle/caches/8.14.3/transforms/30de3346b9d65fc927c629fd3105e5d0/transformed/android-image-cropper-4.6.0/AndroidManifest.xml:8:9-14:18
+action#android.intent.action.GET_CONTENT
+ADDED from [com.vanniktech:android-image-cropper:4.6.0] /home/philipp/.gradle/caches/8.14.3/transforms/30de3346b9d65fc927c629fd3105e5d0/transformed/android-image-cropper-4.6.0/AndroidManifest.xml:9:13-72
+	android:name
+		ADDED from [com.vanniktech:android-image-cropper:4.6.0] /home/philipp/.gradle/caches/8.14.3/transforms/30de3346b9d65fc927c629fd3105e5d0/transformed/android-image-cropper-4.6.0/AndroidManifest.xml:9:21-69
+category#android.intent.category.OPENABLE
+ADDED from [com.vanniktech:android-image-cropper:4.6.0] /home/philipp/.gradle/caches/8.14.3/transforms/30de3346b9d65fc927c629fd3105e5d0/transformed/android-image-cropper-4.6.0/AndroidManifest.xml:11:13-73
+	android:name
+		ADDED from [com.vanniktech:android-image-cropper:4.6.0] /home/philipp/.gradle/caches/8.14.3/transforms/30de3346b9d65fc927c629fd3105e5d0/transformed/android-image-cropper-4.6.0/AndroidManifest.xml:11:23-70
+provider#com.canhub.cropper.CropFileProvider
+ADDED from [com.vanniktech:android-image-cropper:4.6.0] /home/philipp/.gradle/caches/8.14.3/transforms/30de3346b9d65fc927c629fd3105e5d0/transformed/android-image-cropper-4.6.0/AndroidManifest.xml:21:9-29:20
+	android:grantUriPermissions
+		ADDED from [com.vanniktech:android-image-cropper:4.6.0] /home/philipp/.gradle/caches/8.14.3/transforms/30de3346b9d65fc927c629fd3105e5d0/transformed/android-image-cropper-4.6.0/AndroidManifest.xml:25:13-47
+	android:authorities
+		ADDED from [com.vanniktech:android-image-cropper:4.6.0] /home/philipp/.gradle/caches/8.14.3/transforms/30de3346b9d65fc927c629fd3105e5d0/transformed/android-image-cropper-4.6.0/AndroidManifest.xml:23:13-72
+	android:exported
+		ADDED from [com.vanniktech:android-image-cropper:4.6.0] /home/philipp/.gradle/caches/8.14.3/transforms/30de3346b9d65fc927c629fd3105e5d0/transformed/android-image-cropper-4.6.0/AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from [com.vanniktech:android-image-cropper:4.6.0] /home/philipp/.gradle/caches/8.14.3/transforms/30de3346b9d65fc927c629fd3105e5d0/transformed/android-image-cropper-4.6.0/AndroidManifest.xml:22:13-63
+activity#com.canhub.cropper.CropImageActivity
+ADDED from [com.vanniktech:android-image-cropper:4.6.0] /home/philipp/.gradle/caches/8.14.3/transforms/30de3346b9d65fc927c629fd3105e5d0/transformed/android-image-cropper-4.6.0/AndroidManifest.xml:31:9-33:39
+	android:exported
+		ADDED from [com.vanniktech:android-image-cropper:4.6.0] /home/philipp/.gradle/caches/8.14.3/transforms/30de3346b9d65fc927c629fd3105e5d0/transformed/android-image-cropper-4.6.0/AndroidManifest.xml:33:13-36
+	android:name
+		ADDED from [com.vanniktech:android-image-cropper:4.6.0] /home/philipp/.gradle/caches/8.14.3/transforms/30de3346b9d65fc927c629fd3105e5d0/transformed/android-image-cropper-4.6.0/AndroidManifest.xml:32:13-64
 activity#com.google.mlkit.vision.codescanner.internal.GmsBarcodeScanningDelegateActivity
 ADDED from [com.google.android.gms:play-services-code-scanner:16.1.0] /home/philipp/.gradle/caches/8.14.3/transforms/8273140ad44bce81d1de0be69046e2de/transformed/play-services-code-scanner-16.1.0/AndroidManifest.xml:15:9-20:20
 	android:screenOrientation
@@ -996,6 +1340,24 @@ ADDED from [com.google.mlkit:common:18.11.0] /home/philipp/.gradle/caches/8.14.3
 		ADDED from [com.google.mlkit:common:18.11.0] /home/philipp/.gradle/caches/8.14.3/transforms/9d8bf91ceafef1f72121d029e1e012cd/transformed/common-18.11.0/AndroidManifest.xml:22:17-82
 	android:name
 		ADDED from [com.google.mlkit:common:18.11.0] /home/philipp/.gradle/caches/8.14.3/transforms/9d8bf91ceafef1f72121d029e1e012cd/transformed/common-18.11.0/AndroidManifest.xml:21:17-120
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:21.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/0d43b38315b89a96880e1efc6c895c6c/transformed/firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/0d43b38315b89a96880e1efc6c895c6c/transformed/firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/0d43b38315b89a96880e1efc6c895c6c/transformed/firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/0d43b38315b89a96880e1efc6c895c6c/transformed/firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/0d43b38315b89a96880e1efc6c895c6c/transformed/firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/0d43b38315b89a96880e1efc6c895c6c/transformed/firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:21.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/0d43b38315b89a96880e1efc6c895c6c/transformed/firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/0d43b38315b89a96880e1efc6c895c6c/transformed/firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/philipp/.gradle/caches/8.14.3/transforms/0d43b38315b89a96880e1efc6c895c6c/transformed/firebase-common-21.0.0/AndroidManifest.xml:36:17-109
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:18.5.0] /home/philipp/.gradle/caches/8.14.3/transforms/e41bc02d0c4aac24d8f3e63d1474ba35/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
 	android:exported
@@ -1004,12 +1366,6 @@ ADDED from [com.google.android.gms:play-services-base:18.5.0] /home/philipp/.gra
 		ADDED from [com.google.android.gms:play-services-base:18.5.0] /home/philipp/.gradle/caches/8.14.3/transforms/e41bc02d0c4aac24d8f3e63d1474ba35/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:86-145
 	android:name
 		ADDED from [com.google.android.gms:play-services-base:18.5.0] /home/philipp/.gradle/caches/8.14.3/transforms/e41bc02d0c4aac24d8f3e63d1474ba35/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:19-85
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:18.4.0] /home/philipp/.gradle/caches/8.14.3/transforms/5b79090ad889ec04e71c165b101075d1/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
-	android:value
-		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /home/philipp/.gradle/caches/8.14.3/transforms/5b79090ad889ec04e71c165b101075d1/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
-	android:name
-		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /home/philipp/.gradle/caches/8.14.3/transforms/5b79090ad889ec04e71c165b101075d1/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
 activity#androidx.compose.ui.tooling.PreviewActivity
 ADDED from [androidx.compose.ui:ui-tooling-android:1.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/49a3c7abdc2084f905bbb7a29377a683/transformed/ui-tooling/AndroidManifest.xml:23:9-25:39
 	android:exported
@@ -1038,12 +1394,6 @@ ADDED from [androidx.emoji2:emoji2:1.4.0] /home/philipp/.gradle/caches/8.14.3/tr
 		ADDED from [androidx.emoji2:emoji2:1.4.0] /home/philipp/.gradle/caches/8.14.3/transforms/b58d9a2a12955913ab633f89d2a3f99c/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
 	android:name
 		ADDED from [androidx.emoji2:emoji2:1.4.0] /home/philipp/.gradle/caches/8.14.3/transforms/b58d9a2a12955913ab633f89d2a3f99c/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
-meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/f6bb139684f74e6a66156728993c4076/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:29:13-31:52
-	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/f6bb139684f74e6a66156728993c4076/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:31:17-49
-	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/f6bb139684f74e6a66156728993c4076/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:30:17-78
 permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.16.0] /home/philipp/.gradle/caches/8.14.3/transforms/e46b185fb05c9a9bdde92c2512835042/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
@@ -1064,6 +1414,18 @@ uses-permission#com.example.plantcompanion.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISS
 ADDED from [androidx.core:core:1.16.0] /home/philipp/.gradle/caches/8.14.3/transforms/e46b185fb05c9a9bdde92c2512835042/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.16.0] /home/philipp/.gradle/caches/8.14.3/transforms/e46b185fb05c9a9bdde92c2512835042/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/f6bb139684f74e6a66156728993c4076/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/f6bb139684f74e6a66156728993c4076/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.9.0] /home/philipp/.gradle/caches/8.14.3/transforms/f6bb139684f74e6a66156728993c4076/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:30:17-78
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] /home/philipp/.gradle/caches/8.14.3/transforms/5b79090ad889ec04e71c165b101075d1/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /home/philipp/.gradle/caches/8.14.3/transforms/5b79090ad889ec04e71c165b101075d1/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /home/philipp/.gradle/caches/8.14.3/transforms/5b79090ad889ec04e71c165b101075d1/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
 meta-data#androidx.profileinstaller.ProfileInstallerInitializer
 ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /home/philipp/.gradle/caches/8.14.3/transforms/9d68f728eb696d12fecf146215de0b98/transformed/profileinstaller-1.4.1/AndroidManifest.xml:29:13-31:52
 	android:value
@@ -1106,31 +1468,105 @@ action#androidx.profileinstaller.action.BENCHMARK_OPERATION
 ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /home/philipp/.gradle/caches/8.14.3/transforms/9d68f728eb696d12fecf146215de0b98/transformed/profileinstaller-1.4.1/AndroidManifest.xml:50:17-95
 	android:name
 		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] /home/philipp/.gradle/caches/8.14.3/transforms/9d68f728eb696d12fecf146215de0b98/transformed/profileinstaller-1.4.1/AndroidManifest.xml:50:25-92
-service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
-ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /home/philipp/.gradle/caches/8.14.3/transforms/f3d4730104367671fe5c0d35db519374/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /home/philipp/.gradle/caches/8.14.3/transforms/c26896003b67dff23b03e3de03950ce3/transformed/transport-runtime-2.2.6/AndroidManifest.xml:36:9-38:40
-MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /home/philipp/.gradle/caches/8.14.3/transforms/c26896003b67dff23b03e3de03950ce3/transformed/transport-runtime-2.2.6/AndroidManifest.xml:36:9-38:40
-	android:exported
-		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /home/philipp/.gradle/caches/8.14.3/transforms/f3d4730104367671fe5c0d35db519374/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
-	android:name
-		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /home/philipp/.gradle/caches/8.14.3/transforms/f3d4730104367671fe5c0d35db519374/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
-meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
-ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /home/philipp/.gradle/caches/8.14.3/transforms/f3d4730104367671fe5c0d35db519374/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/405e84b1c55c3127697f0c60dafbd880/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:25:13-27:85
 	android:value
-		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /home/philipp/.gradle/caches/8.14.3/transforms/f3d4730104367671fe5c0d35db519374/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+		ADDED from [com.google.firebase:firebase-datatransport:18.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/405e84b1c55c3127697f0c60dafbd880/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:27:17-82
 	android:name
-		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /home/philipp/.gradle/caches/8.14.3/transforms/f3d4730104367671fe5c0d35db519374/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+		ADDED from [com.google.firebase:firebase-datatransport:18.2.0] /home/philipp/.gradle/caches/8.14.3/transforms/405e84b1c55c3127697f0c60dafbd880/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:26:17-115
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/philipp/.gradle/caches/8.14.3/transforms/872c9fc07072b1a23d766190a5ab2f11/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/philipp/.gradle/caches/8.14.3/transforms/d4bc326084c0cc66368bc2cf45a63a69/transformed/transport-runtime-3.1.9/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/philipp/.gradle/caches/8.14.3/transforms/d4bc326084c0cc66368bc2cf45a63a69/transformed/transport-runtime-3.1.9/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/philipp/.gradle/caches/8.14.3/transforms/872c9fc07072b1a23d766190a5ab2f11/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/philipp/.gradle/caches/8.14.3/transforms/872c9fc07072b1a23d766190a5ab2f11/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:29:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/philipp/.gradle/caches/8.14.3/transforms/872c9fc07072b1a23d766190a5ab2f11/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:31:13-33:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/philipp/.gradle/caches/8.14.3/transforms/872c9fc07072b1a23d766190a5ab2f11/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:33:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/philipp/.gradle/caches/8.14.3/transforms/872c9fc07072b1a23d766190a5ab2f11/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:32:17-94
 service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
-ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /home/philipp/.gradle/caches/8.14.3/transforms/c26896003b67dff23b03e3de03950ce3/transformed/transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/philipp/.gradle/caches/8.14.3/transforms/d4bc326084c0cc66368bc2cf45a63a69/transformed/transport-runtime-3.1.9/AndroidManifest.xml:26:9-30:19
 	android:exported
-		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /home/philipp/.gradle/caches/8.14.3/transforms/c26896003b67dff23b03e3de03950ce3/transformed/transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/philipp/.gradle/caches/8.14.3/transforms/d4bc326084c0cc66368bc2cf45a63a69/transformed/transport-runtime-3.1.9/AndroidManifest.xml:28:13-37
 	android:permission
-		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /home/philipp/.gradle/caches/8.14.3/transforms/c26896003b67dff23b03e3de03950ce3/transformed/transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/philipp/.gradle/caches/8.14.3/transforms/d4bc326084c0cc66368bc2cf45a63a69/transformed/transport-runtime-3.1.9/AndroidManifest.xml:29:13-69
 	android:name
-		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /home/philipp/.gradle/caches/8.14.3/transforms/c26896003b67dff23b03e3de03950ce3/transformed/transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/philipp/.gradle/caches/8.14.3/transforms/d4bc326084c0cc66368bc2cf45a63a69/transformed/transport-runtime-3.1.9/AndroidManifest.xml:27:13-117
 receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
-ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /home/philipp/.gradle/caches/8.14.3/transforms/c26896003b67dff23b03e3de03950ce3/transformed/transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/philipp/.gradle/caches/8.14.3/transforms/d4bc326084c0cc66368bc2cf45a63a69/transformed/transport-runtime-3.1.9/AndroidManifest.xml:32:9-34:40
 	android:exported
-		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /home/philipp/.gradle/caches/8.14.3/transforms/c26896003b67dff23b03e3de03950ce3/transformed/transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/philipp/.gradle/caches/8.14.3/transforms/d4bc326084c0cc66368bc2cf45a63a69/transformed/transport-runtime-3.1.9/AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /home/philipp/.gradle/caches/8.14.3/transforms/c26896003b67dff23b03e3de03950ce3/transformed/transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/philipp/.gradle/caches/8.14.3/transforms/d4bc326084c0cc66368bc2cf45a63a69/transformed/transport-runtime-3.1.9/AndroidManifest.xml:33:13-132
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.android.installreferrer:installreferrer:2.2] /home/philipp/.gradle/caches/8.14.3/transforms/d93169e057e3c702a04d6f87a3fcccfa/transformed/installreferrer-2.2/AndroidManifest.xml:9:5-110
+	android:name
+		ADDED from [com.android.installreferrer:installreferrer:2.2] /home/philipp/.gradle/caches/8.14.3/transforms/d93169e057e3c702a04d6f87a3fcccfa/transformed/installreferrer-2.2/AndroidManifest.xml:9:22-107
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/philipp/.gradle/caches/8.14.3/transforms/acf02160189ad79c9f743db6cbf59d93/transformed/ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/philipp/.gradle/caches/8.14.3/transforms/acf02160189ad79c9f743db6cbf59d93/transformed/ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/philipp/.gradle/caches/8.14.3/transforms/acf02160189ad79c9f743db6cbf59d93/transformed/ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/philipp/.gradle/caches/8.14.3/transforms/acf02160189ad79c9f743db6cbf59d93/transformed/ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/philipp/.gradle/caches/8.14.3/transforms/acf02160189ad79c9f743db6cbf59d93/transformed/ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/philipp/.gradle/caches/8.14.3/transforms/acf02160189ad79c9f743db6cbf59d93/transformed/ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/philipp/.gradle/caches/8.14.3/transforms/acf02160189ad79c9f743db6cbf59d93/transformed/ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/philipp/.gradle/caches/8.14.3/transforms/acf02160189ad79c9f743db6cbf59d93/transformed/ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/philipp/.gradle/caches/8.14.3/transforms/acf02160189ad79c9f743db6cbf59d93/transformed/ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/philipp/.gradle/caches/8.14.3/transforms/acf02160189ad79c9f743db6cbf59d93/transformed/ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/philipp/.gradle/caches/8.14.3/transforms/acf02160189ad79c9f743db6cbf59d93/transformed/ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/philipp/.gradle/caches/8.14.3/transforms/acf02160189ad79c9f743db6cbf59d93/transformed/ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/philipp/.gradle/caches/8.14.3/transforms/acf02160189ad79c9f743db6cbf59d93/transformed/ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/philipp/.gradle/caches/8.14.3/transforms/acf02160189ad79c9f743db6cbf59d93/transformed/ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/philipp/.gradle/caches/8.14.3/transforms/acf02160189ad79c9f743db6cbf59d93/transformed/ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/philipp/.gradle/caches/8.14.3/transforms/acf02160189ad79c9f743db6cbf59d93/transformed/ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/philipp/.gradle/caches/8.14.3/transforms/acf02160189ad79c9f743db6cbf59d93/transformed/ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/philipp/.gradle/caches/8.14.3/transforms/acf02160189ad79c9f743db6cbf59d93/transformed/ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/philipp/.gradle/caches/8.14.3/transforms/acf02160189ad79c9f743db6cbf59d93/transformed/ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/philipp/.gradle/caches/8.14.3/transforms/acf02160189ad79c9f743db6cbf59d93/transformed/ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/philipp/.gradle/caches/8.14.3/transforms/acf02160189ad79c9f743db6cbf59d93/transformed/ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/philipp/.gradle/caches/8.14.3/transforms/acf02160189ad79c9f743db6cbf59d93/transformed/ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/philipp/.gradle/caches/8.14.3/transforms/acf02160189ad79c9f743db6cbf59d93/transformed/ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/philipp/.gradle/caches/8.14.3/transforms/acf02160189ad79c9f743db6cbf59d93/transformed/ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/philipp/.gradle/caches/8.14.3/transforms/acf02160189ad79c9f743db6cbf59d93/transformed/ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/philipp/.gradle/caches/8.14.3/transforms/acf02160189ad79c9f743db6cbf59d93/transformed/ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/philipp/.gradle/caches/8.14.3/transforms/acf02160189ad79c9f743db6cbf59d93/transformed/ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/philipp/.gradle/caches/8.14.3/transforms/acf02160189ad79c9f743db6cbf59d93/transformed/ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/philipp/.gradle/caches/8.14.3/transforms/acf02160189ad79c9f743db6cbf59d93/transformed/ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/philipp/.gradle/caches/8.14.3/transforms/acf02160189ad79c9f743db6cbf59d93/transformed/ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/philipp/.gradle/caches/8.14.3/transforms/acf02160189ad79c9f743db6cbf59d93/transformed/ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/philipp/.gradle/caches/8.14.3/transforms/acf02160189ad79c9f743db6cbf59d93/transformed/ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86

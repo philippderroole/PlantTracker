@@ -1,6 +1,0 @@
-/home/philipp/Android/Sdk/cmake/3.22.1/bin/ninja \
-  -C \
-  /home/philipp/Programming/plant-tracker/companion/android/app/.cxx/Debug/76j1w3rv/x86_64 \
-  appmodules \
-  react_codegen_rnscreens \
-  react_codegen_safeareacontext

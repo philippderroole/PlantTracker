@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="expoCropBackButtonIconColor">#ffffff</color>
+    <color name="expoCropBackgroundColor">#000000</color>
+    <color name="expoCropToolbarActionTextColor">#ffffff</color>
+    <color name="expoCropToolbarColor">#00000000</color>
+    <color name="expoCropToolbarIconColor">#ffffff</color>
     <color name="splashscreen_background">#000000</color>
     <style name="Base.Theme.SplashScreen.DayNight" parent="Base.Theme.SplashScreen">
         <item name="isLightTheme">false</item>

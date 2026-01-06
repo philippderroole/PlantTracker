@@ -71,6 +71,7 @@
     <string name="common_signin_button_text">כניסה</string>
     <string name="common_signin_button_text_long">‏היכנס באמצעות Google</string>
     <string msgid="3260749812566568062" name="copy_toast_msg">"הקישור הועתק ללוח"</string>
+    <string name="crop_image_menu_crop">חתוך</string>
     <string msgid="8038256446254964252" name="default_error_message">"הקלט לא תקין"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"חלון קופץ"</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"תפריט נפתח"</string>
@@ -81,6 +82,11 @@
     <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"פתיחה בדפדפן"</string>
     <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"לשיתוף הקישור"</string>
     <string gender="unknown" name="header_description">כותרת</string>
+    <string name="ic_flip_24">הפוך</string>
+    <string name="ic_flip_24_horizontally">הפוך אופקית</string>
+    <string name="ic_flip_24_vertically">הפוך אנכית</string>
+    <string name="ic_rotate_left_24">סובב נגד כיוון השעון</string>
+    <string name="ic_rotate_right_24">סובב</string>
     <string name="icon_content_description">סמל לתיבת דו-שיח</string>
     <string gender="unknown" name="image_description">תמונה</string>
     <string gender="unknown" name="imagebutton_description">לחצן, תמונה</string>
@@ -152,6 +158,7 @@
     <string msgid="542007171693138492" name="navigation_menu">"תפריט הניווט"</string>
     <string msgid="6610465462668679431" name="not_selected">"לא נבחר"</string>
     <string name="password_toggle_content_description">הצגת סיסמה</string>
+    <string name="pick_image_chooser_title">בחר מקור</string>
     <string gender="unknown" name="progressbar_description">סרגל התקדמות</string>
     <string gender="unknown" name="radiogroup_description">קבוצת רדיו</string>
     <string msgid="5941395253238309765" name="range_end">"סוף הטווח"</string>

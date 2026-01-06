@@ -70,6 +70,7 @@
     <string name="common_signin_button_text">로그인</string>
     <string name="common_signin_button_text_long">Google 계정으로 로그인</string>
     <string msgid="3260749812566568062" name="copy_toast_msg">"클립보드에 링크 복사됨"</string>
+    <string name="crop_image_menu_crop">자르기</string>
     <string msgid="8038256446254964252" name="default_error_message">"입력이 잘못됨"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"팝업 창"</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"드롭다운 메뉴"</string>
@@ -80,6 +81,11 @@
     <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"브라우저에서 열기"</string>
     <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"링크 공유"</string>
     <string gender="unknown" name="header_description">제목</string>
+    <string name="ic_flip_24">반전</string>
+    <string name="ic_flip_24_horizontally">좌우반전</string>
+    <string name="ic_flip_24_vertically">상하반전</string>
+    <string name="ic_rotate_left_24">반시계 회전</string>
+    <string name="ic_rotate_right_24">회전</string>
     <string name="icon_content_description">대화상자 아이콘</string>
     <string gender="unknown" name="image_description">이미지</string>
     <string gender="unknown" name="imagebutton_description">버튼, 이미지</string>
@@ -151,6 +157,9 @@
     <string msgid="542007171693138492" name="navigation_menu">"탐색 메뉴"</string>
     <string msgid="6610465462668679431" name="not_selected">"선택되지 않음"</string>
     <string name="password_toggle_content_description">비밀번호 표시</string>
+    <string name="pick_image_camera">촬영</string>
+    <string name="pick_image_chooser_title">이미지 선택</string>
+    <string name="pick_image_gallery">앨범</string>
     <string gender="unknown" name="progressbar_description">진행률 표시줄</string>
     <string gender="unknown" name="radiogroup_description">라디오 그룹</string>
     <string msgid="5941395253238309765" name="range_end">"범위 끝"</string>

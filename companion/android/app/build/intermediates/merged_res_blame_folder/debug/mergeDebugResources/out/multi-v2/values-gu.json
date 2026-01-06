@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.plantcompanion.app-mergeDebugResources-77:/values-gu/values-gu.xml",
+            "outputFile": "com.example.plantcompanion.app-mergeDebugResources-82:/values-gu/values-gu.xml",
             "map": [
                 {
                     "source": "/home/philipp/.gradle/caches/8.14.3/transforms/5b79090ad889ec04e71c165b101075d1/transformed/play-services-basement-18.4.0/res/values-gu/values.xml",
